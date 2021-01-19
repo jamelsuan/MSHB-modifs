@@ -1,4 +1,4 @@
-/* FONT FACE */
+/* FONT FACES */
 
 @font-face {  font-family: campton_light; src: url(../font/Campton/Rene.Bieder_Campton.Light.otf); }
 @font-face {  font-family: campton_regular; src: url(../font/Campton/Rene.Bieder_Campton.Book.otf); }
@@ -40,7 +40,7 @@ li{ list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
 
 .colored{  color: #0cb4ce; }
 
-/* GLOBAL TYPOGRAPHY */
+/* GLOBAL TYPOGRAPHY      */
 
 .titre { font-size: 36px; line-height: 1.2em;   text-transform: uppercase; color: #333;  margin: 0px auto 80px auto;  display: table;  }
 .titre_underscore { font-size: 42px; line-height: 1.2em;   text-transform: uppercase; color: #222;  margin: 0px auto 80px auto;  display: table;  border-bottom: 3px solid #0cb4ce;  padding-bottom: 10px;}
