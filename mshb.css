@@ -5,3 +5,7 @@
 @import url("recherche.css");
 @import url("lamshb.css");
 @import url("annuaire.css");
+
+
+
+body { background-color: red; }
