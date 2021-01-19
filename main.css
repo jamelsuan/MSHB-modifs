@@ -11,6 +11,8 @@
 
 /* ROOT */
 
+
+body { background-color: green!important;  }
 body { font-family: lora_regular; font-size: 16px;  letter-spacing: 0.02em }
 div{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box;  box-sizing: border-box;}
 h1, h2, h3, h4, h5, h6 {  font-family: campton_bold; letter-spacing: 0.015em; color: #000; margin-top: 0.5em;  margin-bottom: 0.5em; }
