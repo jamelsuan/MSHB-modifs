@@ -651,12 +651,15 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .footer .zone_logo{  float: right; }
 .footer .zone_logo ul{ height: 50px }
 .footer .zone_logo li{ height: 45px; max-width: 65px; padding: 0 2px; float: left}
+.footer .zone_logo a{ border:none }
 .footer .zone_logo a img{ opacity: 0.7; transition: all .3s;  max-height: 100%;  }
 .footer .zone_logo a:hover img{ opacity: 1; transform: scale(1.05, 1.05) }
 
 .footer .zone_menu{ text-align: right; width: 100%;  margin-top: 40px; display: inline-block; }
 .footer .zone_menu ul{  }
 .footer .zone_menu li{ font-size: 12px; display: inline-block;  }
+
+
 
 /* LISTING PROJETS */
 
