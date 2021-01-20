@@ -287,11 +287,11 @@ a.liensiteglob {color: var(--current_color);}
 
 span.bold{font-weight: 500;}
 
-.container-bloc-home a:hover{ color: #c33932; }
+/* .container-bloc-home a:hover{ color: var(--current_color); } */
 .container-bloc-home .row{ margin-bottom: 40px; }
-.container-bloc-home h3{ text-align: center }
-.container-bloc-home p a{ font-family: campton; margin-top: 20px; font-size: 14px;   color: #FFF;   border: 3px solid #c33932 ; background-color: #c33932;  padding: 3px 5px 2px 5px;  margin-top: 20px; display: inline-block;  }
-.container-bloc-home p a:hover{ color: #c33932;   background-color: #fff;   }
+.container-bloc-home h3{ text-align: center; border-bottom: 3px solid var(--current_color); padding-bottom: 10px; }
+/* .container-bloc-home p a{ font-family: campton; margin-top: 20px; font-size: 14px;   color: #FFF;   border: 3px solid #c33932 ; background-color: #c33932;  padding: 3px 5px 2px 5px;  margin-top: 20px; display: inline-block;  }
+.container-bloc-home p a:hover{ color: var(--current_color);   background-color: #fff;   } */
 .container_header_home{ overflow: hidden; max-height: 475px; }
 .bloc-home-actus .projet_item div,
 .bloc-home-agenda-date{ margin-bottom: 10px; width: 100%; height: auto;  }
