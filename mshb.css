@@ -124,8 +124,8 @@ a.liensiteext:hover, a.liensite:hover {   color: var(--current_color)!important;
 /* ensavoirplus */
 
 
-a.ensavoirplus{ transition: all .1s ease-out; font-size: 14px; font-family: campton_regular; border: 2px solid var(--current_color); display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color: #fff;   background: var(--current_color);; }
-a.ensavoirplus:hover{ background: #fff; color: var(--current_color) }
+a.ensavoirplus{ transition: all .1s ease-out; font-size: 14px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color: #fff;   background: var(--current_color)!important;; }
+a.ensavoirplus:hover{ background: #fff!important; color: var(--current_color) }
 .color_plateforme .container a.ensavoirplus {color:#000;  }
 .color_plateforme .container a.ensavoirplus:hover{  color: #000 }
 
