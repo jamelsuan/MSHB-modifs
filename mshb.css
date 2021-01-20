@@ -309,12 +309,15 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 
 /* ACTUALITÉS liste */
 
-.page-actualites-mshb .col-md-12 { width: 100%; display: flex; flex-wrap: wrap;  }
+.page-actualites-mshb .col-md-12 { width: 100%; display: flex; flex-flow: wrap;  }
 .page-actualites-mshb .bloc-actus-liste{ width: 25% }
 .page-actualites-mshb .bloc-actus-liste .actus-liste-txt{  display: none; display: flex; flex-direction: column; }
 .page-actualites-mshb .bloc-actus-liste .col-md-6 { width: 100%; } 
 .page-actualites-mshb .bloc-actus-liste .actus-liste-txt{ font-size:12px;  }
-.page-actualites-mshb .bloc-actus-liste-suite{ float: left; }
+.page-actualites-mshb .bloc-actus-liste-suite{ float: left!important; }
+.page-actualites-mshb .actus-liste-type{ color:var(--current_color); margin: 1em 0; }
+.page-actualites-mshb .bloc-actus-liste .actus-liste-titre { margin: 1em 0; }
+.page-actualites-mshb .image_bandeau_type-0{ width:100%; max-width: 100%; }
 .page-actualites-mshb .bloc-actus-liste .bloc-social{ display: none; }
 .page-actualites-mshb .bloc-actus-liste { margin: 30px 0 80px  !important;  }
 .page-actualites-mshb .bloc-actus-liste .actus-liste-titre { font-size: 20px  !important; text-align: center; color: #000; font-family: campton_bold; line-height: 22px; margin: 20px 0 10px; padding: 0 40px; }
