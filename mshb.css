@@ -1,16 +1,43 @@
+
+
+/*
+
+/^^     /^^        /^^         /^ /^^^      /^^^^
+ /^^   /^^       /^^  /^^       /^^        /^^
+  /^^ /^^       /^^   /^^       /^^          /^^^
+   /^/^^        /^^   /^^       /^^            /^^
+    /^^           /^^ /^^^     /^^^        /^^
+
+*/
+
+:root {
+    --current_color : #BF2228; 
+    
+  }
+
+
+.color_plateforme{ --current_color : #FFD52D; }
+.color_home{ --current_color : #BF2228;  }
+.color_recherche{ --current_color : #005dac; } 
+.color_mshb{ --current_color : #4A8A78; }
+
+
+
 /* FONT FACES */
 
-@font-face {  font-family: campton_light; src: url(font/Campton/Rene.Bieder_Campton.Light.otf); }
-@font-face {  font-family: campton_regular; src: url(font/Campton/Rene.Bieder_Campton.Book.otf); }
-@font-face {  font-family: campton_medium; src: url(font/Campton/Rene.Bieder_Campton.Medium.otf); }
-@font-face {  font-family: campton_semibold; src: url(font/Campton/Rene.Bieder_Campton.SemiBold.otf); }
-@font-face {  font-family: campton_bold; src: url(font/Campton/Rene.Bieder_Campton.Bold.otf); }
-@font-face {  font-family: lora_regular; src: url(font/Lora/Lora-Regular.ttf); }
-@font-face {  font-family: lora_bold; src: url(font/Lora/Lora-Bold.ttf); }
+@font-face {  font-family: campton_light; src: url(https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/font/Campton/Rene.Bieder_Campton.Light.otf); }
+@font-face {  font-family: campton_regular; src: url(https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/font/Campton/Rene.Bieder_Campton.Book.otf); }
+@font-face {  font-family: campton_medium; src: url(https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/font/Campton/Rene.Bieder_Campton.Medium.otf); }
+@font-face {  font-family: campton_semibold; src: url(https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/font/Campton/Rene.Bieder_Campton.SemiBold.otf); }
+@font-face {  font-family: campton_bold; src: url(https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/font/Campton/Rene.Bieder_Campton.Bold.otf); }
+@font-face {  font-family: lora_regular; src: url(https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/font/Lora/Lora-Regular.ttf); }
+@font-face {  font-family: lora_bold; src: url(https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/font/Lora/Lora-Bold.ttf); }
 
 @import url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/mshb_s.css");
 @import url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/mshb_m.css");
 
+
+  
 /* ROOT */
 
 
@@ -145,6 +172,13 @@ a.color_link{ transition: all .1s ease-out; }
 
 #returnOnTop{ background: url("images/haut_page.png") !important; background-size: 100% auto  !important}
 
+
+/* 2021 */ 
+
+.container a {  color: inherit;  border-bottom: 2px solid var(--current_color); }
+.container a:hover {   color:var(--current_color); }
+
+
 /* CUSTOM COLORS */
 
 
@@ -154,7 +188,7 @@ a.color_link{ transition: all .1s ease-out; }
 
 
 .color_home .container_header h1{  }
-.color_home .global_contour{ border-color: #BF2228; }
+.global_contour{ border-color: var(--current_color) }
 .color_home .container_header{ background-color: #BF2228; }
 .color_home .fil_ariane{ background-color: #BF2228; padding: 3px; }
 .color_home .container_titre span { border-bottom: 3px solid #BF2228; }
