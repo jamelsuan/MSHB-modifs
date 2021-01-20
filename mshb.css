@@ -12,6 +12,7 @@
 
 :root {
     --current_color : var(--current_color); 
+    --text_color : #000; 
     
   }
 
@@ -46,10 +47,7 @@ div{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box;  box-sizing: b
 h1, h2, h3, h4, h5, h6 {  font-family: campton_bold; letter-spacing: 0.015em; color: #000; margin-top: 0.5em;  margin-bottom: 0.5em; }
 ::selection { outline: none; background:rgba(0,0,0,0.1) }
 img:focus, div:focus{ outline: none;  }
-a{ color: var(--current_color); outline: none; }
-a:focus, a:hover { outline: none; text-decoration: none; color: var(--current_color); }
-p > a{ color: var(--current_color); text-decoration: none }
-p > a:hover{ color: var(--current_color); background: none; cursor: pointer; }
+
 img{ max-width: 100%;  height: auto }
 h1{  text-align: center; font-size: 42px; line-height: 1.2em; margin-top: 0; font-weight: normal; letter-spacing: 0.05em }
 h2{ font-size: 30px; line-height: 32px; font-weight: normal; }
@@ -103,6 +101,10 @@ section, .section{ width: 100%;margin-bottom: 20px;    }
 
 /* LINKS */
 
+a{ color: var(--text_color); outline: none; }
+a:focus, a:hover { outline: none; text-decoration: none; color: var(--current_color); }
+p > a{ color: var(--text_color); text-decoration: none }
+p > a:hover{ color: var(--text_color); background: none; cursor: pointer; }
 
 .liste_color_link li{  padding: 0px 7px 0 7px; margin: 3px 0; line-height: 2em; display: inline-block;   }
 a.color_link{ transition: all .1s ease-out; }
@@ -111,7 +113,7 @@ a.color_link{ transition: all .1s ease-out; }
 .color_mshb a.color_link:hover{ background: #fff; color: var(--current_color) }
 
 
-.container p a, .container li a, {  color: inherit;  border-bottom: 2px solid var(--current_color); }
+.container p a, .container li a{  color: inherit;  border-bottom: 2px solid var(--current_color); }
 .container p a:hover , .container li a:hover{   color:var(--current_color); }
 .poles-menu li a{ border:none;  }
 a[href^="mailto"]{ border:none; }
