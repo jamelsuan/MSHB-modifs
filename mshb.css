@@ -8,13 +8,13 @@
 @font-face {  font-family: lora_regular; src: url(/font/Lora/Lora-Regular.ttf); }
 @font-face {  font-family: lora_bold; src: url(/font/Lora/Lora-Bold.ttf); }
 
-@import url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/mshb_s");
-@import url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/mshb_m");
+@import url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/mshb_s.css");
+@import url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/mshb_m.css");
 
 /* ROOT */
 
 
-body { background-color: rgb(224, 224, 224)!important;  }
+body { background-color: rgb(153, 144, 144)!important;  }
 body { font-family: lora_regular; font-size: 16px;  letter-spacing: 0.02em }
 div{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box;  box-sizing: border-box;}
 h1, h2, h3, h4, h5, h6 {  font-family: campton_bold; letter-spacing: 0.015em; color: #000; margin-top: 0.5em;  margin-bottom: 0.5em; }
