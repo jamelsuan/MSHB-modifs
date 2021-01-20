@@ -309,8 +309,9 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 
 /* ACTUALITÉS liste */
 
-.page-actualites-mshb .col-md-12 { width: 100%; display: flex;  }
-.page-actualites-mshb .bloc-actus-liste .actus-liste-txt{ display: none; display: flex; flex-direction: column; }
+.page-actualites-mshb .col-md-12 { width: 100%; display: flex; flex-wrap: wrap;  }
+.page-actualites-mshb .bloc-actus-liste{ width: 25% }
+.page-actualites-mshb .bloc-actus-liste .actus-liste-txt{  display: none; display: flex; flex-direction: column; }
 .page-actualites-mshb .bloc-actus-liste .col-md-6 { width: 100%; } 
 .page-actualites-mshb .bloc-actus-liste .actus-liste-txt{ font-size:12px;  }
 .page-actualites-mshb .bloc-actus-liste-suite{ float: left; }
