@@ -144,6 +144,8 @@ a.ensavoirplus:hover{ background: #fff!important; color: var(--current_color) }
 .container_header .fil_ariane .fil_ariane_span{ font-family: campton_regular; color: #fff }
 .container_header .points{ z-index: 1; opacity: 0.6 }
 
+
+
 /* BANDEAUX */
 
 .header_bg{ z-index: 0; background-image: url("img/bandeaux/000.png"); background-size: cover; background-position: center; width: 100%; height: 100%; display: block; position: absolute; top: 0; left: 0  }
@@ -381,13 +383,17 @@ span.bold{font-weight: 500;}
 
 .navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards; background: #fff; border: none;  font-family: campton_regular; }
 
-.navbar_extended .navbar{ height: 140px;  }
-
+.navbar_extended .navbar{ height: 140px; transition: all .3s;  }
 .navbar_extended .navbar_condensed_logo{ display: none; opacity: 0; }
-
 .navbar_extended .navbar_extended_logo{ display: block; opacity: 1; }
-
 .navbar_extended .navbar-left { top: 85px; }
+
+
+.navbar_condensed .navbar{ height: 90px; position: fixed; background: #fff;  }
+/* .navbar_condensed .navbar_extended_logo{ display: none; opacity: 0; }
+.navbar_condensed .navbar_condensed_logo{ display: block; opacity:1; max-height: 100%; } */
+.navbar_condensed .navbar-brand{ margin: 12px 0 0 20px; height: 26px; width: 280px; padding: 0; }
+.navbar_condensed .navbar-left { top: 12px; left: 160px !important;}
 
 
 
@@ -407,32 +413,14 @@ span.bold{font-weight: 500;}
 
 
 
-.navbar_condensed .navbar{ height: 50px; position: fixed; background: #fff;  }
-
-.navbar_condensed .navbar_extended_logo{ display: none; opacity: 0; }
-
-.navbar_condensed .navbar_condensed_logo{ display: block; opacity:1; max-height: 100%; }
-
-.navbar_condensed .navbar-brand{ margin: 12px 0 0 20px; height: 26px; width: 280px; padding: 0; }
-
-
-
-.navbar_condensed .navbar-left { top: 12px; left: 160px !important;}
-
-
-
 .navbar-default .navbar-nav>li>a { color: #333; }
 
 .navbar-default .navbar-nav>li>a:hover { color: #000; }
 
 .navbar-nav>li>a { padding: 5px 3px; }
 
-
-
-.navbar-left {  font-size: 14px; position: absolute; left: 340px; width: auto; margin-left: auto; margin-right: auto; }
-
+.navbar-left {  font-size: 14px; position: absolute; left: 300px; width: auto; margin-left: auto; margin-right: auto; }
 .navbar-left  a{ margin-right: 20px }
-
 .navbar-left  li a { color: #000; font-size: 16px;  }
 
 
