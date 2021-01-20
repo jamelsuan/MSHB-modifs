@@ -389,9 +389,9 @@ span.bold{font-weight: 500;}
 .navbar_extended .navbar-left { top: 85px; }
 
 
-.navbar_condensed .navbar{ height: 90px; position: fixed; background: #fff;  }
-/* .navbar_condensed .navbar_extended_logo{ display: none; opacity: 0; }
-.navbar_condensed .navbar_condensed_logo{ display: block; opacity:1; max-height: 100%; } */
+.navbar_condensed .navbar{ height: 100px; position: fixed; background: #fff;  }
+.navbar_condensed .navbar_extended_logo{ display: none; opacity: 0; }
+.navbar_condensed .navbar_condensed_logo{ display: block; opacity:1; max-height: 100%; }
 .navbar_condensed .navbar-brand{ margin: 12px 0 0 20px; height: 26px; width: 280px; padding: 0; }
 .navbar_condensed .navbar-left { top: 12px; left: 160px !important;}
 
@@ -419,8 +419,12 @@ span.bold{font-weight: 500;}
 
 .navbar-nav>li>a { padding: 5px 3px; }
 
-.navbar-left {  font-size: 14px; position: absolute; left: 300px; width: auto; margin-left: auto; margin-right: auto; }
+
+
+.navbar-left {  font-size: 14px; position: absolute; left: 340px; width: auto; margin-left: auto; margin-right: auto; }
+
 .navbar-left  a{ margin-right: 20px }
+
 .navbar-left  li a { color: #000; font-size: 16px;  }
 
 
