@@ -1,12 +1,12 @@
 /* FONT FACES */
 
-@font-face {  font-family: campton_light; src: url(../font/Campton/Rene.Bieder_Campton.Light.otf); }
-@font-face {  font-family: campton_regular; src: url(../font/Campton/Rene.Bieder_Campton.Book.otf); }
-@font-face {  font-family: campton_medium; src: url(../font/Campton/Rene.Bieder_Campton.Medium.otf); }
-@font-face {  font-family: campton_semibold; src: url(../font/Campton/Rene.Bieder_Campton.SemiBold.otf); }
-@font-face {  font-family: campton_bold; src: url(../font/Campton/Rene.Bieder_Campton.Bold.otf); }
-@font-face {  font-family: lora_regular; src: url(../font/Lora/Lora-Regular.ttf); }
-@font-face {  font-family: lora_bold; src: url(../font/Lora/Lora-Bold.ttf); }
+@font-face {  font-family: campton_light; src: url(./font/Campton/Rene.Bieder_Campton.Light.otf); }
+@font-face {  font-family: campton_regular; src: url(./font/Campton/Rene.Bieder_Campton.Book.otf); }
+@font-face {  font-family: campton_medium; src: url(./font/Campton/Rene.Bieder_Campton.Medium.otf); }
+@font-face {  font-family: campton_semibold; src: url(./font/Campton/Rene.Bieder_Campton.SemiBold.otf); }
+@font-face {  font-family: campton_bold; src: url(./font/Campton/Rene.Bieder_Campton.Bold.otf); }
+@font-face {  font-family: lora_regular; src: url(./font/Lora/Lora-Regular.ttf); }
+@font-face {  font-family: lora_bold; src: url(./font/Lora/Lora-Bold.ttf); }
 
 
 /* ROOT */
