@@ -117,13 +117,11 @@ a.color_link{ transition: all .1s ease-out; }
 .poles-menu li a{ border:none;  }
 a[href^="mailto"]{ border:none; }
 
-
-a.liensiteext, a.liensite {   color: var(--text_color)!important;   border:none; }
-a.liensiteext:hover, a.liensite:hover {   color: var(--current_color)!important;  border:none; }
+a.lien_externe {  }
+a.liensiteext, a.liensiteext:hover {  border:none!important;  }
+a.liensite, a.liensite:hover{  border:none!important;  }
 
 /* ensavoirplus */
-
-
 a.ensavoirplus{ transition: all .1s ease-out; font-size: 14px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color: #fff;   background: var(--current_color)!important;; }
 a.ensavoirplus:hover{ background: #fff!important; color: var(--current_color) }
 .color_plateforme .container a.ensavoirplus {color:#000;  }
@@ -364,9 +362,7 @@ span.bold{font-weight: 500;}
 .bloc-medias-single-date span { border-bottom: 2px solid #c33932 !important;  }
 .bloc-labo-list-pagi a:hover{color: white; margin-top: 20px; color: #FFF !important;  background-color: #c33932;  }
 .bloc-labo-list-pagi a{ font-family: campton; font-size: 14px;   border: 3px solid #c33932;  color: #c33932; background-color: #fff;  padding: 3px 8px 2px 8px;  margin-top: 20px;  display: inline-block;}
-a.lien_externe {
-    color: #c33932 !important;
-}
+
 .row-centered h3{ text-align: center }
 
 
