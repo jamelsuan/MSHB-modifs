@@ -118,8 +118,8 @@ a.color_link{ transition: all .1s ease-out; }
 a[href^="mailto"]{ border:none; }
 
 
-a.liensiteext, a.liensite {   color: var(--text_color)!important;  }
-a.liensiteext:hover, a.liensite:hover {   color: var(--current_color)!important;  }
+a.liensiteext, a.liensite {   color: var(--text_color)!important;   border:none; }
+a.liensiteext:hover, a.liensite:hover {   color: var(--current_color)!important;  border:none; }
 
 /* ensavoirplus */
 
