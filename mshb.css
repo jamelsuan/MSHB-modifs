@@ -11,9 +11,9 @@
 */
 
 :root {
-    --current_color : var(--current_color); 
-    --text_color : #000; 
-    
+    --current_color : var(--current_color);
+    --text_color : #000;
+
   }
 
 
@@ -38,7 +38,7 @@
 @import url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/mshb_m.css");
 
 
-  
+
 /* ROOT */
 
 
@@ -97,6 +97,8 @@ section, .section{ width: 100%;margin-bottom: 20px;    }
 .container_navbar, .navbar{ width: 100%; max-width: 1200px; margin: 0px auto; position: absolute; }
 .global_contour{ border: 6px solid var(--current_color);  width: 100%; max-width: 1200px;  margin: 150px auto 0px auto;  padding-bottom: 80px }
 .col-md-4 {padding: 0px 20px;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #000;height: 3px;}
+.navbar-toggle {border: none;}
 
 
 /* LINKS */
@@ -138,7 +140,7 @@ a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current
 
 .container_header p{ opacity: 0; animation: fadeIn 1s ease-in 0.6s 1 normal forwards; z-index: 10; text-align: center; line-height: 36px; margin:20px 0px 0 0; padding: 0 15%; color: #fff; }
 .container_header span.sstitre{ position: relative; z-index: 10;font-family: campton_medium;  font-size: 30px; height: 1em; text-align: center; color: #fff }
-.container_header img{ z-index: 0; position: absolute; top: 0; left: 0; width: 100%; height: auto }
+.container_header img{ z-index: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
 
 .color_plateforme .container_header img{  opacity: 0.2; }
 
@@ -208,7 +210,7 @@ a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current
 
 
 
-/* 
+/*
 .color_plateforme .container a.ensavoirplus {color:#000;  }
 .color_plateforme .container a.ensavoirplus:hover{  color: #000 } */
 
@@ -316,7 +318,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .page-actualites-mshb .col-md-12 { width: 100%; display: flex; flex-flow: wrap; justify-content: space-between;  }
 .page-actualites-mshb .bloc-actus-liste{ width: 30%; display: flex; flex-direction: column;   }
 .page-actualites-mshb .bloc-actus-liste .actus-liste-txt{  display: none; display: flex; flex-direction: column; }
-.page-actualites-mshb .bloc-actus-liste .col-md-6 { width: 100%; } 
+.page-actualites-mshb .bloc-actus-liste .col-md-6 { width: 100%; }
 .page-actualites-mshb .bloc-actus-liste .actus-liste-txt{ font-size:12px;  }
 .page-actualites-mshb .bloc-actus-liste .image_bandeau_type-0{  }
 .page-actualites-mshb .bloc-actus-liste-suite{ float: left!important; }
@@ -337,7 +339,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
     color: #FFF;
     text-align: center;
     padding: 35px 15px;
-    font-family: campton_regular; 
+    font-family: campton_regular;
 }
 .agenda-liste-date .bloc-agenda-liste-jour {
     font-size: 3em  !important;
@@ -450,7 +452,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 
 
 
-@media only screen and (max-width: 860px) { 
+@media only screen and (max-width: 860px) {
 
 
 
@@ -460,7 +462,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 
 
 
-} 
+}
 
 
 
@@ -623,7 +625,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .social i{ font-size: 1em; margin: 0 10px }
 
 
-/* Recherche */ 
+/* Recherche */
 
 .pole-single-responsable .cercle { width: 80px; height: 80px; }
 .modal-content { padding: 5% 8% }
@@ -980,7 +982,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 	}
 
-	
+
 
 /* responsive */
 
@@ -1000,7 +1002,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 	.navbar { animation: none; opacity: 1 }
 
-	
+
 
 
 
@@ -1052,7 +1054,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 
 
-	a.lien_menu:hover { border: none; } 
+	a.lien_menu:hover { border: none; }
 
 	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {  box-shadow: 0 18px 18px rgba(0,0,0,.175); opacity: 1;  background: #fff; }
 
@@ -1074,7 +1076,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 	.navbar-nav .dropdown .dropdown-menu { display: none;  border-radius: 0; overflow: hidden; padding: 0; box-shadow: none; }
 
-	.navbar-nav .open .dropdown-menu {display: block; height: auto; border: none; border-bottom: 3px solid #ccc;  } 
+	.navbar-nav .open .dropdown-menu {display: block; height: auto; border: none; border-bottom: 3px solid #ccc;  }
 
 	.dropdown-menu li{ padding-bottom: 2vw; }
 
@@ -1100,9 +1102,9 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 	}
 
-	
 
-	
+
+
 
 
 
@@ -1132,7 +1134,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 	.container_titre span { font-size: 20px; }
 
-	.container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-size: 30px; line-height:1.4em; }	
+	.container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-size: 30px; line-height:1.4em; }
 
 	.poles-menu li { font-size: 0.8em; }
 
@@ -1150,7 +1152,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 	.footer .zone_logo_mshb { float: none; margin: auto;   display: none; }
 
-	.footer .zone_logo { width: 100%; margin: 10px;} 
+	.footer .zone_logo { width: 100%; margin: 10px;}
 
 	.footer .zone_logo li {  max-width: 35px; margin: 6px 5px; display: inline-block; float: none; }
 
