@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  
+
+<style>
+
+:root {
+    --color0 : #000000;
+    --color1 : #BF2228;
+    --color2 : #FFD52D;
+    --color3 : #005dac;
+    --color4 : #4A8A78;
+    --text_color :  var(--color0);
+    --current_color : var(--color1);
+    --svg_color:  #BF2228;
+  }
+
+.color_white{ 
+  --current_color :white  
+  --svg_color:  #4A8A78;
+}
+.color_home{ 
+  --current_color :var(--color1);  
+  --svg_color:  #4A8A78;
+}
+.color_plateforme{ 
+  --current_color : var(--color2); 
+  --svg_color:  #4A8A78;
+}
+.color_recherche{ 
+  --current_color : var(--color3); 
+  --svg_color:   #BF2228;
+
+}
+.color_mshb{ 
+  --current_color : var(--color4); 
+  --svg_color:  #4A8A78;
+
+}
+
+
+
+.container{ display: flex; flex-flow: wrap;  justify-content: center;}
+.ketchups_svg{  width: 200px; height: 200px; position: relative; margin: 120px ; }
+.ketchups_svg circle{   fill: var(--svg_color)  }
+
+</style>
+
+</head>
+  <body>
+    
+ 
+
+  
+    <div class="color_recherche">
+        <div class="container">
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+            <svg class="ketchups_svg"></svg>
+        </div>
+    </div>
+
+    
+
+
+
+<script type="text/javascript">
+
+
+  var svgs = document.querySelectorAll( '.ketchups_svg' );
+ 
+  svgs.forEach(function(svgItem) {
+    
+    var modulo = Math.floor((Math.random() * 3) + 1) ; //4;   
+    var nombredor = (1+Math.sqrt(5))/2;
+    var angledor = Math.PI*2/(1+nombredor);
+    var generalAngle=0;
+    var nbr = 40; // nombre de points
+    var c2= 25; ; // espace entre les points
+    var x = 100; // coordonnée du centre
+    console.log(svgItem.width);
+    var y = 100; // coordonnée du centre
+
+    for(var a=0;a<nbr;a++){
+        
+        var delta = c2/2*Math.sqrt(a);
+        var x1 = Math.cos(angledor*a)*delta + x;
+        var y1 = Math.sin(angledor*a)*delta + y;
+    
+        newPt = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+        newPt.setAttribute("cx", x1);
+        newPt.setAttribute("cy", y1);
+        newPt.setAttribute("r",  Math.floor((Math.random() * 6) + 3));
+        svgItem.appendChild(newPt);
+    }
+
+});
+      
+    
+
+
+
+
+
+  </script> 
+  <br><br>
+
+
+
+  </body>
+</html>

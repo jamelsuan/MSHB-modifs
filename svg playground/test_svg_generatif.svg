@@ -1,0 +1,22 @@
+<svg id="svg_container" height="1000" width="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   
+  
+  <script type="text/javascript">
+   
+    var svgns = "http://www.w3.org/2000/svg",
+    container = document.getElementById( 'svg_container' );
+for (var x = 0; x < 1200; x += 50) {
+    for (var y = 0; y < 300; y += 50) {
+        var circle = document.createElementNS(svgns, 'circle');
+        circle.setAttributeNS(null, 'cx', x);
+        circle.setAttributeNS(null, 'cy', y);
+        circle.setAttributeNS(null, 'r', 5);
+        circle.setAttributeNS(null, 'style', 'fill: none; stroke: blue; stroke-width: 1px;' );
+        container.appendChild(circle);
+    }
+}
+    
+    
+</script>
+  
+</svg>

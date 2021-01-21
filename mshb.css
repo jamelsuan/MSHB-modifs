@@ -16,6 +16,8 @@
 .color_mshb{ --current_color : var(--color4); }
 
 
+svg .colorpoint{ fill: var(--current_color); }
+
 /* FONT FACES */
 
 @font-face {  font-family: campton_light; src: url(https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/font/Campton/Rene.Bieder_Campton.Light.otf); }

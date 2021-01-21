@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+    
+
+<svg id="svg_container" height="480" width="1200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"></svg>
+
+
+
+<script type="text/javascript">
+
+  container = document.getElementById( 'svg_container' );
+
+  function createPt(x, y){
+    newPt = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    newPt.setAttribute("cx", x);
+    newPt.setAttribute("cy", y);
+    newPt.setAttribute("r", "4");
+    newPt.setAttribute("fill", "red");
+    container.appendChild(newPt);
+  }
+  
+  
+  var nombredor = (1+Math.sqrt(5))/2;
+  var angledor = Math.PI*2/(1+nombredor);
+  var generalAngle=0;
+  
+  var serie = 0;
+  var s = "text";
+  
+  var nbr = 300;
+  var height = 330;
+  var c1=0.008;
+  var c2=15;
+  
+  var x = 150;
+  var y = 150;
+  for(var a=0;a<nbr;a++){
+      var r=c2/2*Math.sqrt(a);
+      var x1 = Math.cos(angledor*a)*r + x;
+      var y1 = Math.sin(angledor*a)*r + y;
+      createPt(x1, y1);
+          // color coul = coulPage;
+  }
+  
+  // newPt = '<circle cx="50" cy="50" r="50"/>';
+  
+  </script>
+
+
+  </body>
+</html>
