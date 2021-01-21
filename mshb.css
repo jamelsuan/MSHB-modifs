@@ -307,10 +307,11 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 
 .container-bloc-home .projet_item{ border-top: 3px solid var(--current_color); }
 
+
+.container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--text_color); text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  } 
+
 body form.mj-form .mj-embedded.mj-vertical {  padding: 0px !important; }
-
-.container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--text_color); text-transform: none ; margin-left: 1em ; background: none; border:none;  border-bottom: 2px solid var(--current_color);  } 
-
+@media screen and (max-width: 768px){ body form.mj-form .mj-embedded.mj-vertical {     padding: 0px !important; }
 
 /* ACTUALITÉS liste */
 
