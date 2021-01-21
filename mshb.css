@@ -124,8 +124,6 @@ a.ensavoirplus:hover{ background: #fff!important; color: var(--current_color) }
 a.bloc-actus-liste-suite{  transition: all .1s ease-out; font-size: 14px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color: #fff;   background: var(--current_color)!important;; }
 a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current_color) }
 
-.container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 14px; font-family: campton_regular;  color: var(--text_color); background: none; border-bottom: 2px solid var(--current_color);  } 
-
 /* HEADER */
 
 .container_header{  display: flex;  flex-flow: column;  justify-content: center; min-height: 480px; opacity: 0; animation: fadeIn .2s ease-in 0s 1 normal forwards;  position: relative; padding-top: 0px; width: 100%; max-width: 1200px; margin: 0px auto 0 auto; }
@@ -305,9 +303,12 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 
 .bloc-home-agenda-date .bloc-agenda-liste-jour{ font-family: campton_semibold; }
 
-.container-bloc-home .projet_item{ border-top: 3px solid var(--color3); }
+.container-bloc-home .projet_item{ border-top: 3px solid var(--current_color); }
 
 body form.mj-form .mj-embedded.mj-vertical {  padding: 0px !important; }
+
+.container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--text_color); text-transform: none ; margin-left: 1em ; background: none; border:none;  border-bottom: 2px solid var(--current_color);  } 
+
 
 /* ACTUALITÉS liste */
 
