@@ -307,11 +307,13 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 
 .container-bloc-home .projet_item{ border-top: 3px solid var(--current_color); }
 
-
+.container-bloc-home .bloc-home-actus-titre{ font-size: 16px; }
 .container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--text_color); text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  } 
-
+.bloc-home-actus-titre a{ font-size: 16px; }
 body form.mj-form .mj-embedded.mj-vertical {  padding: 0px !important; }
 @media screen and (max-width: 768px){ body form.mj-form .mj-embedded.mj-vertical {     padding: 0px !important; }
+
+
 
 /* ACTUALITÉS liste */
 
