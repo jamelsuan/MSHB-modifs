@@ -651,20 +651,21 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 /* LISTING PROJETS */
 
 .listing_projets{ position: relative; }
-.projet_item{ margin: 20px auto; display: flex; flex-direction: column; justify-content: space-between;    border-bottom: 5px solid var(--current_color); min-height: 320px; padding: 30px;  background-size: contain;  background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/1/001.png");  }
-.projet_item:hover{  }
-.projet_item:hover p a{ color:var(--color3);  }
-.projet_item p{font-size: 0.8em; }
-.projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
-.projet_item a{  border-bottom: none; }
-.projet_item .bloc-projets-liste-suite {  border-bottom: none; margin:1em 0; letter-spacing: 0.01em; font-family: lora_bold; color: #000; font-size: 17px;  display: block; line-height: 1.35em;   }
-.projet_item h3{ background-color :var(--color3); color:white;  display: inline-block; margin: 0; padding: .4em 1em 0.2em 1em; line-height: 1.3em;  max-width: 90%; min-height: 2em; font-size: 12px; font-family: campton_medium;   }
-.projet_item h2{   display: inline-block;  margin: 0; padding: 0px 5px; line-height: 1.3em;  padding: 5px; max-width: 96%; min-height: 2em; font-size: 10px; text-transform: uppercase; font-family: campton_bold; color: var(--color0) }
-.projet_item p{ color :var(--color0);  font-size: 18px;; }
-.projet_item p a{  font-family: campton_bold;  }
-.select_orderBy{ background: #fff; float: right; font-size: 12px; color: #666; border: none; position: absolute; right: 0px; top: 20px;  font-family: campton_regular;  }
 
-.select_orderBy option{ line-height: 2em; padding: 5px; -webkit-appearance: none; }
+
+.page-projets-mshb .projet_item{ margin: 20px auto; display: flex; flex-direction: column; justify-content: space-between;    border-bottom: 5px solid var(--current_color); min-height: 320px; padding: 30px;  background-size: contain;  background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/1/001.png");  }
+.page-projets-mshb .projet_item:hover{  }
+.page-projets-mshb .projet_item:hover p a{ color:var(--color3);  }
+.page-projets-mshb .projet_item p{font-size: 0.8em; }
+.page-projets-mshb .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
+.page-projets-mshb .projet_item a{  border-bottom: none; }
+.page-projets-mshb .projet_item .bloc-projets-liste-suite {  border-bottom: none; margin:1em 0; letter-spacing: 0.01em; font-family: lora_bold; color: #000; font-size: 17px;  display: block; line-height: 1.35em;   }
+.page-projets-mshb .projet_item h3{ background-color :var(--color3); color:white;  display: inline-block; margin: 0; padding: .4em 1em 0.2em 1em; line-height: 1.3em;  max-width: 90%; min-height: 2em; font-size: 12px; font-family: campton_medium;   }
+.page-projets-mshb .projet_item h2{   display: inline-block;  margin: 0; padding: 0px 5px; line-height: 1.3em;  padding: 5px; max-width: 96%; min-height: 2em; font-size: 10px; text-transform: uppercase; font-family: campton_bold; color: var(--color0) }
+.page-projets-mshb .projet_item p{ color :var(--color0);  font-size: 18px;; }
+.page-projets-mshb .projet_item p a{  font-family: campton_bold;  }
+.page-projets-mshb .select_orderBy{ background: #fff; float: right; font-size: 12px; color: #666; border: none; position: absolute; right: 0px; top: 20px;  font-family: campton_regular;  }
+.page-projets-mshb .select_orderBy option{ line-height: 2em; padding: 5px; -webkit-appearance: none; }
 
 
 
