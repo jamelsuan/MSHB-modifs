@@ -650,7 +650,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 /* LISTING PROJETS */
 
 .listing_projets{ position: relative; }
-.projet_item{ margin-bottom: 20px; background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/1/001.png"); background-size: cover; }
+.projet_item{ margin-bottom: 20px;  }
 .projet_item p{font-size: 0.8em; }
 .projet_item .projet_header{  width: 100%; text-align: center; min-height: 150px; padding: 40px; background-position: center; background-size: cover; }
 
@@ -660,10 +660,12 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 
 .projet_item h3{ color :var(--color3);   display: inline-block; margin: 0; padding: .2em .6em; line-height: 1.3em;  max-width: 90%; min-height: 2em; font-size: 12px; font-family: campton_medium; background: white;  }
 
+.projet_item .container p a, 
+.projet_item .container li a{ border-bottom: none; }
 
-.projet_item h2{   display: inline-block; margin: 0; padding: 0px 5px; line-height: 1.3em;  padding: 5px; max-width: 96%; min-height: 2em; font-size: 12px; text-transform: uppercase; font-family: campton_bold; background: #fff; color: #000 }
-.projet_item p{ color :var(--color0); font-family: campton_bold;  text-align: center; font-size: 16px;; }
-
+.projet_item h2{   display: inline-block;  margin: 0; padding: 0px 5px; line-height: 1.3em;  padding: 5px; max-width: 96%; min-height: 2em; font-size: 12px; text-transform: uppercase; font-family: campton_bold; background: #fff; color: #000 }
+.projet_item p{ color :var(--color0); background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/1/001.png"); background-size: 100% 100%; text-align: center; font-size: 18px;; }
+.projet_item p a{  font-family: campton_bold;  }
 .select_orderBy{ background: #fff; float: right; font-size: 12px; color: #666; border: none; position: absolute; right: 0px; top: 20px;  font-family: campton_regular;  }
 
 .select_orderBy option{ line-height: 2em; padding: 5px; -webkit-appearance: none; }
