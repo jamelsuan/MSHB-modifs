@@ -655,7 +655,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 20px auto; ; background-position: center; background-size: cover; }
 
 
-.projet_item .bloc-projets-liste-suite { margin:1em 0; letter-spacing: 0.01em; font-family: campton_semibold; color: #000; font-size: 1.2em; display: block; line-height: 1.5em;   }
+.projet_item .bloc-projets-liste-suite { margin:1em 0; letter-spacing: 0.01em; font-family: lora_bold; color: #000; font-size: 18px; padding: 10px;  display: block; line-height: 1.35em;   }
 
 
 .projet_item h3{ color :var(--color3);   display: inline-block; margin: 0; padding: .2em .6em; line-height: 1.3em;  max-width: 90%; min-height: 2em; font-size: 12px; font-family: campton_medium; background: white;  }
