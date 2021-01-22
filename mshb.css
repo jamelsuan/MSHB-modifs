@@ -672,6 +672,10 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 
 
 .bloc_head_projet_details p.mytitre{ font-size: 30px; }
+.container-projet-single .container p a, 
+.container-projet-single .container li a{ border-bottom: none; }
+.color_recherche_1 .global_contour{ var(--current_color); }
+
 
 /* FORMS */
 
