@@ -33,7 +33,7 @@ svg .colorpoint{ fill: var(--current_color); }
 
 
 
-.bandeau{  width: 100%; height: 100%; position: relative; }
+.bandeau{  width: 100%; height: 100%; position: absolute; border:2px oslid red }
 .bandeau_svg{ width: 100%; height: 100%; background-color: var(--svg_bg_color); mix-blend-mode: screen;  }
 .bandeau_svg circle {   fill: var(--svg_pt_color)  }
 .bandeau_svg circle:nth-child(3n+2) {  opacity: 0.6; }
