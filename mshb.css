@@ -114,7 +114,7 @@ a.color_link{ transition: all .1s ease-out; }
 .poles-menu li a{ border:none;  }
 a[href^="mailto"]{     border-bottom:none!important; }
 a.liensiteext, a.liensiteext:hover {  border:none!important;  }
-a.liensite, a.liensite:hover{  border:none!important;  }
+a.liensite, a.liensite:hover{  border:none!important; color:var(--current_color); }
 a.ensavoirplus{ transition: all .1s ease-out; font-size: 14px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color: #fff;   background: var(--current_color)!important;; }
 a.ensavoirplus:hover{ background: #fff!important; color: var(--current_color) }
 .color_plateforme .container a.ensavoirplus {color:#000;  }
@@ -251,7 +251,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .bloc-home-agenda-date{ margin-bottom: 10px; width: 100%; height: auto;  }
 .bloc-home-agenda-date { padding: 10px; }
 .bloc-home-recherche-titre{ margin-top: 10px; }
-.bloc-home-recherche-img{ background: url("images/bandeaux/002.png") var(--current_color); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
+.container-bloc-home .projet_item .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
 .bloc-home-service-img{ background: url('images/visuel_batiment.jpg') top left no-repeat; background-size: 100% auto; margin-bottom: 10px; }
 .bloc-home-agenda-date .bloc-agenda-liste-jour{ font-family: campton_semibold; }
 .container-bloc-home input{ margin: 0; display: inline; width: 160px; border: 2px solid #c33932 !important; padding: 7px 10px 4px 10px }
