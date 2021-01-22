@@ -328,7 +328,7 @@ a.liensiteglob {color: var(--current_color);}
 .page-actualites-mshb .bloc-actus-liste .image_bandeau_type-0{  }
 .page-actualites-mshb .bloc-actus-liste-suite{ float: left!important; }
 .page-actualites-mshb .actus-liste-type{ color:var(--current_color); margin: 1em 0; }
-.page-actualites-mshb .bloc-actus-liste .actus-liste-titre {   }
+.page-actualites-mshb .bloc-actus-liste .actus-liste-titre { padding: 0 20px;  }
 .page-actualites-mshb .image_bandeau_type-0{ width:100%; max-width: 100%; }
 .page-actualites-mshb .bloc-actus-liste .bloc-social{ display: none; }
 .page-actualites-mshb .bloc-actus-liste { margin: 30px 0 80px !important;  }
@@ -336,7 +336,7 @@ a.liensiteglob {color: var(--current_color);}
 .page-actualites-mshb .bloc-actus-liste .bloc-social { margin-top: 15px; }
 .page-actualites-mshb .bloc-actus-liste .img{ display: none; }
 .bloc-actus-liste #image_bandeau{ display: none; }
-
+.page-actualites-mshb .actus-liste-date span{ border-bottom:none; font-size: 12px; }
 /* AGENDA liste */
 
 .bloc-agenda-liste .agenda-liste-titre { font-size: 20px  !important; text-align: center; color: #000; font-family: campton_bold; line-height: 22px; margin: 20px 0 10px; padding: 0 40px; }
