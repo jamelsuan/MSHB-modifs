@@ -114,15 +114,7 @@ global $base_path,$user;
           <span class="icon-bar"></span>
         </button>
           <a class="navbar-brand" href="/">
-
-              <script type="text/javascript" src="<?php print $base_path; ?>sites/all/themes/mshbv2/js/processing.js"></script>
-              <script type="application/processing" src="<?php print $base_path; ?>sites/all/themes/mshbv2/js/canvas.js"></script>
-              <canvas id="include_processing" class="navbar_extended_logo"></canvas>
-
-              <!-- zone logo IMG -->
-              <img src="<?php print $base_path; ?>sites/all/themes/mshbv2/img/logos_mshb/logo_MSHB_rouge.jpg" id="extended_logo" alt="Maison des Sciences de l'Homme en Bretagne" class="navbar_extended_logo">
-              <img src="<?php print $base_path; ?>sites/all/themes/mshbv2/img/logos_mshb/logo_MSHB_min_gris.jpg" id="condensed_logo" alt="Maison des Sciences de l'Homme en Bretagne" class="navbar_condensed_logo">
-
+              <?php include $base_path.'sites/all/themes/mshbv2/svg/logo_anime.php'; ?>
           </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
