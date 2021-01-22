@@ -315,7 +315,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .projet_item{ border-top: 3px solid var(--current_color); }
 
 .container-bloc-home .bloc-home-actus-titre{ font-size: 16px; }
-.container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--text_color); text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  } 
+.container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--text_color); text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  }
 .bloc-home-actus-titre a{ font-size: 16px; }
 body form.mj-form .mj-embedded.mj-vertical {  padding: 0px !important; }
 
@@ -342,24 +342,28 @@ body form.mj-form .mj-embedded.mj-vertical {  padding: 0px !important; }
 /* AGENDA liste */
 
 .bloc-agenda-liste .agenda-liste-titre { font-size: 20px  !important; text-align: center; color: #000; font-family: campton_bold; line-height: 22px; margin: 20px 0 10px; padding: 0 40px; }
-.agenda-liste-date {
-    color: #FFF;
-    text-align: center;
-    padding: 35px 15px;
-    font-family: campton_regular;
-}
-.agenda-liste-date .bloc-agenda-liste-jour {
-    font-size: 3em  !important;
-    line-height: 0.8;
-    font-family: campton_semibold;
-}
-.agenda-liste-date .bloc-agenda-liste-mois {
-    font-size: 16px  !important;
-}
+.agenda-liste-date {color: #FFF;text-align: center;padding: 35px 15px;font-family: campton_regular;}
+.agenda-liste-date .bloc-agenda-liste-jour {font-size: 3em  !important;line-height: 0.8;font-family: campton_semibold;}
+.agenda-liste-date .bloc-agenda-liste-mois {font-size: 16px  !important;}
+.agenda-liste-date .bloc-agenda-liste-lieu{font-size: 0.8em;}
 
-.agenda-liste-date .bloc-agenda-liste-lieu{
-        font-size: 0.8em;
-}
+.page-agenda-mshb .col-md-12 { width: 100%; display: flex; flex-flow: wrap; justify-content: space-between;   }
+.page-agenda-mshb .bloc-agenda-liste{ width: 30%; display: flex; flex-direction: column;   }
+.page-agenda-mshb .bloc-agenda-liste .agenda-liste-txt{  display: none; display: flex; flex-direction: column; }
+.page-agenda-mshb .bloc-agenda-liste .col-md-6 { width: 100%; }
+.page-agenda-mshb .bloc-agenda-liste .agenda-liste-txt{ font-size:12px;  }
+.page-agenda-mshb .bloc-agenda-liste .image_bandeau_type-0{  }
+.page-agenda-mshb .bloc-agenda-liste-suite{ float: left!important; }
+.page-agenda-mshb .agenda-liste-type{ color:var(--current_color); margin: 1em 0; }
+.page-agenda-mshb .bloc-agenda-liste .agenda-liste-titre {   }
+.page-agenda-mshb .image_bandeau_type-0{ width:100%; max-width: 100%; }
+.page-agenda-mshb .bloc-agenda-liste .bloc-social{ display: none; }
+.page-agenda-mshb .bloc-agenda-liste { margin: 30px 0 80px !important;  }
+.page-agenda-mshb .bloc-agenda-liste .agenda-liste-titre { font-size: 20px!important; text-align: center; color: #000; font-family: campton_bold; line-height: 22px; margin: 1em 0; padding: 0px; }
+.page-agenda-mshb .bloc-agenda-liste .bloc-social { margin-top: 15px; }
+.page-agenda-mshb .bloc-agenda-liste .img{ display: none; }
+
+
 /* MEDIAS */
 
 
