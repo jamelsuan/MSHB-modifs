@@ -655,7 +655,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 20px auto; ; background-position: center; background-size: cover; }
 
 .projet_item a{  border-bottom: none; }
-.projet_item .bloc-projets-liste-suite { margin:1em 0; letter-spacing: 0.01em; font-family: lora_bold; color: #000; font-size: 18px; padding: 10px;  display: block; line-height: 1.35em;   }
+.projet_item .bloc-projets-liste-suite {  border-bottom: none; margin:1em 0; letter-spacing: 0.01em; font-family: lora_regular; color: #000; font-size: 18px;  display: block; line-height: 1.35em;   }
 
 
 .projet_item h3{ color :var(--color3);   display: inline-block; margin: 0; padding: .2em .6em; line-height: 1.3em;  max-width: 90%; min-height: 2em; font-size: 12px; font-family: campton_medium; background: white;  }
@@ -669,6 +669,12 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 
 .select_orderBy option{ line-height: 2em; padding: 5px; -webkit-appearance: none; }
 
+
+
+/* projet */
+
+
+.bloc_head_projet_details p.mytitre{ font-size: 30px; }
 
 /* FORMS */
 
@@ -860,34 +866,6 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 #edit-retour.btn, .btn-retour.btn { color: #c33932 !important; border: 2px solid #c33932 !important; background: #fff !important; border-radius: 0; }
 
-
-/* MAP 3D */
-
-
-
-.container_map{ height: 500px; max-width: 100%; width: 100%;  display: block; overflow: hidden }
-
-
-
-.container_map canvas{ max-width: 100% }
-
-
-
-.legende_map_3D span{ width: 10px; float: left; margin: 7px 7px 0 0; display: block; height: 10px; background: #000;}
-
-
-
-.legende_map_3D li:nth-child(1) span{ background-color: #FCCAB1 }
-
-.legende_map_3D li:nth-child(2) span{ background-color: #C2BBE1 }
-
-.legende_map_3D li:nth-child(3) span{ background-color: #A5E0DE }
-
-.legende_map_3D li:nth-child(4) span{ background-color: #7FB9DF }
-
-.legende_map_3D li:nth-child(5) span{ background-color: #FFEE96 }
-
-.legende_map_3D li:nth-child(6) span{ background-color: #007CC4 }
 
 
 
