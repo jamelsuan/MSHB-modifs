@@ -29,7 +29,7 @@ regions[auto]           = 'Auto login'
 ;;;;;;;;;;;;;;;;;;;;;
 
 ;stylesheets[all][] = css/bootstrap.min.css
-stylesheets[all][] = css/mshb.css
+;stylesheets[all][] = css/mshb.css
 stylesheets[all][] = css/fontello.css
 stylesheets[all][] = css/stylesv2.css
 stylesheets[all][] = css/stylesv3.css
@@ -43,7 +43,8 @@ stylesheets[print][] = css/print.css
 scripts[] = 'js/myMap.js'
 scripts[] = '../../libraries/ckeditor/ckeditor.js'
 scripts[] = 'js/invisible.js'
-
+scripts[] = 'js/bandeau_svg.js'
+scripts[] = 'js/logo_anime.js'
 ; For information on choosing the desired method, please read the Drupal
 ; Bootstrap sub-theme "how-to" documentation:
 ; https://drupal.org/node/1978010
@@ -51,11 +52,11 @@ scripts[] = 'js/invisible.js'
 ; ;----------------------------------
 ; ; METHOD 1: Bootstrap Source Files
 ; ;----------------------------------
-; 
+;
 ; ;;;;;;;;;;;;;;;;;;;;;
 ; ;; Scripts
 ; ;;;;;;;;;;;;;;;;;;;;;
-; 
+;
 ; scripts[] = 'bootstrap/js/affix.js'
 ; scripts[] = 'bootstrap/js/alert.js'
 ; scripts[] = 'bootstrap/js/button.js'

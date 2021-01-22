@@ -80,7 +80,7 @@ global $base_path,$user;
     echo '
       <style>
         .glyphicon-user {color:#c33932;}
-        .btnMyAdmin ul.tabs li {float:left;list-style: none;} 
+        .btnMyAdmin ul.tabs li {float:left;list-style: none;}
       </style>
     ';
   }
@@ -114,8 +114,9 @@ global $base_path,$user;
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <?php include $base_path.'sites/all/themes/mshbv2/svg/logo_anime.php'; ?>
+                <?php      include(drupal_get_path('theme', 'mshbv2').'/svg/logo_anime.php') ; ?>
                 </a>
+
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <?php print cds_menuv2_mshb(); ?>
@@ -138,11 +139,15 @@ global $base_path,$user;
   ?>
     <section class="bloc_haut_page">
         <div class="container_header nodetpl">
+        <div class="bandeau">
+                <svg id="bandeau_svg" class="bandeau_svg"></svg>
+                </div>
             <?php
         // Variables
         $image = '';
         $titre = '';
         $sstitre = '';
+        $intro = '';
       if(!isset($node)){
         $pathPage = arg(0);
 
@@ -150,7 +155,7 @@ global $base_path,$user;
         //   $image = '<img src="'.$base_path.'sites/all/themes/mshbv2/img/bandeaux/'.variable_get($pathPage.'_image_bandeau').'" id="image_bandeau" alt="'.variable_get($pathPage.'_image_bandeau').'" title="'.variable_get($pathPage.'_image_bandeau').'" />';
         // }
 
-        <?php include $base_path.'sites/all/themes/mshbv2/svg/bandeau_svg.php'; ?>
+         //include $base_path.'sites/all/themes/mshbv2/svg/bandeau_svg.php';
 
 
             if(variable_get($pathPage.'_titre_bandeau') != ''){
@@ -158,6 +163,9 @@ global $base_path,$user;
             }
             if(variable_get($pathPage.'_sstitre_bandeau') != ''){
             $sstitre = variable_get($pathPage.'_sstitre_bandeau');
+            }
+            if(variable_get($pathPage.'_texte_intro') != ''){
+                $intro = variable_get($pathPage.'_texte_intro');
             }
 
             }else{
@@ -203,7 +211,14 @@ global $base_path,$user;
   if(!empty($page['text_aide'])){
     print '<section style="margin-top:30px; margin-bottom:30px;"><div class="col-md-10  col-md-offset-1">'.render($page['text_aide']).'</div></section>';
   }
-    print render($page['content']);
+
+  if (! empty($intro)){ ?>
+     <div class="intro col-md-12">
+     <?php print render($intro); ?>
+     </div>
+    <?php }
+
+  print render($page['content']);
     if (!empty($page['help'])){
       render($page['help']);
     }
