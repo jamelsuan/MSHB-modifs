@@ -1,0 +1,54 @@
+.bloc_head_projet_details .container_header_annuaire {
+  height: auto;
+  opacity:1;
+}
+.container-projet-single {
+ color: #000;
+}
+.container-projet-single .btn-equipe {
+clear: both;
+float: left;
+}
+.container-projet-single .modal-body .row {
+width: 100%;
+clear: both;
+float: left;
+}
+.container-projet-single .liste-details {
+clear:both;
+float: left;
+}
+.container-projet-single .col-md-6, .container-projet-single  .col-md-4 {
+  width: 100%;
+  min-height: 10px;
+  margin-bottom :0;
+  padding:0  20px;
+  clear:both;
+  float:left;  
+}
+.container-projet-single    .modal.fade {
+    clear:both;
+    display: block;
+    position: relative;
+    opacity: 1;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: auto;
+    float: left;
+    border: none;
+}
+.container-projet-single .modal-dialog {
+  max-width : 100%;
+  width: 100%;
+  border: none;
+}
+.container-projet-single .modal-content {
+  padding: 0px;
+  border: none;
+}
+.container-projet-single .modal-header, .container-projet-single .modal-footer {
+  display: none;
+}
+
