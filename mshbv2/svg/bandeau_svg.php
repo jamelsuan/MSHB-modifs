@@ -1,5 +1,6 @@
-<svg id="bandeau_svg" class="bandeau_svg"></svg>
-
+<div class="bandeau">
+    <svg id="bandeau_svg" class="bandeau_svg"></svg>
+</div>
 
 
 
