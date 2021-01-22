@@ -114,10 +114,10 @@ a.color_link{ transition: all .1s ease-out; }
 .color_mshb a.color_link{ font-size: 14px; font-family: campton_regular; border: 2px solid var(--current_color); border-top: none; display: inline-block;  padding: 2px 7px 0 5px; margin:0px; line-height: 1.4em; color: #fff;   background: #5da9dd; }
 .color_mshb a.color_link:hover{ background: #fff; color: var(--current_color) }
 
-.container p a, .container li a{  color: inherit;  border-bottom: 2px solid var(--current_color); }
+.container p a, .container li a{   border-bottom: 2px solid var(--current_color); }
 .container p a:hover , .container li a:hover{   color:var(--current_color); }
 .poles-menu li a{ border:none;  }
-a[href^="mailto"]{ border:none; }
+a[href^="mailto"]{     border-bottom:none!important; }
 
 a.lien_externe {  }
 a.liensiteext, a.liensiteext:hover {  border:none!important;  }
