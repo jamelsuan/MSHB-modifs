@@ -254,12 +254,13 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .bloc-home-recherche-img{ background: url("images/bandeaux/002.png") var(--current_color); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
 .bloc-home-service-img{ background: url('images/visuel_batiment.jpg') top left no-repeat; background-size: 100% auto; margin-bottom: 10px; }
 .bloc-home-agenda-date .bloc-agenda-liste-jour{ font-family: campton_semibold; }
-.container-bloc-home .projet_item{ border-top: 3px solid var(--current_color); }
-.container-bloc-home .projet_item{  }
+
 .container-bloc-home input{ margin: 0; display: inline; width: 160px; border: 2px solid #c33932 !important; padding: 7px 10px 4px 10px }
 .container-bloc-home input[type=submit] { display: inline;  width: auto; border: 2px solid #c33932 !important ; background: #c33932; color: #fff; padding: 7px 5px 4px 5px; margin: 0 -8px;  }
 .container-bloc-home .bloc-home-actus-titre{ font-size: 16px; }
 .container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--text_color); text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  }
+.container-bloc-home .projet_item{ margin: 20px auto; display: flex; flex-direction: column; justify-content: space-between;    border-top: 5px solid var(--current_color); min-height: 320px; padding: 30px;  background-size: contain;   }
+
 .container-bloc-home .projet_item p{font-size: 0.8em; }
 .container-bloc-home .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .container-bloc-home .projet_item a{  border-bottom: none; }
@@ -270,7 +271,6 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .projet_item p a{  font-family: campton_bold;  }
 .bloc-home-actus-titre a{ font-size: 16px; }
 body form.mj-form .mj-embedded.mj-vertical {  padding: 0px !important; }
-.container-bloc-home .projet_item{ margin: 20px auto; display: flex; flex-direction: column; justify-content: space-between;    border-bottom: 5px solid var(--current_color); min-height: 320px; padding: 30px;  background-size: contain;   }
 .color_home .container_titre span { border-bottom: 3px solid var(--current_color); }
 .color_home .navbar-default .navbar-right li a:hover{ color: #000 }
 
