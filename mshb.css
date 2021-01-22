@@ -652,35 +652,17 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .listing_projets{ position: relative; }
 .projet_item{ margin-bottom: 20px; }
 .projet_item p{font-size: 0.8em; }
-.projet_item .projet_header{ width: 100%; text-align: center; min-height: 150px; padding: 40px; background-position: center; background-size: cover; }
+.projet_item .projet_header{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/1/001.png");  width: 100%; text-align: center; min-height: 150px; padding: 40px; background-position: center; background-size: cover; }
 
-.pole_1 .projet_header{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/1/001.png");  }
-.pole_2 .projet_header{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/2/010.png");  }
-.pole_3 .projet_header{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/3/020.png");  }
-.pole_4 .projet_header{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/4/030.png");  }
-.pole_5 .projet_header{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/5/030.png");  }
 
 .projet_item .bloc-projets-liste-suite { margin:1em 0; letter-spacing: 0.01em; font-family: campton_semibold; color: #000; font-size: 1.2em; display: block; line-height: 1.5em;   }
 
-.pole_1  .bloc-projets-liste-suite:hover{ font-family: campton_semibold; color: #028ecf }
-.pole_2  .bloc-projets-liste-suite:hover{ font-family: campton_semibold; color: #00abad }
-.pole_3  .bloc-projets-liste-suite:hover{ font-family: campton_semibold; color: #6a6ea9 }
-.pole_4  .bloc-projets-liste-suite:hover{ font-family: campton_semibold; color: #f2992f }
-.pole_5  .bloc-projets-liste-suite:hover{ font-family: campton_semibold; color: #57a349 }
 
-.projet_item h3{ display: inline-block; margin: 0; padding: 0px 5px; line-height: 1.3em; padding: 5px; max-width: 96%; min-height: 2em; font-size: 12px; font-family: campton_medium; background: #000; color: #fff }
-.pole_1 h3{ background-color: #028ecf;  }
-.pole_2 h3{ background-color: #00abad;  }
-.pole_3 h3{ background-color: #6a6ea9;  }
-.pole_4 h3{ background-color: #f2992f;  }
-.pole_5 h3{ background-color: #57a349;  }
+.projet_item h3{ color :var(--color3);  display: inline-block; margin: 0; padding: 0px 5px; line-height: 1.3em; padding: 5px; max-width: 96%; min-height: 2em; font-size: 12px; font-family: campton_medium; background: #000; color: #fff }
 
-.projet_item h2{ display: inline-block; margin: 0; padding: 0px 5px; line-height: 1.3em;  padding: 5px; max-width: 96%; min-height: 2em; font-size: 14px; text-transform: uppercase; font-family: campton_bold; background: #fff; color: #000 }
-.pole_1 h2{ border: 1px solid #028ecf;  }
-.pole_2 h2{ border: 1px solid #00abad;  }
-.pole_3 h2{ border: 1px solid #6a6ea9;  }
-.pole_4 h2{ border: 1px solid #f2992f;  }
-.pole_5 h2{ border: 1px solid #57a349;  }
+
+.projet_item h2{  border: 1px solid var(--color3); display: inline-block; margin: 0; padding: 0px 5px; line-height: 1.3em;  padding: 5px; max-width: 96%; min-height: 2em; font-size: 14px; text-transform: uppercase; font-family: campton_bold; background: #fff; color: #000 }
+
 
 .select_orderBy{ background: #fff; float: right; font-size: 12px; color: #666; border: none; position: absolute; right: 0px; top: 20px;  font-family: campton_regular;  }
 
