@@ -653,7 +653,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .listing_projets{ position: relative; }
 .projet_item{ margin: 20px auto; display: flex; flex-direction: column; justify-content: space-between;    border-bottom: 5px solid var(--current_color); min-height: 320px; padding: 30px;  background-size: contain;  background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux_projets/1/001.png");  }
 .projet_item:hover{  }
-.projet_item:hover p{ color :var(--color3);  }
+.projet_item:hover p a{ color:var(--color3);  }
 .projet_item p{font-size: 0.8em; }
 .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .projet_item a{  border-bottom: none; }
