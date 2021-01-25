@@ -192,20 +192,8 @@ a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current
 
 /* BANDEAUX */
 
-.header_bg{display:none; z-index: 0; background-image: url("img/bandeaux/000.png"); background-size: cover; background-position: center; width: 100%; height: 100%; display: block; position: absolute; top: 0; left: 0  }
-.container_header img{ opacity: 0.5 }
-.container_header .header_points_01{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/001.png"); background-size: cover; background-position: center;  }
-.container_header .header_points_02{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/002.png"); background-size: cover; background-position: center;  }
-.container_header .header_points_03{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/003.png"); background-size: cover; background-position: center;  }
-.container_header .header_points_04{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/004.png"); background-size: cover; background-position: center;  }
-.container_header .header_points_05{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/005.png"); background-size: cover; background-position: center;  }
-.container_header .header_points_06{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/006.png"); background-size: cover; background-position: center;  }
-.container_header .header_points_07{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/007.png"); background-size: cover; background-position: center; opacity: 0.3 }
-.container_header .header_points_08{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/008.png"); background-size: cover; background-position: center; opacity: 0.3  }
-.container_header .header_points_09{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/009.png"); background-size: cover; background-position: center; opacity: 0.3  }
-.container_header .header_points_10{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/010.png"); background-size: cover; background-position: center; opacity: 0.5 }
-.container_header .header_points_11{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/011.png"); background-size: cover; background-position: center; opacity: 0.5  }
-.container_header  .header_points_12{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/012.png"); background-size: cover; background-position: center; opacity: 0.5  }
+.header_bg{ display:none;  }
+
 
 /*  LAYOUT */
 
