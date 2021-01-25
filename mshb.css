@@ -10,13 +10,28 @@
   }
 
 
-.color_home{ --current_color :var(--color1);  }
-.color_plateforme{ --current_color : var(--color2); }
-.color_recherche{ --current_color : var(--color3); }
-.color_mshb{ --current_color : var(--color4); }
+.color_home{ 
+    --current_color : var(--color1); 
+    --svg_bg_color :var(--color1); 
+    --svg_pt_color: black;  
+}
+.color_plateforme{ 
+    --current_color : var(--color2); 
+    --svg_bg_color :var(--color2); 
+    --svg_pt_color: black;  
+}
+.color_recherche{ 
+    --current_color : var(--color3); 
+    --svg_bg_color :var(--color3); 
+    --svg_pt_color: black;  
+}
+.color_mshb{ 
+    --current_color : var(--color4);
+    --svg_bg_color :var(--color4); 
+    --svg_pt_color: black;   
+}
 
 
-svg .colorpoint{ fill: var(--current_color); }
 
 /* FONT FACES */
 
@@ -29,11 +44,6 @@ svg .colorpoint{ fill: var(--current_color); }
 @font-face {  font-family: lora_bold; src: url(https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/font/Lora/Lora-Bold.ttf); }
 
 
-.bandeau{  width: 100%; height: 100%; position: absolute; border:2px oslid red }
-.bandeau_svg{ width: 100%; height: 100%; background-color: var(--svg_bg_color); mix-blend-mode: screen;  }
-.bandeau_svg circle {   fill: var(--svg_pt_color)  }
-.bandeau_svg circle:nth-child(3n+2) {  opacity: 0.6; }
-.bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; }
 
 
 /* ROOT */
@@ -192,8 +202,13 @@ a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current
 
 /* BANDEAUX */
 
-.header_bg{ display:none;  }
-
+.bandeau{  width: 100%; height: 100%; position: absolute; border:2px oslid red }
+.bandeau .bandeau_svg{ width: 100%; height: 100%; background-color: var(--svg_bg_color); mix-blend-mode: screen;  }
+.bandeau .bandeau_svg circle {   fill: var(--svg_pt_color)  }
+.bandeau .bandeau_svg circle:nth-child(3n+2) {  opacity: 0.6; }
+.bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; }
+/* hide old header */
+.header_bg{ display:none;  } 
 
 /*  LAYOUT */
 
