@@ -151,11 +151,11 @@ a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current
 .navbar_condensed .navbar{ height: 100px; position: fixed; background: #fff;  }
 .navbar_condensed .navbar_extended_logo{ display: none; opacity: 0; }
 .navbar_condensed .navbar_condensed_logo{ display: block; opacity:1; max-height: 100%; }
-.navbar_condensed .navbar-brand{ margin: 12px 0 0 20px; height: 26px; width: 280px; padding: 0; }
+.navbar_condensed .navbar-brand{margin: 10px 0 0 20px;height: 64px;width: 140px;padding: 0;}
 .navbar_condensed .navbar-left { top: 12px; left: 160px !important;}
 .navbar_extended .navbar-brand{ position: relative;  margin: 15px 0 0 20px; padding:0; height: 110px; width: 280px;   }
-.navbar_extended .navbar-brand svg{max-width: 100%; max-height: 100%}
-.navbar_extended .navbar-brand img{  opacity: 0; animation: fadeIn 0.3s ease-in 2s 1 normal forwards; position: absolute; top: 0; left: 0;  height: 100%; margin: 0% auto;  }
+.navbar-brand svg{max-width: 100%; max-height: 100%}
+.navbar_extended .navbar-brand img{display: none;  opacity: 0; animation: fadeIn 0.3s ease-in 2s 1 normal forwards; position: absolute; top: 0; left: 0;  height: 100%; margin: 0% auto;  }
 .navbar-default .navbar-nav>li>a { color: #333; }
 .navbar-default .navbar-nav>li>a:hover { color: #000; }
 .navbar-nav>li>a { padding: 5px 3px; }
@@ -192,7 +192,7 @@ a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current
 
 /* BANDEAUX */
 
-.header_bg{ z-index: 0; background-image: url("img/bandeaux/000.png"); background-size: cover; background-position: center; width: 100%; height: 100%; display: block; position: absolute; top: 0; left: 0  }
+.header_bg{display:none; z-index: 0; background-image: url("img/bandeaux/000.png"); background-size: cover; background-position: center; width: 100%; height: 100%; display: block; position: absolute; top: 0; left: 0  }
 .container_header img{ opacity: 0.5 }
 .container_header .header_points_01{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/001.png"); background-size: cover; background-position: center;  }
 .container_header .header_points_02{ background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/img/bandeaux/002.png"); background-size: cover; background-position: center;  }
@@ -320,7 +320,8 @@ a.liensiteglob {color: var(--current_color);}
 
 /* ACTUALITÉS liste */
 
-.page-actualites-mshb .col-md-12 { width: 100%; display: flex; flex-flow: wrap; justify-content: space-between;  }
+.page-actualites-mshb .col-md-12 {width: 100%; display: flex; flex-flow: wrap; justify-content: space-between;  }
+/*.page-actualites-mshb .col-md-12 .bloc-actus-liste:nth-last-child(-n+2){} */ /* pour aligner à gauche les 2 derniers items */
 .page-actualites-mshb .bloc-actus-liste{ width: 30%; display: flex; flex-direction: column;   }
 .page-actualites-mshb .bloc-actus-liste .actus-liste-txt{  display: none; display: flex; flex-direction: column; }
 .page-actualites-mshb .bloc-actus-liste .col-md-6 { width: 100%; }
@@ -336,6 +337,7 @@ a.liensiteglob {color: var(--current_color);}
 .page-actualites-mshb .bloc-actus-liste .img{ display: none; }
 .bloc-actus-liste #image_bandeau{ display: none; }
 .page-actualites-mshb .actus-liste-date span{ border-bottom:none; font-size: 12px; }
+
 /* AGENDA liste */
 
 .bloc-agenda-liste .agenda-liste-titre { font-size: 20px  !important; text-align: center; color: #000; font-family: campton_bold; line-height: 22px; margin: 20px 0 10px; padding: 0 40px; }
