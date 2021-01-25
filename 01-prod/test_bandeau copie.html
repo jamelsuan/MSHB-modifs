@@ -55,7 +55,9 @@
 .bandeau_svg circle {   fill: var(--svg_pt_color)  }
 .bandeau_svg circle:nth-child(3n+2) {  opacity: 0.6; }
 .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; }
-
+.bandeau_svg rect {   fill: var(--svg_pt_color)  }
+.bandeau_svg rect:nth-child(3n+2) {  opacity: 0.6; }
+.bandeau_svg rect:nth-child(3n+3) {  opacity: 0.8; }
 </style>
 
 </head>
@@ -66,7 +68,8 @@
   
     <div>
         <div class="bandeau">
-            <svg id="bandeau_svg" class="bandeau_svg"></svg>
+          <?xml version="1.0" encoding="utf-8"?>
+        <svg id="bandeau_svg" class="bandeau_svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 480" style="enable-background:new 0 0 1200 480;" xml:space="preserve">
         </div>
     </div>
 
@@ -133,10 +136,18 @@ modulos = [lesmodulos1[serie], lesmodulos2[serie]] ;
 
 
   function createPt(x, y, r, circleclass){
-    newPt = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-    newPt.setAttribute("cx", x);
-    newPt.setAttribute("cy", y);
-    newPt.setAttribute("r", r);
+    // newPt = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    // newPt.setAttribute("cx", x);
+    // newPt.setAttribute("cy", y);
+    // newPt.setAttribute("r", r);
+    // newPt.setAttribute("class", circleclass);
+    // container.appendChild(newPt);
+
+    newPt = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    newPt.setAttribute("x", x);
+    newPt.setAttribute("y", y);
+    newPt.setAttribute("width", r*1.5);
+    newPt.setAttribute("height", r*1.5);
     newPt.setAttribute("class", circleclass);
     container.appendChild(newPt);
   }

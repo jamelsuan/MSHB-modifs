@@ -203,7 +203,7 @@ a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current
 /* BANDEAUX */
 
 .bandeau{  width: 100%; height: 100%; position: absolute; border:2px oslid red }
-.bandeau .bandeau_svg{ width: 100%; height: 100%; background-color: var(--svg_bg_color); mix-blend-mode: screen;  }
+.bandeau .bandeau_svg{ width: 100%; height: 100%; background-color: var(--svg_bg_color);   }
 .bandeau .bandeau_svg circle {   fill: var(--svg_pt_color)  }
 .bandeau .bandeau_svg circle:nth-child(3n+2) {  opacity: 0.6; }
 .bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; }
