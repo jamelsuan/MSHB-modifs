@@ -3,7 +3,7 @@
     --color0 : #000000;  
     --color1 : #BF2228;  
     --color2 : #FFD52D;  
-    --color3 : #005dac;  
+    --color3 : blue; // #005dac;  
     --color4 : #4A8A78;  
     --text_color :  var(--color0);  
 	--current_color : var(--color1);
