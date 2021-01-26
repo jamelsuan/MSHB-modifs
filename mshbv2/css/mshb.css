@@ -6,9 +6,11 @@
     --color3 : #005dac;  
     --color4 : #4A8A78;  
     --text_color :  var(--color0);  
-    --current_color : var(--color1);
+	--current_color : var(--color1);
+	
   }
 
+.test{ font-weight: bold; }
 
 .color_home{ 
     --current_color : var(--color1); 
