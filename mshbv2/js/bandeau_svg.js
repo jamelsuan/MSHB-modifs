@@ -66,5 +66,7 @@ function animeBandeau() {
 
 }
 
+console.log('animeBandeau.js');
+
 animeBandeau();
 
