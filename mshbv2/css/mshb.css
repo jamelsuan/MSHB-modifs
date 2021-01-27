@@ -171,7 +171,7 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 .navbar_condensed .navbar_condensed_logo{ display: block; opacity:1; max-height: 100%; }
 .navbar_condensed .navbar-brand{ height: 100px;  margin-top: 0px;  }
 .navbar_condensed .navbar-left { top: 45px;  }
-.navbar_extended .navbar-brand{  height: 150px; margin-top: 25px;   }
+.navbar_extended .navbar-brand{  height: 150px; margin-top: 20px;   }
 .navbar-brand svg{   width: auto; height: 100%; }
 .navbar-default .navbar-nav>li>a { color: #333; }
 .navbar-default .navbar-nav>li>a:hover { color: #000; }
