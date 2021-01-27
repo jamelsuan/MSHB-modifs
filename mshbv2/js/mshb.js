@@ -56,27 +56,31 @@ function animeBandeau() {
 
     // }
 
-    var a = 0; 
-    function loop(){
+    var loop = function() {
+    var a = 0;
+    while (a < nbr) {
+        (function(i) {
+            setTimeout(function() {
+            
+                
+                var delta = c2 / 2 * Math.sqrt(a);
+                var x1 = Math.cos(angledor * a) * delta + x;
+                var y1 = Math.sin(angledor * a) * delta + y;
 
-        a++;
-        var delta = c2 / 2 * Math.sqrt(a);
-        var x1 = Math.cos(angledor * a) * delta + x;
-        var y1 = Math.sin(angledor * a) * delta + y;
-
-        for (var i = 0; i < 2; i++) {
-            if (a % modulos[i] == 0) {
-                taille = 0
-            } else {
-                taille = Math.floor((Math.random() * 3) + 2)
-            }
-        }
-        createPt(x1, y1, taille);
-
-        if(a < nbr){ setTimeout(function(){ loop()  }, 30); }
-
+                for (var i = 0; i < 2; i++) {
+                if (a % modulos[i] == 0) {
+                    taille = 0
+                } else {
+                    taille = Math.floor((Math.random() * 3) + 2)
+                }
+                }
+                createPt(x1, y1, taille);
+            }, 100 * a)
+        })(a++)
     }
+    };
 
+    loop();
 
 
 
