@@ -157,7 +157,7 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 
 /* NAVBAR */
 
-.navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards;  transition: all .3s; position: fixed; background: #fff; border: none;  font-family: campton_regular; border-top: 6px solid var(--current_color);  }
+.navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards;  transition: all .3s; position: fixed; background: #fff; border: none;  font-family: campton_regular; border-top: 6px solid var(--current_color);  border-bottom: 6px solid var(--current_color);  }
 .navbar_extended .navbar{ height: 130px;  }
 .navbar_extended .navbar_condensed_logo{ display: none; }
 .navbar_extended .navbar_extended_logo{ display: block; opacity: 1; }

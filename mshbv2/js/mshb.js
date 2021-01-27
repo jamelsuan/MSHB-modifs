@@ -3,13 +3,14 @@
 function animeBandeau() {
     
     var container_bandeau_svg = document.getElementById('bandeau_svg');
+    console.log(container_bandeau_svg.offsetWidth);
     var modulo = Math.floor((Math.random() * 3) + 1); //4;
     var nombredor = (1 + Math.sqrt(5)) / 2;
     var angledor = Math.PI * 2 / (1 + nombredor);
     var generalAngle = 0;
     var nbr = 10000; // nombre de points
     var c2 = Math.floor((Math.random() * 5) + 14);;; // espace entre les points
-    var x = 600; // coordonnée du centre
+    var x = 700; // coordonnée du centre
     var y = 240; // coordonnée du centre
     var i = 0;
 
