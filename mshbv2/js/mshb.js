@@ -75,7 +75,7 @@ function animeBandeau() {
 function navBar(){
 
     function onscroll_function(){
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
             document.getElementById("navbar").className = "navbar_condensed";
         } else {
             document.getElementById("navbar").className = "navbar_extended";
