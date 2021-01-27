@@ -15,22 +15,22 @@
 .color_home{ 
     --current_color : var(--color1); 
     --svg_bg_color :var(--color1); 
-    --svg_pt_color: black;  
+    --svg_pt_color: #9a2020
 }
 .color_plateforme{ 
     --current_color : var(--color2); 
     --svg_bg_color :var(--color2); 
-    --svg_pt_color: black;  
+    --svg_pt_color: ##ffcb00;  
 }
 .color_recherche{ 
     --current_color : var(--color3); 
     --svg_bg_color :var(--color3); 
-    --svg_pt_color: black;  
+    --svg_pt_color: #337ab7;  
 }
 .color_mshb{ 
     --current_color : var(--color4);
     --svg_bg_color :var(--color4); 
-    --svg_pt_color: black;   
+    --svg_pt_color: #21715a;   
 }
 
 
@@ -206,12 +206,16 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 
 /* BANDEAUX */
 
+
+
 .bandeau{  width: 100%; height: 100%; position: absolute; border:2px oslid red }
 .bandeau .bandeau_svg{ width: 100%; height: 100%; background-color: var(--svg_bg_color);   }
 .bandeau .bandeau_svg circle {   fill: var(--svg_pt_color)  }
 .bandeau .bandeau_svg circle:nth-child(3n+2) {  opacity: 0.6; }
 .bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; }
 /* hide old header */
+
+#image_bandeau{ display:none;  } 
 .header_bg{ display:none;  } 
 
 /*  LAYOUT */
@@ -237,7 +241,7 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 /* factorise colors */
 
 
-.container_titre span { border-bottom: 3px solid var(--current_color); }
+.container_titre span { border-bottom: 3px solid var(--current_color); padding: 0 10%; }
 
 /* Home */
 
