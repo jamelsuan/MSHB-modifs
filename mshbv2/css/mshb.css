@@ -70,7 +70,7 @@ ul{ margin: 0; padding: 0; }
 li{ list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
 /*strong{ font-family: campton_bold; }*/
 
-circle{ fill:#000; stroke:#000 }
+#logo circle{ fill:#000; stroke:#000 }
 
 
 .colored{  color: var(--current_color); }
