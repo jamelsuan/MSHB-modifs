@@ -241,7 +241,7 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 /* factorise colors */
 
 
-.container_titre span { border-bottom: 3px solid var(--current_color); padding: 0 10%; }
+.container_titre span { border-bottom: 3px solid var(--current_color);  }
 
 /* Home */
 
