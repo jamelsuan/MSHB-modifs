@@ -1,10 +1,4 @@
 
-document.addEventListener("DOMContentLoaded", function() { 
-   
-    console.log("mshb.js ! ");
-    animeLogo();
-    animeBandeau();
-});
 
 function animeBandeau() {
     
@@ -161,3 +155,8 @@ function animeLogo() {
 }
 
 
+
+   
+    console.log("mshb.js ! ");
+    animeLogo();
+    animeBandeau();
