@@ -518,9 +518,9 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 
 /* FOOTER */
 
-.footer{ font-family: campton_regular; padding: 60px 0; min-height: 100px;  }
+.footer{ font-family: campton_regular; padding: 20px; min-height: 100px;  max-width: 1400px; border: 1px solid blue; }
 
-.footer .container{ padding: 0px 0 }
+.footer .container{ width:100%  }
 .footer p{ font-size: 12px; font-family: campton_regular;}
 .footer a{ color: #666 }
 .footer a:hover{ color: #000 }
