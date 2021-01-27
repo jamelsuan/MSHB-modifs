@@ -20,7 +20,7 @@
 .color_plateforme{ 
     --current_color : var(--color2); 
     --svg_bg_color :var(--color2); 
-    --svg_pt_color: ##ffcb00;  
+    --svg_pt_color: #ffcb00;  
 }
 .color_recherche{ 
     --current_color : var(--color3); 
