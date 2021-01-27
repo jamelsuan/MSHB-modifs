@@ -127,8 +127,8 @@ a.color_link{ transition: all .1s ease-out; }
 a[href^="mailto"]{     border-bottom:none!important; }
 a.liensiteext, a.liensiteext:hover {  border:none!important;  }
 a.liensite, a.liensite:hover{  border:none!important; color:var(--current_color); }
-a.ensavoirplus{ transition: all .1s ease-out; font-size: 12px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color: #fff;   background: var(--current_color)!important;; }
-a.ensavoirplus:hover{ background: #fff!important; color: var(--current_color) }
+a.ensavoirplus{ transition: all .1s ease-out; font-size: 12px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color: #fff;   background: none;  }
+a.ensavoirplus:hover{ background:  var(--current_color)!important; color: white }
 .color_plateforme .container a.ensavoirplus {color:#000;  }
 .color_plateforme .container a.ensavoirplus:hover{  color: #000 }
 
@@ -390,7 +390,7 @@ a.liensiteglob {color: var(--current_color);}
 
 /* TITRE */
 
-.container_titre{ text-align: center; margin: 0 auto }
+.container_titre{ text-align: center; margin: 3em auto }
 .container_titre h1, .container_titre h2, .container_titre h3{ font-family: campton_semibold; font-size: 80px; line-height: 90px; text-align: center; letter-spacing: -0.02em;  margin-left:15%; margin-right:15%; width: 70%; margin-bottom: 80px; letter-spacing: 0.02em }
 .container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-family: campton_semibold; font-size: 50px; line-height: 1.4em; text-align: center; letter-spacing: -0.02em; margin-left:15%; margin-right:15%; width: 70%; letter-spacing: 0.02em }
 .container_titre p{ text-align: center; line-height: 36px; margin:0 8%; }
