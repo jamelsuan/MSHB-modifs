@@ -39,48 +39,23 @@ function animeBandeau() {
     modulos = [lesmodulos1[serie], lesmodulos2[serie]];
 
 
-    // for (var a = 0; a < nbr; a++) {
+    for (var a = 0; a < nbr; a++) {
 
-    //     var delta = c2 / 2 * Math.sqrt(a);
-    //     var x1 = Math.cos(angledor * a) * delta + x;
-    //     var y1 = Math.sin(angledor * a) * delta + y;
+        var delta = c2 / 2 * Math.sqrt(a);
+        var x1 = Math.cos(angledor * a) * delta + x;
+        var y1 = Math.sin(angledor * a) * delta + y;
 
-    //     for (var i = 0; i < 2; i++) {
-    //         if (a % modulos[i] == 0) {
-    //             taille = 0
-    //         } else {
-    //             taille = Math.floor((Math.random() * 3) + 2)
-    //         }
-    //     }
-    //     createPt(x1, y1, taille);
+        for (var i = 0; i < 2; i++) {
+            if (a % modulos[i] == 0) {
+                taille = 0
+            } else {
+                taille = Math.floor((Math.random() * 3) + 2)
+            }
+        }
+        createPt(x1, y1, taille);
 
-    // }
-
-    var loop = function() {
-    var a = 0;
-    while (a < nbr) {
-        (function(i) {
-            setTimeout(function() {
-            
-                console.log("wtf")
-                var delta = c2 / 2 * Math.sqrt(a);
-                var x1 = Math.cos(angledor * a) * delta + x;
-                var y1 = Math.sin(angledor * a) * delta + y;
-
-                for (var i = 0; i < 2; i++) {
-                if (a % modulos[i] == 0) {
-                    taille = 0
-                } else {
-                    taille = Math.floor((Math.random() * 3) + 2)
-                }
-                }
-                createPt(x1, y1, taille);
-            }, 100 * a)
-        })(a++)
     }
-    };
 
-    loop();
 
 
 
@@ -96,34 +71,19 @@ function animeBandeau() {
 
 }
 
-// if (color !== null) {
-//   document.getElementById("extended_logo").src = "/sites/all/themes/mshbv2/img/logos_mshb/logo_MSHB_"+color+Math.floor((Math.random() * 3) + 1)+".jpg";
-//   document.getElementById("condensed_logo").src = "/sites/all/themes/mshbv2/img/logos_mshb/logo_MSHB_min_"+color+".jpg.png";
-// }
+function navBar(){
 
+    function onscroll_function(){
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").className = "navbar_condensed";
+        } else {
+            document.getElementById("navbar").className = "navbar_extended";
+        }
+    }
 
-// if(document.body.width < 600){
+    window.onscroll = function() { onscroll_function(); };
+}
 
-// var script = document.getElementsByTagName('script');
-
-// for(var i = 0; i < script.length; i++) {
-//     if(script[i].type.toLowerCase() == 'application/processing') {
-//         script[i].src="";
-//     }
-// }
-
-
-// }
-
-// function onscroll_function(){
-//    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//           document.getElementById("navbar").className = "navbar_condensed";
-//       } else {
-//           document.getElementById("navbar").className = "navbar_extended";
-//       }
-// }
-
-// window.onscroll = function() {onscroll_function();};
 
 
 
@@ -184,7 +144,13 @@ function animeLogo() {
 
 
 
-   
-    console.log("mshb.js ! ");
     animeLogo();
     animeBandeau();
+    navBar();
+
+
+
+// if (color !== null) {
+//   document.getElementById("extended_logo").src = "/sites/all/themes/mshbv2/img/logos_mshb/logo_MSHB_"+color+Math.floor((Math.random() * 3) + 1)+".jpg";
+//   document.getElementById("condensed_logo").src = "/sites/all/themes/mshbv2/img/logos_mshb/logo_MSHB_min_"+color+".jpg.png";
+// }
