@@ -197,6 +197,11 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 
 
 
+
+.navbar-right .hidden-lg {    display: block!important; }
+.navbar-right .hidden-md {    display: none!important; }
+
+
 @media only screen and (max-width: 860px) {  
     .navbar-left{ left:auto; right: 5px; }
     .navbar-left  a{ margin-right: 15px }
