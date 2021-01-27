@@ -62,7 +62,7 @@ function animeBandeau() {
         (function(i) {
             setTimeout(function() {
             
-                
+                console.log("wtf")
                 var delta = c2 / 2 * Math.sqrt(a);
                 var x1 = Math.cos(angledor * a) * delta + x;
                 var y1 = Math.sin(angledor * a) * delta + y;
