@@ -769,7 +769,11 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 }
 
+@media only screen and (max-width: 1050px){
 
+	.navbar-right { top: 0!important; padding: 13px 20px 0 0!important; }
+
+}
 
 @media only screen and (max-width: 660px) {
 
