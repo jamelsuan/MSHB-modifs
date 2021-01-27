@@ -104,26 +104,26 @@ function animeLogo() {
 		for(p=0;p<pts.length;p++){
 
 			pts[p].classList.remove("default");
-			// switch(couleur_logo) {
-			//     case "jaune":
-			//         coulPage = couleursPages[1];
-			//         coul = 'rgb('+Math.floor(coulPage[0]*randomMinMax(0.9,1.1))+', '+Math.floor(coulPage[1]*randomMinMax(0.9,1.1))+', '+Math.floor(coulPage[2]*randomMinMax(0.9,1.1))+')';
-			//         break;
-			//     case "vert":
-			//         coulPage = couleursPages[3];
-			//         coul = 'rgb('+Math.floor(coulPage[0]*randomMinMax(0.8,1.3))+', '+Math.floor(coulPage[1]*randomMinMax(0.8,1.3))+', '+Math.floor(coulPage[2]*randomMinMax(0.8,1.3))+')';
-			//         break;
-			//     case "bleu":
-			//         coulPage = couleursPages[2];
-			//         coul = 'rgb('+Math.floor(coulPage[0]*randomMinMax(0.8,1.2))+', '+Math.floor(coulPage[1]*randomMinMax(0.8,1.2))+', '+Math.floor(coulPage[2]*randomMinMax(0.8,1.2))+')';
-			//         break;
-			//     default:
-			//         // rouge;
-			// 	   	coulPage = couleursPages[0];
-			// 	    coul = 'rgb('+Math.floor(coulPage[0]*randomMinMax(0.8,1.3))+', '+Math.floor(coulPage[1]*randomMinMax(0.8,1.3))+', '+Math.floor(coulPage[2]*randomMinMax(0.8,1.3))+')';
-			// }
-			// pts[p].style.fill = coul;
-			// pts[p].style.stroke = coul;
+			switch(couleur_logo) {
+			    case "jaune":
+			        coulPage = couleursPages[1];
+			        coul = 'rgb('+Math.floor(coulPage[0]*randomMinMax(0.9,1.1))+', '+Math.floor(coulPage[1]*randomMinMax(0.9,1.1))+', '+Math.floor(coulPage[2]*randomMinMax(0.9,1.1))+')';
+			        break;
+			    case "vert":
+			        coulPage = couleursPages[3];
+			        coul = 'rgb('+Math.floor(coulPage[0]*randomMinMax(0.8,1.3))+', '+Math.floor(coulPage[1]*randomMinMax(0.8,1.3))+', '+Math.floor(coulPage[2]*randomMinMax(0.8,1.3))+')';
+			        break;
+			    case "bleu":
+			        coulPage = couleursPages[2];
+			        coul = 'rgb('+Math.floor(coulPage[0]*randomMinMax(0.8,1.2))+', '+Math.floor(coulPage[1]*randomMinMax(0.8,1.2))+', '+Math.floor(coulPage[2]*randomMinMax(0.8,1.2))+')';
+			        break;
+			    default:
+			        // rouge;
+				   	coulPage = couleursPages[0];
+				    coul = 'rgb('+Math.floor(coulPage[0]*randomMinMax(0.8,1.3))+', '+Math.floor(coulPage[1]*randomMinMax(0.8,1.3))+', '+Math.floor(coulPage[2]*randomMinMax(0.8,1.3))+')';
+			}
+			pts[p].style.fill = coul;
+			pts[p].style.stroke = coul;
 
 			for(var i = 0; i < 2; i++) {
 			    if(p%modulos[i]==0){
@@ -132,8 +132,8 @@ function animeLogo() {
 		     }
 		     if(taille == 5){
 		     	pts[p].classList.add("default");
-		     	// pts[p].style.fill = "#000";
-				// pts[p].style.stroke = "#000";
+		     	pts[p].style.fill = "#000";
+				pts[p].style.stroke = "#000";
 		     }
 		}
 	}
