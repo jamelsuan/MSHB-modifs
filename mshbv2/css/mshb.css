@@ -105,7 +105,7 @@ li{ list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
 section, .section{ width: 100%;margin-bottom: 20px;    }
 .container{ max-width: 90%; padding: 40px 0 0px 0; }
 .container_navbar, .navbar{ width: 100%; max-width: 1400px; margin: 0px auto; position: absolute; }
-.global_contour{ border: 6px solid var(--current_color);  width: 100%; max-width: 1400px;  margin: 150px auto 0px auto;  padding-bottom: 80px }
+.global_contour{ border: 6px solid var(--current_color); border-top: none;  width: 100%; max-width: 1400px;  margin: 150px auto 0px auto;  padding-bottom: 80px }
 .col-md-4 {padding: 0px 20px;}
 
 
@@ -157,8 +157,8 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 
 /* NAVBAR */
 
-.navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards; background: #fff; border: none;  font-family: campton_regular; }
-.navbar_extended .navbar{ height: 130px; transition: all .3s; position: fixed;  }
+.navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards;  transition: all .3s; position: fixed; background: #fff; border: none;  font-family: campton_regular; border-top: 6px solid var(--current_color);  }
+.navbar_extended .navbar{ height: 130px;  }
 .navbar_extended .navbar_condensed_logo{ display: none; }
 .navbar_extended .navbar_extended_logo{ display: block; opacity: 1; }
 .navbar_extended .navbar-left { top: 85px; }
