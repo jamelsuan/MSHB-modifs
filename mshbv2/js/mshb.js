@@ -145,10 +145,9 @@ function animeLogo() {
 
 
 function animLiensAncre(){
-
-  jQuery('a.lienancre').click( function() {
+  jQuery("a.lienancre[href ^= '#']").click( function() {
       cible = jQuery(this).attr("href");
-      $('html, body').animate({scrollTop: $(cible).offset().top - 10}, 300);
+      jQuery('html, body').animate({scrollTop: jQuery(cible).offset().top - 10}, 300);
   });
 }
 
