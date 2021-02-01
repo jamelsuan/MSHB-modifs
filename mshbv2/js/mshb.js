@@ -147,7 +147,9 @@ function animeLogo() {
 function animLiensAncre(){
   jQuery("a.lienancre[href ^= '#']").click( function() {
       cible = jQuery(this).attr("href");
-      jQuery('html, body').animate({scrollTop: jQuery(cible).offset().top - 10}, 300);
+      posTop = jQuery(cible).offset().top  - 10;
+      vitesse = jQuery(cible).offset().top;
+      jQuery('html, body').animate({scrollTop: posTop}, vitesse);
       return false;
   });
 }
