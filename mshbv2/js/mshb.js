@@ -148,6 +148,7 @@ function animLiensAncre(){
   jQuery("a.lienancre[href ^= '#']").click( function() {
       cible = jQuery(this).attr("href");
       jQuery('html, body').animate({scrollTop: jQuery(cible).offset().top - 10}, 300);
+      return false;
   });
 }
 
