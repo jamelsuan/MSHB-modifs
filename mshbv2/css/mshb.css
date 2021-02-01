@@ -126,7 +126,7 @@ a.color_link{ transition: all .1s ease-out; }
 .container p a, .container li a{border-bottom: 2px solid var(--current_color); }
 .container p a:hover, .container li a:hover{color:var(--current_color);}
 .poles-menu li a{ border:none;  }
-a[href^="mailto"]{     border-bottom:none!important; }
+a[href^="mailto"]{border-bottom:none!important; }
 a.liensiteext, a.liensiteext:hover {  border:none!important;  }
 a.liensite, a.liensite:hover{  border:none!important; color:var(--current_color); }
 a.ensavoirplus{ transition: all .1s ease-out; float: left; font-size: 12px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color:var(--current_color);   background: none;  }
@@ -139,7 +139,7 @@ a.ensavoirplus:hover{ background:  var(--current_color)!important; color: white 
 
 a.bloc-actus-liste-suite{  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color: #fff;   background: var(--current_color)!important;; }
 a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current_color) }
-.container a.lienancre { padding: 5px 10px; background-color:  #fff; border: 2px solid var(--current_color); color: var(--current_color); text-align: center; display: inline-block; margin: 10px; font-family: "campton_regular";}
+.container a.lienancre { padding: 6px 10px 4px; background-color:  #fff; border: 2px solid var(--current_color); color: var(--current_color); text-align: center; display: inline-block; margin: 10px; font-family: "campton_regular";}
 .container a.lienancre:hover {    background-color: var(--current_color);    border: 2px solid var(--current_color); color: #fff; }
 
 /* HEADER */
@@ -330,8 +330,14 @@ a.liensiteglob {color: var(--current_color);}
 /* RECHERCHE */
 
 .bloc-projets-ordre{ display: none !important ; }
+.color_mshb .poles-menu li{}
 
-.color_mshb .poles-menu li
+
+/* PAGES MOSAIQUE */
+
+.mosaique {display: flex; flex-flow: row wrap; width: 100%;}
+.mosaique .item {width: 30%; }
+
 
 /* ACTUALITÉS liste */
 
