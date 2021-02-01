@@ -148,7 +148,7 @@ function animLiensAncre(){
   jQuery("a.lienancre[href ^= '#']").click( function() {
       cible = jQuery(this).attr("href");
       posTop = jQuery(cible).offset().top  - 10;
-      vitesse = jQuery(cible).offset().top;
+      vitesse = jQuery(cible).offset().top/10;
       jQuery('html, body').animate({scrollTop: posTop}, vitesse);
       return false;
   });
