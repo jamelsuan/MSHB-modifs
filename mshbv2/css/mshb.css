@@ -1,36 +1,36 @@
 
-:root {  
-    --color0 : #000000;  
-    --color1 : #BF2228;  
-    --color2 : #FFD52D;  
-    --color3 :#005dac;  
-    --color4 : #4A8A78;  
-    --text_color :  var(--color0);  
+:root {
+    --color0 : #000000;
+    --color1 : #BF2228;
+    --color2 : #FFD52D;
+    --color3 :#005dac;
+    --color4 : #4A8A78;
+    --text_color :  var(--color0);
 	--current_color : var(--color1);
-	
+
   }
 
 .test{ font-weight: bold; }
 
-.color_home{ 
-    --current_color : var(--color1); 
-    --svg_bg_color :var(--color1); 
+.color_home{
+    --current_color : var(--color1);
+    --svg_bg_color :var(--color1);
     --svg_pt_color: #9a2020
 }
-.color_plateforme{ 
-    --current_color : var(--color2); 
-    --svg_bg_color :var(--color2); 
-    --svg_pt_color: #ffae21;  
+.color_plateforme{
+    --current_color : var(--color2);
+    --svg_bg_color :var(--color2);
+    --svg_pt_color: #ffae21;
 }
-.color_recherche{ 
-    --current_color : var(--color3); 
-    --svg_bg_color :var(--color3); 
-    --svg_pt_color: #337ab7;  
+.color_recherche{
+    --current_color : var(--color3);
+    --svg_bg_color :var(--color3);
+    --svg_pt_color: #337ab7;
 }
-.color_mshb{ 
+.color_mshb{
     --current_color : var(--color4);
-    --svg_bg_color :var(--color4); 
-    --svg_pt_color: #21715a;   
+    --svg_bg_color :var(--color4);
+    --svg_pt_color: #21715a;
 }
 
 
@@ -122,9 +122,9 @@ p > a:hover{ color: var(--text_color); background: none; cursor: pointer; }
 .liste_color_link li{  padding: 0px 7px 0 7px; margin: 3px 0; line-height: 2em; display: inline-block;   }
 a.color_link{ transition: all .1s ease-out; }
 .color_mshb a.color_link{ font-size: 12px; font-family: campton_regular; border: 2px solid var(--current_color); border-top: none; display: inline-block;  padding: 2px 7px 0 5px; margin:0px; line-height: 1.4em; color: #fff;   background: #5da9dd; }
-.color_mshb a.color_link:hover{ background: #fff; color: var(--current_color) }
-.container p a, .container li a{   border-bottom: 2px solid var(--current_color); }
-.container p a:hover , .container li a:hover{   color:var(--current_color); }
+.color_mshb a.color_link:hover{background: #fff; color: var(--current_color) }
+.container p a, .container li a{border-bottom: 2px solid var(--current_color); }
+.container p a:hover, .container li a:hover{color:var(--current_color);}
 .poles-menu li a{ border:none;  }
 a[href^="mailto"]{     border-bottom:none!important; }
 a.liensiteext, a.liensiteext:hover {  border:none!important;  }
@@ -139,8 +139,8 @@ a.ensavoirplus:hover{ background:  var(--current_color)!important; color: white 
 
 a.bloc-actus-liste-suite{  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color: #fff;   background: var(--current_color)!important;; }
 a.bloc-actus-liste-suite:hover{ background: #fff!important; color: var(--current_color) }
-a.lienancre { padding: 5px 10px; background-color:  #fff; border: 2px solid var(--current_color); color: var(--current_color); text-align: center; display: inline-block; margin: 10px; font-family: "campton_regular";}
-a.lienancre:hover {    background-color: var(--current_color);    border: 2px solid var(--current_color); color: #fff; }
+.container a.lienancre { padding: 5px 10px; background-color:  #fff; border: 2px solid var(--current_color); color: var(--current_color); text-align: center; display: inline-block; margin: 10px; font-family: "campton_regular";}
+.container a.lienancre:hover {    background-color: var(--current_color);    border: 2px solid var(--current_color); color: #fff; }
 
 /* HEADER */
 
@@ -159,7 +159,7 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 
 /* NAVBAR */
 
-#logo circle{     fill: var(--current_color); stroke: var(--current_color) } 
+#logo circle{     fill: var(--current_color); stroke: var(--current_color) }
 .navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards; position: fixed; background: #fff; border: none;  font-family: campton_regular;  border-bottom: 6px solid var(--current_color);  }
 .navbar  .navbar-brand{ margin-left: 20px;  width: auto;   }
 .navbar_extended .navbar{ height: 200px;  }
@@ -204,7 +204,7 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 .navbar-right .hidden-md {    display: none!important; }
 
 
-@media only screen and (max-width: 860px) {  
+@media only screen and (max-width: 860px) {
     .navbar-left{ left:auto; right: 5px; }
     .navbar-left  a{ margin-right: 15px }
 }
@@ -223,8 +223,8 @@ a.lienancre:hover {    background-color: var(--current_color);    border: 2px so
 .bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; }
 /* hide old header */
 
-#image_bandeau{ display:none;  } 
-.header_bg{ display:none;  } 
+#image_bandeau{ display:none;  }
+.header_bg{ display:none;  }
 
 /*  LAYOUT */
 
@@ -565,7 +565,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 
 
 .bloc_head_projet_details p.mytitre{ font-size: 30px; }
-.container-projet-single .container p a, 
+.container-projet-single .container p a,
 .container-projet-single .container li a{ border-bottom: none; }
 .color_recherche_1 .global_contour{ var(--current_color); }
 
