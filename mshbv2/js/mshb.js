@@ -1,7 +1,7 @@
 
 
 function animeBandeau() {
-
+  
     var container_bandeau_svg = document.getElementById('bandeau_svg');
     console.log(container_bandeau_svg.offsetWidth);
     var modulo = Math.floor((Math.random() * 3) + 1); //4;
