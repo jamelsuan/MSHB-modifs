@@ -1,7 +1,7 @@
 
 
 function animeBandeau() {
-  
+
     var container_bandeau_svg = document.getElementById('bandeau_svg');
     console.log(container_bandeau_svg.offsetWidth);
     var modulo = Math.floor((Math.random() * 3) + 1); //4;
@@ -155,12 +155,57 @@ function animLiensAncre(){
 }
 
 
+// Mosaique des projets
+function StringToNumber(string, base){
+  number = 0;
+  for(s=0; s<string.length; s++){
+    number += string.codePointAt(s);
+  }
+  return number%base;
+}
+
+function projetAjust(){
+  mosaique = document.getElementsByClassName("mosaique");
+  if(mosaique[0]){
+    projet_item = mosaique[0].getElementsByClassName("projet_item");
+    itemCol  = parseInt(window.getComputedStyle(mosaique[0]).getPropertyValue('--itemCol'), 10);
+    itemEspace  = window.getComputedStyle(mosaique[0]).getPropertyValue('--itemEspace');
+    itemlargeur  = window.getComputedStyle(mosaique[0]).getPropertyValue('--itemlargeur');
+
+    //  ajuste fond et taille
+    nbrItem = projet_item.length;
+    for (i = 0; i < nbrItem; i++) {
+      h2 = projet_item[i].getElementsByTagName('h2');
+      codeH2 = StringToNumber(h2[0].innerHTML, 100);
+      n = codeH2;
+      projet_item[i].classList.add('bck'+n);
+      titre = projet_item[i].getElementsByTagName("h1");
+      fz= 20;
+      while(titre[0].offsetHeight > 165){
+        fz-=2;
+        titre[0].style.fontSize = fz+"px";
+      }
+    }
+    // ajuste dernière ligne
+    colsVide = itemCol - nbrItem%itemCol;
+    if(colsVide < itemCol - 1) {
+      projet_item[nbrItem-1].style.marginRight = "calc(("+itemlargeur+" + "+itemEspace+" ) * "+colsVide+")";
+    }
+  }
+}
+
+
+
 
 animeLogo();
 animeBandeau();
 navBar();
 animLiensAncre();
+projetAjust();
 
+window.onresize = function(){
+  projetAjust();
+}
 
 // if (color !== null) {
 //   document.getElementById("extended_logo").src = "/sites/all/themes/mshbv2/img/logos_mshb/logo_MSHB_"+color+Math.floor((Math.random() * 3) + 1)+".jpg";
