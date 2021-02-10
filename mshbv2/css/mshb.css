@@ -572,12 +572,12 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 /* LISTING PROJETS html modifié .mosaique */
 .mosaique.listing_projets{--itemCol : 4;}
 .mosaique .projet_item{display: flex; flex-direction: column; justify-content: space-between; min-height: 320px; padding: 30px; margin: 10px 0; height: 360px;border: none; position: relative; padding: 0; background: none;}
-.mosaique .projet_item:after{content:""; width: 100%; height: 100%; display: block; position: absolute; top:0; left: 0; z-index: 0;background-size: 100% 100%;background-position: top; transition: all .5s; background-size: contain;  background-image: url("../img/bandeaux_projets/0/001.png"); opacity: .7}
+.mosaique .projet_item:after{content:""; width: 100%; height: 100%; display: block; position: absolute; top:0; left: 0; background-size: 100% 100%;background-position: top; transition: all .5s; background-size: contain;  background-image: url("../img/bandeaux_projets/0/001.png"); opacity: .7}
 .mosaique .projet_item>a{width: 100%; height: 100%;text-decoration: none;}
 .mosaique .projet_item header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .mosaique .projet_item.pole_1:before,
 .mosaique .projet_item.pole_2:before,
-.mosaique .projet_item.pole_3:before{content:""; width: 100%; height: 100%; display: block; position: absolute; top:0; left: 0; z-index: -1;background-size: 100% 100%;background-position: top; transition: all .5s}
+.mosaique .projet_item.pole_3:before{content:""; width: 100%; height: 100%; display: block; position: absolute; top:0; left: 0; background-size: 100% 100%;background-position: top; transition: all .5s}
 .mosaique .projet_item.pole_1:hover:before,
 .mosaique .projet_item.pole_2:hover:before,
 .mosaique .projet_item.pole_3:hover:before{background-size: 100% 300%;}
