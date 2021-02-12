@@ -610,7 +610,19 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 
 .bloc_head_projet_details{background-image: url("../img/bandeaux_projets/1270/001.png");}
 .bloc_head_projet_details .projet_header p.mytitre{ font-size: 30px; }
-
+.bloc_head_projet_details .projet_header {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+}
+.page-projets-mshb .projet_item h2 {max-width: 100%;}
 .container-projet-single .container p a,
 .container-projet-single .container li a{ border-bottom: none; }
 .color_recherche_1 .global_contour{ var(--current_color); }
