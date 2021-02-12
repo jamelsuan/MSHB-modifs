@@ -608,7 +608,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 }
 /* projet */
 
-
+.bloc_head_projet_details{background-image: url("../img/bandeaux_projets/1270/001.png");}
 .bloc_head_projet_details p.mytitre{ font-size: 30px; }
 .container-projet-single .container p a,
 .container-projet-single .container li a{ border-bottom: none; }
@@ -619,6 +619,16 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .bloc_head_projet_details .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 
 .container_header_annuaire{ max-width: 1400px!important; }
+
+.page-projets-mshb .container-projet-single ul.menu-resume li a{
+    color: var(--current_color);
+}
+.page-projets-mshb .container-projet-single ul.menu-resume li.noactive {
+    background-color: var(--current_color);
+}
+.page-projets-mshb .container-projet-single ul.menu-resume li a{
+    border-bottom: none;
+}
 
 /* FORMS */
 
