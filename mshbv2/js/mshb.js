@@ -195,6 +195,16 @@ function projetAjust(){
 }
 
 
+// page Projet : fond bandeau
+function bandeauProjet(){
+	if(bandeauProjet = document.getElementsByClassName("bloc_head_projet_details")[0]){
+		h2 = bandeauProjet.getElementsByTagName('h2')[0];
+		if(string = h2.innerHTML){
+      		codeH2 = StringToNumber(string, 100);
+      		bandeauProjet.classList.add('bck'+codeH2);
+		}
+	}
+}
 
 
 animeLogo();
@@ -202,6 +212,7 @@ animeBandeau();
 navBar();
 animLiensAncre();
 projetAjust();
+bandeauProjet();
 
 window.onresize = function(){
   projetAjust();
