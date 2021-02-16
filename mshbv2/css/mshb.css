@@ -648,21 +648,26 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
     border: 1px solid var(--current_color);
 }
 
+ul.menu-resume li.noactive,
 .page-projets-mshb .container-projet-single ul.menu-resume li.noactive {
     background-color: var(--current_color);
 }
+ul.menu-resume li,
 .page-projets-mshb  .container-projet-single ul.menu-resume li{
   border-color: var(--current_color);
 }
 
+ul.menu-resume li a,
 .page-projets-mshb .container-projet-single ul.menu-resume li a{
     font-family: campton_regular;
     border-bottom: none;
     color: var(--current_color);
 }
+ul.menu-resume li a:hover,
 .container-projet-single ul.menu-resume li a:hover {
     text-decoration: none;
 }
+ul.menu-resume li a,
 .page-projets-mshb .container-projet-single ul.menu-resume li a,
 .page-projets-mshb .container-projet-single .bloc-labo-list-pagi a {
     color: var(--current_color);
