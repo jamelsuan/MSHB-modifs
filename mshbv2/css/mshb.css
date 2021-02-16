@@ -129,7 +129,7 @@ a.color_link{ transition: all .1s ease-out; }
 a[href^="mailto"]{border-bottom:none!important; }
 a.liensiteext, a.liensiteext:hover {border:none!important; color: inherit; }
 a.liensite, a.liensite:hover{  border:none!important; color:var(--current_color); }
-a.ensavoirplus{ transition: all .1s ease-out; float: left; font-size: 12px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color:var(--current_color);   background: none;  }
+a.ensavoirplus{ transition: all .1s ease-out; font-size: 12px; font-family: campton_regular; border: 2px solid var(--current_color)!important; display: inline-block;   padding: 2px 7px 0 5px; margin:15px 0; line-height: 1.4em; color:var(--current_color);   background: none;  }
 a.ensavoirplus:hover{ background:  var(--current_color)!important; color: white }
 .color_plateforme .container a.ensavoirplus {color:#000; }
 .color_plateforme .container a.ensavoirplus:hover{ color: #000 }
@@ -620,12 +620,22 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 
 .bloc_head_projet_details .projet_item::after {display: none;}
 .bloc_head_projet_details .projet_item{ margin: 20px auto; display: flex; flex-direction: column; justify-content: space-between;    border-bottom: none; min-height: 480px; padding:0 30px;  background: none;  }
-.bloc_head_projet_details .projet_item .projet_header {width: 100%;text-align: center;padding: 0px;margin: 0;background-position: center;background-size: contain;display: flex;flex-flow: column;justify-content: center;align-content: center;}
+.bloc_head_projet_details .projet_item .projet_header {width: 100%;height: 100%;text-align: center;padding: 0px;margin: 0;background-position: center;background-size: contain;display: flex;flex-flow: column;justify-content: center;align-items: center;}
 .bloc_head_projet_details .projet_item .projet_header p.mytitre{ font-size: 30px; }
+.bloc_head_projet_details .projet_item .projet_header h3{font-size: 14px;}
+.bloc_head_projet_details .projet_item .projet_header h2{background: white;margin-top: 10px;font-size: 16px;padding: 5px;}
 .bloc_head_projet_details .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .bloc_head_projet_details .projet_item .projet_header h3{width: auto; padding: .4em .5em.2em;}
 .container_header_annuaire{ max-width: 1400px!important; }
 
+.container-projet-single .btn-equipe a.ensavoirplus {
+    border: 2px solid #000;
+    background-color: inherit;
+}
+.bloc-projet-mcle span a {
+    color: var(--current_color);
+    border: 1px solid var(--current_color);
+}
 
 .page-projets-mshb .container-projet-single ul.menu-resume li.noactive {
     background-color: var(--current_color);
