@@ -1231,7 +1231,8 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 span.bold{font-weight: 500;}
 body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .row{ margin-bottom: 40px; }
-.container-bloc-home h3{ text-align: center;  margin-bottom: 10px; padding-bottom: 2px; margin-bottom: 0; color: var(--current_color); font-family: campton_regular;     border-bottom: 3px solid var(--current_color); width: 100%; }
+.container-bloc-home h3{ text-align: center;  margin-bottom: 10px; padding-bottom: 2px; margin-bottom: 0; font-family: campton_regular;     border-bottom: 3px solid var(--current_color); width: 100%; }
+.container-bloc-home h3 a{  font-family: campton_regular;   }
 .container_header_home{ overflow: hidden; max-height: 475px; }
 .bloc-home-actus .projet_item div,
 .bloc-home-agenda-date{ margin-bottom: 10px; width: 100%; height: auto;  }
