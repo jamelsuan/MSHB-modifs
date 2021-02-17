@@ -1726,7 +1726,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 
 ul.menu-resume li.noactive,
 .page-projets-mshb .container-projet-single ul.menu-resume li.noactive {
-    background-color: var(--current_color);
+    background-color: white;
 }
 ul.menu-resume li.noactive a,
 .page-projets-mshb .container-projet-single ul.menu-resume li.noactive a {
