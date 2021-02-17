@@ -3,6 +3,7 @@
 function animeBandeau() {
 
     var container_bandeau_svg = document.getElementById('bandeau_svg');
+    console.log("container_bandeau_svg.offsetWidth");
     var modulo = Math.floor((Math.random() * 3) + 1); //4;
     var nombredor = (1 + Math.sqrt(5)) / 2;
     var angledor = Math.PI * 2 / (1 + nombredor);
@@ -46,7 +47,7 @@ function animeBandeau() {
         var y1 = Math.sin(angledor * a) * delta + y;
 
         for (var i = 0; i < 2; i++) {
-            if (a % modulos[i] != 0) {
+            if (a % modulos[i] == 0) {
                 taille = 0
             } else {
                 taille = Math.floor((Math.random() * 3) + 2)
