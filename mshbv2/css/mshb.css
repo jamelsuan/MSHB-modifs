@@ -1065,7 +1065,7 @@ section, .section{ width: 100%;margin-bottom: 20px;    }
 .global_contour{ border: 6px solid var(--current_color); border-top: none;  width: 100%; max-width: 1400px;  margin: 200px auto 0px auto;  padding-bottom: 80px }
 .col-md-4 {padding: 0px 20px;}
 
-.intro{ font-size: 20px; padding: 1em 10%; }
+.intro{ font-size: 26px;  font-family: lora_bold;  padding: 1em 10%; }
 
 /* LINKS */
 
