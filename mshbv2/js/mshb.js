@@ -51,7 +51,7 @@ function animeBandeau() {
                 taille = Math.floor((Math.random() * 3) + 2)
             }
         }
-        circleclass = "circle_"+Math.floor((Math.random() * 3));
+        circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
         createPt(x1, y1, taille, circleclass);
 
     }
