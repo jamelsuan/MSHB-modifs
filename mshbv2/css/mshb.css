@@ -297,8 +297,7 @@
 								}
 								.container-projet-single .btn-equipe a.ensavoirplus { border: 2px solid #000;   background-color: #000;  }
 								.container-projet-single .btn-equipe a.ensavoirplus:hover { color:#FFF;   text-decoration: underline;  }
-								.container-projet-single .liste-details {   /*margin-top:15px;*/
-								  }
+								.container-projet-single .liste-details {   margin-top:15px;	  }
 								.container-projet-single .liste-details-part { margin-top:8px;  }
 								.container-projet-single ul.menu-resume { list-style: none;  }
 								.container-projet-single ul.menu-resume li { display: inline-block;   padding:5px 10px;   border: 1px solid #000;   margin-left:0;   margin-right:5px;  }
@@ -1021,7 +1020,7 @@ h5{ font-size: 20px; line-height: 24px; font-weight: normal; }
 h6{ font-size: 16px; line-height: 24px; font-weight: normal; }
 p{ font-family: lora_regular; display: block;  margin-before: 0em;   margin-after: 0em;   margin-start: 0px;  margin-end: 0px; font-size: 16px; margin: 0em 0 0.8em 0; line-height: 24px;  color: #333; line-height: 1.5em;  text-align: left;}
 p strong{ font-family: lora_bold; }
-
+b{ font-family: lora_bold; }
 ul{ margin: 0; padding: 0; }
 li{  list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
 
@@ -1722,7 +1721,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 }
 .bloc-projet-mcle span a {
     color: var(--current_color);
-    border: 1px solid var(--current_color);
+    border: 2px solid var(--current_color);
 }
 
 ul.menu-resume li.noactive,
