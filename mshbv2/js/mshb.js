@@ -52,7 +52,7 @@ function animeBandeau() {
                 taille = Math.floor((Math.random() * 3) + 2)
             }
         }
-        createPt(x1, y1, taille, circleclass);
+        createPt(x1, y1, taille,);
 
     }
 
@@ -60,7 +60,7 @@ function animeBandeau() {
 
 
 
-    function createPt(x, y, r, circleclass) {
+    function createPt(x, y, r) {
         newPt = document.createElementNS("http://www.w3.org/2000/svg", "circle");
         newPt.setAttribute("cx", x);
         newPt.setAttribute("cy", y);
