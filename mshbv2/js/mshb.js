@@ -45,7 +45,6 @@ function animeBandeau() {
         var delta = c2 / 2 * Math.sqrt(a);
         var x1 = Math.cos(angledor * a) * delta + x;
         var y1 = Math.sin(angledor * a) * delta + y;
-        var circleclass = "circle_"+ Math.floor((Math.random() * 3) + 1)
         for (var i = 0; i < 2; i++) {
             if (a % modulos[i] == 0) {
                 taille = 0
@@ -66,7 +65,6 @@ function animeBandeau() {
         newPt.setAttribute("cx", x);
         newPt.setAttribute("cy", y);
         newPt.setAttribute("r", r);
-        newPt.setAttribute("class", circleclass);
         container_bandeau_svg.appendChild(newPt);
     }
 
