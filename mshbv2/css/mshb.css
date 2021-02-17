@@ -388,9 +388,9 @@
 								/* AAP */
 								.bloc-pole-aap { height:80px;   font-size:14px;   text-align:center;   font-weight:bold;  }
 								.bloc-app-docs p{ font-size:14px;  }
-								.bloc-aap-calendrier div { background-color: #005dac;   color:#FFF;   min-height: 250px;   border-radius: 5%;   margin: 20px auto;   overflow: hidden;   padding: 20px 32px 20px 32px;   text-align: center;   font-family: "campton_regular";  }
-								.bloc-aap-calendrier div h4 { color:#FFF;   font-size:22px;  }
-								.bloc-aap-calendrier div p { color:#FFF;   font-size:13px;   text-align: center;  }
+								.bloc-aap-calendrier div { border-left:3px solid var(--current_color);   min-height: 250px;  margin: 20px auto;   overflow: hidden;   padding: 20px;   text-align: left;    }
+								.bloc-aap-calendrier div h4 { font-size:22px; color: var(--current_color);  }
+								.bloc-aap-calendrier div p {   font-size:13px;   text-align: left;  }
 
 								/*.color_home #image_bandeau { 	border-left: 6px solid #bf2229;   		    border-top: 6px solid #bf2229;   		    border-right: 6px solid #bf2229;  }*/
 
@@ -1102,7 +1102,7 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 /* HEADER */
 
 .container_header{  display: flex;  flex-flow: column;  justify-content: center; min-height: 480px; opacity: 0; animation: fadeIn .2s ease-in 0s 1 normal forwards;  position: relative; padding-top: 0px; width: 100%; margin: 0px auto 0 auto; }
-.container_header h1 {  line-height: 1;  margin: 0 auto; font-family: campton_semibold;  width: fit-content; padding: 0.2em 0.3em 0 0.3em;  font-size: 100px;    color: #fff;   letter-spacing: .02em; }
+.container_header h1 {  line-height: 1;  margin: 0 auto; font-family: campton_semibold;  width: fit-content; padding: 0.2em 0.3em 0 0.3em;  font-size: 80px;    color: #fff;   letter-spacing: .02em; }
 .container_header p{ opacity: 0; animation: fadeIn 1s ease-in 0.6s 1 normal forwards; z-index: 10; text-align: center; line-height: 36px; margin:20px auto; color: #fff;  width: fit-content; padding: 0.2em 0.3em 0 0.3em; max-width: 80%;}
 .container_header span.sstitre{ padding: 0 0.5em; position: relative; z-index: 10;font-family: campton_medium;  font-size: 30px; height: 1em; text-align: center; color: #fff;  background-color: var(--svg_bg_color); }
 .container_header img{ z-index: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
@@ -1462,19 +1462,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 
 /* CONTENT */
 
-.bloc-aap-calendrier div {
-
-    background-color: #005dac;
-    color: #FFF;
-    min-height: 250px;
-    border-radius: 5%;
-    margin: 20px auto;
-    overflow: hidden;
-    padding: 20px 32px 20px 32px;
-    text-align: center;
-    font-family: "campton_regular";
-
-}
+/* .bloc-aap-calendrier div {  background-color: #005dac;  color: #FFF;   min-height: 250px;  border-radius: 5%;  margin: 20px auto;  overflow: hidden;   padding: 20px 32px 20px 32px;  text-align: center;  font-family: "campton_regular"; } */
 
 .text_align_left *{ text-align: left }
 .bloc_colored{ background: #dedede; border-radius: 5px; padding: 40px 20px 20px 20px }
