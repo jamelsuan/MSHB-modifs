@@ -1246,7 +1246,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .bloc-home-agenda-date .bloc-agenda-liste-jour{ font-family: campton_semibold; }
 .container-bloc-home input{ margin: 0; display: inline; width: 160px; border: 2px solid #c33932 !important; padding: 7px 10px 4px 10px }
 .container-bloc-home input[type=submit] { display: inline;  width: auto; border: 2px solid #c33932 !important ; background: #c33932; color: #fff; padding: 7px 5px 4px 5px; margin: 0 -8px;  }
-.container-bloc-home .actus_item .bloc-home-actus-titre a{  margin-bottom: 1em;  font-size: 20px!important;    text-align: center;   color: #000;  font-family: campton_bold;  line-height: 22px;    padding: 20px; }
+.container-bloc-home .actus_item .bloc-home-actus-titre a{  margin-bottom: 1em;  font-size: 20px!important;    text-align: center;   color: #000;  font-family: campton_bold;   }
 .container-bloc-home .media_item .bloc-home-recherche-titre  a{    margin-bottom: 1em;    font-size: 20px!important;    text-align: center;   color: #000;  font-family: campton_bold;  line-height: 22px;    padding: 20px; }
 
 
