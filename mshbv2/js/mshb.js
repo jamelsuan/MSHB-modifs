@@ -79,7 +79,7 @@ function animeBandeau() {
         if (a < nbr) {          
           myLoop();           
         }                      
-      }, 30)
+      }, 5)
     }
 
     myLoop();           
