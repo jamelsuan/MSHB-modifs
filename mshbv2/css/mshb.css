@@ -1186,7 +1186,7 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 .bandeau .bandeau_svg .circle_3:nth-child(3n+3) {  opacity: 0.8; transition: all .3s .6s; }
 
 /* hide old header */
-
+.container_header img{ display:none;   }
 .header_bg{ display:none;  }
 
 /*  LAYOUT */
