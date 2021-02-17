@@ -38,32 +38,11 @@ function animeBandeau() {
     modulos = [lesmodulos1[serie], lesmodulos2[serie]];
 
 
-    // for (var a = 0; a < nbr; a++) {
+    for (var a = 0; a < nbr; a++) {
 
-    //     var delta = c2 / 2 * Math.sqrt(a);
-    //     var x1 = Math.cos(angledor * a) * delta + x;
-    //     var y1 = Math.sin(angledor * a) * delta + y;
-
-    //     for (var i = 0; i < 2; i++) {
-    //         if (a % modulos[i] == 0) {
-    //             taille = 0
-    //         } else {
-    //             taille = Math.floor((Math.random() * 3) + 2)
-    //         }
-    //     }
-    //     circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
-    //     createPt(x1, y1, taille, circleclass);
-
-    // }
-
-    var a = 0;                  //  set your counter to 1
-
-    function myLoop() {         //  create a loop function
-      setTimeout(function() {   //  call a 3s setTimeout when the loop is called
-        
-        delta = c2 / 2 * Math.sqrt(a);
-        x1 = Math.cos(angledor * a) * delta + x;
-        y1 = Math.sin(angledor * a) * delta + y;
+        var delta = c2 / 2 * Math.sqrt(a);
+        var x1 = Math.cos(angledor * a) * delta + x;
+        var y1 = Math.sin(angledor * a) * delta + y;
 
         for (var i = 0; i < 2; i++) {
             if (a % modulos[i] == 0) {
@@ -75,14 +54,35 @@ function animeBandeau() {
         circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
         createPt(x1, y1, taille, circleclass);
 
-        a++;                   
-        if (a < nbr) {          
-          myLoop();           
-        }                      
-      }, 1)
     }
 
-    myLoop();           
+    // var a = 0;                  //  set your counter to 1
+
+    // function myLoop() {         //  create a loop function
+    //   setTimeout(function() {   //  call a 3s setTimeout when the loop is called
+        
+    //     delta = c2 / 2 * Math.sqrt(a);
+    //     x1 = Math.cos(angledor * a) * delta + x;
+    //     y1 = Math.sin(angledor * a) * delta + y;
+
+    //     for (var i = 0; i < 2; i++) {
+    //         if (a % modulos[i] == 0) {
+    //             taille = 0
+    //         } else {
+    //             taille = Math.floor((Math.random() * 3) + 2)
+    //         }
+    //     }
+    //     circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
+    //     createPt(x1, y1, taille, circleclass);
+
+    //     a++;                   
+    //     if (a < nbr) {          
+    //       myLoop();           
+    //     }                      
+    //   }, 1)
+    // }
+
+    // myLoop();           
 
 
 
