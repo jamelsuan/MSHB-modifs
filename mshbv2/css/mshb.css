@@ -1183,7 +1183,7 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 .bandeau .bandeau_svg circle {   fill: var(--svg_pt_color); opacity: 0;  }
 .bandeau .bandeau_svg circle:nth-child(3n+1) {  opacity: 1; transition: all .3s .4s; }
 .bandeau .bandeau_svg circle:nth-child(3n+2) {  opacity: 0.6; transition: all .3s .2s; }
-.bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; transition: all .3s .6s; }
+.bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.2; transition: all .3s .6s; }
 
 /* hide old header */
 
