@@ -45,7 +45,7 @@ function animeBandeau() {
         var delta = c2 / 2 * Math.sqrt(a);
         var x1 = Math.cos(angledor * a) * delta + x;
         var y1 = Math.sin(angledor * a) * delta + y;
-
+        var circleclass = "circle_"+ Math.floor((Math.random() * 3) + 1)
         for (var i = 0; i < 2; i++) {
             if (a % modulos[i] == 0) {
                 taille = 0
@@ -53,7 +53,7 @@ function animeBandeau() {
                 taille = Math.floor((Math.random() * 3) + 2)
             }
         }
-        createPt(x1, y1, taille);
+        createPt(x1, y1, taille, circleclass);
 
     }
 
