@@ -428,17 +428,12 @@
 								.bloc-home-agenda-date .bloc-home-agenda-date-lieu { font-size:0.8em;  }
 								.bloc-home-agenda-titre a { font-family: campton_regular;   font-weight:bold;   		  font-size:14px;  }
 
-								.bloc-home-service {
-
-								}
-								.bloc-home-service-img { /*background: url('../img/mshb_home_service.jpg') 0 0 no-repeat;*/
-									height: 139px;  }
+								.bloc-home-service {}
+								.bloc-home-service-img { 	height: 139px;  }
 								.bloc-home-service-img span { display: inline-block;   margin: 0;   padding: 0px 5px;   line-height: 1.3em;   padding: 5px;   max-width: 96%;   min-height: 2em;   font-size: 16px;   font-family: campton_medium;   background: #FFF;   color: #000;   border: 1px solid #000;  }
 								.bloc-home-service-img span a { font-weight: bold;  }
 
-								.bloc-home-recherche {
-
-								}
+								.bloc-home-recherche { }
 								.bloc-home-recherche-titre a { font-family: campton_regular;   font-weight:bold;   line-height:0.8;  }
 								.bloc-home-recherche-img { /*background: url('../img/mshb_home_recherche.jpg') 0 0 no-repeat;*/
 									height: 139px;  }
@@ -1243,6 +1238,9 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .bloc-home-agenda-date { padding: 10px; }
 .bloc-home-recherche-titre{ margin-top: 10px; }
 .container-bloc-home .projet_item .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
+
+
+
 .bloc-home-service-img{ background: url('images/visuel_batiment.jpg') top left no-repeat; background-size: 100% auto; margin-bottom: 10px; }
 .bloc-home-agenda-date .bloc-agenda-liste-jour{ font-family: campton_semibold; }
 .container-bloc-home input{ margin: 0; display: inline; width: 160px; border: 2px solid #c33932 !important; padding: 7px 10px 4px 10px }
@@ -1254,8 +1252,8 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .bloc-home-service {  border-top: 5px solid var(--color4);  min-height: 320px; padding: 30px; }
 
 .container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--current_color); border-bottom: none; text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  }
-.container-bloc-home .projet_item{ margin: 10px auto; display: flex; flex-direction: column; justify-content: space-between;    border-top: 5px solid var(--current_color); min-height: 320px; padding: 30px;  background-size: contain;   }
-.container-bloc-home .projet_item p{font-size: 0.8em; }
+.container-bloc-home .projet_item{ margin: 10px auto; display: flex; flex-direction: column; justify-content: space-between;    border-top: 5px solid var(--color2); min-height: 320px; padding: 30px;  background-size: contain;   }
+.container-bloc-home .projet_item p{ font-size: 0.8em; }
 .container-bloc-home .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .container-bloc-home .projet_item a{  border-bottom: none; }
 .container-bloc-home .projet_item .bloc-projets-liste-suite {  border-bottom: none; margin:1em 0; letter-spacing: 0.01em; font-family: lora_bold; color: #000; font-size: 17px;  display: block; line-height: 1.35em;   }
