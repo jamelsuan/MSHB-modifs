@@ -1122,7 +1122,7 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 #logo circle{     fill: var(--current_color); stroke: var(--current_color) }
 .navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards; position: fixed; background: #fff; border: none;  font-family: campton_regular;  border-bottom: 6px solid var(--current_color); transition: all .3s ease-in-out;}
 .navbar  .navbar-brand{ margin-left: 20px;  width: auto;   }
-.navbar_extended .navbar{ height: 200px; transition: all .2s .2s ease-in-out;  }
+.navbar_extended .navbar{ height: 200px; transition: all 0s ease-in-out;  }
 .navbar_extended .navbar_condensed_logo{ display: none; }
 .navbar_extended .navbar_extended_logo{ display: block; opacity: 1; }
 .navbar_extended .navbar-left { top: 85px; }
@@ -1183,7 +1183,6 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 .bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; }
 /* hide old header */
 
-#image_bandeau{ display:none;  }
 .header_bg{ display:none;  }
 
 /*  LAYOUT */
