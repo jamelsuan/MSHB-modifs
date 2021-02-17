@@ -7,10 +7,11 @@ function animeBandeau() {
     var nombredor = (1 + Math.sqrt(5)) / 2;
     var angledor = Math.PI * 2 / (1 + nombredor);
     var nbr = 8000; // nombre de points
-    var c2 = Math.floor((Math.random() * 8) + 14);;; // espace entre les points
+    var c2 = Math.floor((Math.random() * 5) + 14);;; // espace entre les points
     var x = 700; // coordonnée du centre
     var y = 240; // coordonnée du centre
     var i = 0;
+
 
     var lesmodulos1 = new Array();
     var lesmodulos2 = new Array();
@@ -37,19 +38,16 @@ function animeBandeau() {
     modulos = [lesmodulos1[serie], lesmodulos2[serie]];
 
 
-    for (var a = 0; a < nbr; a++) {
-
       for (var i = 0; i < 2; i++) {
             if (a % modulos[i] == 0) {
-              var delta = c2 / 2 * Math.sqrt(a);
-              var x1 = Math.cos(angledor * a) * delta + x;
-              var y1 = Math.sin(angledor * a) * delta + y;
-              circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
-              createPt(x1, y1, taille, circleclass);
+                delta = c2 / 2 * Math.sqrt(a);
+                x1 = Math.cos(angledor * a) * delta + x;
+                y1 = Math.sin(angledor * a) * delta + y;
+                taille = Math.floor((Math.random() * 3) + 2)
+                circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
+                createPt(x1, y1, taille, circleclass);
             }
         }
-
-    }
 
 
 
