@@ -1247,12 +1247,20 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home input[type=submit] { display: inline;  width: auto; border: 2px solid #c33932 !important ; background: #c33932; color: #fff; padding: 7px 5px 4px 5px; margin: 0 -8px;  }
 .container-bloc-home .bloc-home-actus-titre{ font-size: 16px; }
 
-.container-bloc-home .bloc-home-actus .actus_item{ border-top: 5px solid var(--color1);  min-height: 320px; padding: 30px; }
-.container-bloc-home .bloc-home-agenda .agenda_item{  border-top: 5px solid var(--color1);  min-height: 320px; padding: 30px; }
-.container-bloc-home .bloc-home-service {  border-top: 5px solid var(--color4);  min-height: 320px; padding: 30px; }
+.container-bloc-home .bloc-home-actus { --current_color : var(--color1);  }
+.container-bloc-home .bloc-home-actus .actus_item{ border-top: 5px solid var(--current_color); }
+
+.container-bloc-home .bloc-home-agenda { --current_color : var(--color1);  }
+.container-bloc-home .bloc-home-agenda .agenda_item{  border-top: 5px solid var(--current_color); }
+
+.container-bloc-home .bloc-home-service{ --current_color : var(--color4); } 
+.container-bloc-home .bloc-home-service .service_item {  border-top: 5px solid var(--current_color);  }
+
+
+.container-bloc-home .projet_item{ --current_color : var(--color3); } 
 
 .container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--current_color); border-bottom: none; text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  }
-.container-bloc-home .projet_item{ margin: 10px auto; display: flex; flex-direction: column; justify-content: space-between;    border-top: 5px solid var(--color2); min-height: 320px; padding: 30px;  background-size: contain;   }
+.container-bloc-home .projet_item{ margin: 10px auto; display: flex; flex-direction: column; justify-content: space-between;    border-top: 5px solid var(--current_color); min-height: 320px; padding: 30px;  background-size: contain;   }
 .container-bloc-home .projet_item p{ font-size: 0.8em; }
 .container-bloc-home .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .container-bloc-home .projet_item a{  border-bottom: none; }
