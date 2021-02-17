@@ -56,7 +56,7 @@ function animeBandeau() {
 
     // }
 
-    var i = 0;                  //  set your counter to 1
+    var a = 0;                  //  set your counter to 1
 
     function myLoop() {         //  create a loop function
       setTimeout(function() {   //  call a 3s setTimeout when the loop is called
@@ -75,10 +75,10 @@ function animeBandeau() {
         circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
         createPt(x1, y1, taille, circleclass);
 
-        i++;                    //  increment the counter
-        if (i < nbr) {           //  if the counter < 10, call the loop function
-          myLoop();             //  ..  again which will trigger another 
-        }                       //  ..  setTimeout()
+        a++;                   
+        if (a < nbr) {          
+          myLoop();           
+        }                      
       }, 30)
     }
 
