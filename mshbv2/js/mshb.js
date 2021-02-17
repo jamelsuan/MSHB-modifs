@@ -46,7 +46,7 @@ function animeBandeau() {
         var y1 = Math.sin(angledor * a) * delta + y;
 
         for (var i = 0; i < 2; i++) {
-            if (a % modulos[i] == 0) {
+            if (a % modulos[i] != 0) {
                 taille = 0
             } else {
                 taille = Math.floor((Math.random() * 3) + 2)
