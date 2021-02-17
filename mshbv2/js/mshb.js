@@ -43,13 +43,11 @@ function animeBandeau() {
                 delta = c2 / 2 * Math.sqrt(a);
                 x1 = Math.cos(angledor * a) * delta + x;
                 y1 = Math.sin(angledor * a) * delta + y;
-                taille = Math.floor((Math.random() * 3) + 2)
+                taille = Math.floor((Math.random() * 5) + 2)
                 circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
                 createPt(x1, y1, taille, circleclass);
             }
         }
-
-
 
 
 
