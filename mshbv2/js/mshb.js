@@ -3,7 +3,6 @@
 function animeBandeau() {
 
     var container_bandeau_svg = document.getElementById('bandeau_svg');
-    console.log(container_bandeau_svg.offsetWidth);
     var modulo = Math.floor((Math.random() * 3) + 1); //4;
     var nombredor = (1 + Math.sqrt(5)) / 2;
     var angledor = Math.PI * 2 / (1 + nombredor);
@@ -13,7 +12,6 @@ function animeBandeau() {
     var x = 700; // coordonnée du centre
     var y = 240; // coordonnée du centre
     var i = 0;
-
 
     var lesmodulos1 = new Array();
     var lesmodulos2 = new Array();
@@ -53,13 +51,10 @@ function animeBandeau() {
                 taille = Math.floor((Math.random() * 3) + 2)
             }
         }
-        createPt(x1, y1, taille);
+        circleclass = "circle_"+Math.floor((Math.random() * 3));
+        createPt(x1, y1, taille, circleclass);
 
     }
-
-
-
-
 
     function createPt(x, y, r, circleclass) {
         newPt = document.createElementNS("http://www.w3.org/2000/svg", "circle");

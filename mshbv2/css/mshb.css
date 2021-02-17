@@ -1180,9 +1180,11 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 
 .bandeau{  width: 100%; height: 100%; position: absolute; border:2px oslid red }
 .bandeau .bandeau_svg{ width: 100%; height: 100%; background-color: var(--svg_bg_color);   }
-.bandeau .bandeau_svg circle {   fill: var(--svg_pt_color)  }
-.bandeau .bandeau_svg circle:nth-child(3n+2) {  opacity: 0.6; }
-.bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; }
+.bandeau .bandeau_svg circle {   fill: var(--svg_pt_color); opacity: 0;  }
+.bandeau .bandeau_svg circle:nth-child(3n+1) {  opacity: 1; transition: all .3s .4s; }
+.bandeau .bandeau_svg circle:nth-child(3n+2) {  opacity: 0.6; transition: all .3s .2s; }
+.bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.8; transition: all .3s .6s; }
+
 /* hide old header */
 
 .header_bg{ display:none;  }
