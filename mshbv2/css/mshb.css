@@ -1023,8 +1023,7 @@ p{ font-family: lora_regular; display: block;  margin-before: 0em;   margin-afte
 p strong{ font-family: lora_bold; }
 
 ul{ margin: 0; padding: 0; }
-li{ font-family: lora_bold; list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
-/*strong{ font-family: campton_bold; }*/
+li{  list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
 
 #logo circle{ fill:#000; stroke:#000 }
 
@@ -1121,9 +1120,9 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 /* NAVBAR */
 
 #logo circle{     fill: var(--current_color); stroke: var(--current_color) }
-.navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards; position: fixed; background: #fff; border: none;  font-family: campton_regular;  border-bottom: 6px solid var(--current_color); transition: all .5s ease-in-out;}
+.navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards; position: fixed; background: #fff; border: none;  font-family: campton_regular;  border-bottom: 6px solid var(--current_color); transition: all .3s ease-in-out;}
 .navbar  .navbar-brand{ margin-left: 20px;  width: auto;   }
-.navbar_extended .navbar{ height: 200px;  }
+.navbar_extended .navbar{ height: 200px; transition: all .2s .2s ease-in-out;  }
 .navbar_extended .navbar_condensed_logo{ display: none; }
 .navbar_extended .navbar_extended_logo{ display: block; opacity: 1; }
 .navbar_extended .navbar-left { top: 85px; }
