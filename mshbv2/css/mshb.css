@@ -1751,7 +1751,7 @@ ul.menu-resume li a:hover,
 ul.menu-resume li a,
 .page-projets-mshb .container-projet-single ul.menu-resume li a,
 .page-projets-mshb .container-projet-single .bloc-labo-list-pagi a {
-    color: var(--current_color);
+    color: white
 }
 
 /* FORMS */
