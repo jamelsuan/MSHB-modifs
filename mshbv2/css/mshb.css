@@ -1262,10 +1262,9 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .bloc-home-news{  }
 
 
-.container-bloc-home .projet_item{ --current_color : var(--color3); } 
+.container-bloc-home .projet_item{ --current_color : var(--color3); border-top: 5px solid var(--current_color); min-height: 320px; padding: 30px 0; } 
 
 .container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--current_color); border-bottom: none; text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  }
-.container-bloc-home .projet_item{ margin: 10px auto; display: flex; flex-direction: column; justify-content: space-between;    border-top: 5px solid var(--current_color); min-height: 320px; padding: 30px;  background-size: contain;   }
 .container-bloc-home .projet_item p{ font-size: 0.8em; }
 .container-bloc-home .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .container-bloc-home .projet_item a{  border-bottom: none; }
