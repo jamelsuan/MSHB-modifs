@@ -1181,9 +1181,9 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 .bandeau{  width: 100%; height: 100%; position: absolute; }
 .bandeau .bandeau_svg{ width: 100%; height: 100%; background-color: var(--svg_bg_color);   }
 .bandeau .bandeau_svg circle {   fill: var(--svg_pt_color); opacity: 0;  }
-.bandeau .bandeau_svg .circle_1{  animation: fadeIn_10 0.2s ease-in 0.2s 1 normal forwards;}
-.bandeau .bandeau_svg .circle_2 {  animation: fadeIn_06 0.3s ease-in 0.1s 1 normal forwards;}
-.bandeau .bandeau_svg .circle_3 {  animation: fadeIn_04 0.5s ease-in 0.5s 1 normal forwards;}
+.bandeau .bandeau_svg .circle_1{  opacity: 0; animation: fadeIn_10 0.2s ease-in 0.2s 1 normal forwards;}
+.bandeau .bandeau_svg .circle_2 {  opacity: 0; animation: fadeIn_06 0.3s ease-in 0.1s 1 normal forwards;}
+.bandeau .bandeau_svg .circle_3 { opacity: 0;  animation: fadeIn_04 0.5s ease-in 0.5s 1 normal forwards;}
 
 /* hide old header */
 .container_header img{ display:none;   }
