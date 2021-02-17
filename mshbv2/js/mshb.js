@@ -13,6 +13,7 @@ function animeBandeau() {
     var y = 240; // coordonnée du centre
     var i = 0;
 
+
     var lesmodulos1 = new Array();
     var lesmodulos2 = new Array();
     var selections = [27, 43, 44, 58, 61, 59, 94, 95, 96, 97, 98, 101, 111, 112, 113, 114, 117, 119, 129, 130, 132, 133, 134, 136, 168, 169, 170, 171, 173, 174, 178, 192, 198, 200, 208, 210, 211, 213, 218, 226, 228, 230, 232, 233, 246, 250, 251, 252, 270, 279, 280, 286, 322, 323, 326];
@@ -40,47 +41,23 @@ function animeBandeau() {
 
     for (var a = 0; a < nbr; a++) {
 
-
-        for (var i = 0; i < 2; i++) {
-            if (a % modulos[i] != 0) {
+        var delta = c2 / 2 * Math.sqrt(a);
+        var x1 = Math.cos(angledor * a) * delta + x;
+        var y1 = Math.sin(angledor * a) * delta + y;
+        circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
+        createPt(x1, y1, taille, circleclass);
+      for (var i = 0; i < 2; i++) {
+            if (a % modulos[i] == 0) {
+                taille = 0
+            } else {
                 taille = Math.floor((Math.random() * 3) + 2)
-                delta = c2 / 2 * Math.sqrt(a);
-                x1 = Math.cos(angledor * a) * delta + x;
-                y1 = Math.sin(angledor * a) * delta + y;
-                circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
-                createPt(x1, y1, taille, circleclass);
             }
         }
+        createPt(x1, y1, taille, circleclass);
 
     }
 
-    // var a = 0;                  //  set your counter to 1
 
-    // function myLoop() {         //  create a loop function
-    //   setTimeout(function() {   //  call a 3s setTimeout when the loop is called
-        
-    //     delta = c2 / 2 * Math.sqrt(a);
-    //     x1 = Math.cos(angledor * a) * delta + x;
-    //     y1 = Math.sin(angledor * a) * delta + y;
-
-    //     for (var i = 0; i < 2; i++) {
-    //         if (a % modulos[i] == 0) {
-    //             taille = 0
-    //         } else {
-    //             taille = Math.floor((Math.random() * 3) + 2)
-    //         }
-    //     }
-    //     circleclass = "circle_"+Math.floor((Math.random() * 3) + 1);
-    //     createPt(x1, y1, taille, circleclass);
-
-    //     a++;                   
-    //     if (a < nbr) {          
-    //       myLoop();           
-    //     }                      
-    //   }, 1)
-    // }
-
-    // myLoop();           
 
 
 
