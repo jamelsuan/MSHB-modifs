@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="../../mshbv2/css/mshb.css">
+
+<style>
+
+
+.flex_wrapper{ display: flex; flex-wrap: wrap; }
+.media_item{ width:250px; margin: 40px 25px ;   }
+.media_item .tag{   padding-top: 8px;text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
+.media_item .tag:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
+.media_item .img_container{ width:100%; height:120px; overflow: hidden; }
+.media_item .img_container img{ width:100%; height:100%; object-fit: cover; }
+.media_item .media_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 24px; margin-top: 20px;  }
+.media_item .txt{ padding-top: 8px; }
+
+
+
+</style>
+
+</head>
+<body>
+
+<section class="global_contour">
+  <div class="container">
+
+
+
+
+    <div class="flex_wrapper" id="just_for_clone">
+    
+    
+
+    <!-- media_item -->
+
+    <div class="media_item">
+      <div class="tag txt_xs"> Audio</div>
+      <div class="img_container">
+        <img src="https://dev.mshb.fr/sites/default/files/CeV51_R_Huet_6198.jpg" alt="" title="">
+      </div>
+      <div class="media_titre"> Carnet de recherche CLASMER</div>
+      <p class="txt txt_s"> 
+      éduquer à la mer par les classes transplantées ?
+      </p>
+      <a href="/actualites_mshb/colloque/7026/"  class="ensavoirplus">Lire la suite</a>
+    </div>
+    
+
+
+
+    </div>
+  </div>
+</section>
+
+
+<script>
+
+  function clone() {
+    for (var i = 0; i < 12; i++) {
+      var O_Src = document.getElementsByClassName('media_item')[0];
+      if (O_Src) {
+        var O_Clone = O_Src.cloneNode(true);
+        document.getElementById('just_for_clone').appendChild(
+          O_Clone);
+      }
+
+    }
+  }
+
+
+
+  clone();
+
+
+
+</script>
+
+</body>
+</html>

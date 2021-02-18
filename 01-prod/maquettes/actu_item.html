@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="../../mshbv2/css/mshb.css">
+
+<style>
+
+
+.flex_wrapper{ display: flex; flex-wrap: wrap; }
+.actu_item{ width:250px; margin: 40px 25px ;   }
+.actu_item .date{   padding-bottom: 12px; text-align: left; font-family: campton_semibold; opacity:0.3 }
+.actu_item .actu_titre:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
+.actu_item .lieu{ text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
+.actu_item .actu_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 24px;  }
+.actu_item .txt{ padding-top: 8px; }
+
+
+
+</style>
+
+</head>
+<body>
+
+<section class="global_contour">
+  <div class="container">
+
+
+
+
+    <div class="flex_wrapper" id="just_for_clone">
+    
+    
+    <div class="actu_item">
+      <h3 class="actu_titre">Colloque<br>L’injonction à se former</h3>
+      <p class="txt txt_m">
+        Les 26 et 27 novembre 2020 se tiendra à l'université d'Angers le colloque final du
+        programme de recherche régional INFORMA (pour « l'injonction à se former et à s'adapter »).
+      </p>
+      <span class="date txt_xs">publié le 09 septembre 2020</span><br>
+
+      <a href="/actualites_mshb/colloque/7026/"  class="ensavoirplus">Lire la suite</a>
+    </div>
+    
+
+
+    </div>
+  </div>
+</section>
+
+
+<script>
+
+  function clone() {
+    for (var i = 0; i < 12; i++) {
+      var O_Src = document.getElementsByClassName('actu_item')[0];
+      if (O_Src) {
+        var O_Clone = O_Src.cloneNode(true);
+        document.getElementById('just_for_clone').appendChild(
+          O_Clone);
+      }
+
+    }
+  }
+
+
+
+  clone();
+
+
+
+</script>
+
+</body>
+</html>
