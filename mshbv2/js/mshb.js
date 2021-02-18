@@ -2,6 +2,7 @@
 
 function animeBandeau() {
 
+
     var container_bandeau_svg = document.getElementById('bandeau_svg');
     console.log("container_bandeau_svg.offsetWidth");
     var modulo = Math.floor((Math.random() * 3) + 1); //4;
@@ -55,10 +56,6 @@ function animeBandeau() {
         createPt(x1, y1, taille,);
 
     }
-
-
-
-
 
     function createPt(x, y, r) {
         newPt = document.createElementNS("http://www.w3.org/2000/svg", "circle");
@@ -206,7 +203,8 @@ function bandeauProjet(){
 
 
 animeLogo();
-animeBandeau();
+if(document.getElementById('bandeau_svg')){  animeBandeau(); }
+
 navBar();
 animLiensAncre();
 projetAjust();
