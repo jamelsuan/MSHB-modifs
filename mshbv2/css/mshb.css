@@ -294,10 +294,6 @@
 								.container-projet-single .btn-equipe a.ensavoirplus:hover { color:#FFF;   text-decoration: underline;  }
 								.container-projet-single .liste-details {   margin-top:15px;	  }
 								.container-projet-single .liste-details-part { margin-top:8px;  }
-								 ul.menu-resume { list-style: none;  }
-								 ul.menu-resume li { display: inline-block;   padding:5px 10px;   border: 1px solid #000;   margin-left:0;   margin-right:5px;  }
-								 ul.menu-resume li a { display:block;  }
-								 ul.menu-resume li a:hover { color:initial;   text-decoration: underline;  }
 
 								/* .color_recherche_1 .container-projet-single ul.menu-resume li { border-color: #028ecf;  }
 								.color_recherche_2 .container-projet-single ul.menu-resume li { border-color: #00abad;  }
@@ -1495,6 +1491,41 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .bouton_04{ color: #3f51b5; font-size: 18px; margin: 0; padding: 8px 0 4px 16px; }
 .bouton_04:hover{ color: #3f6ebe; text-decoration: none  }
 
+ul.menu-resume {list-style: none;}
+ul.menu-resume li {display: inline-block; padding:5px 10px; border: 1px solid var(--current_color); margin-left:0; margin-right:5px; background-color: var(--current_color); }
+ul.menu-resume li a {display:block; font-family: campton_regular; border-bottom: none; color: white;}
+ul.menu-resume li a:hover { color:initial; text-decoration: underline;  }
+ul.menu-resume li.noactive a{color: var(--current_color);}
+
+/* ul.menu-resume li.noactive,
+.page-projets-mshb .container-projet-single ul.menu-resume li.noactive  {
+    background-color: white;
+}
+ul.menu-resume li.noactive a,
+.page-projets-mshb .container-projet-single ul.menu-resume li.noactive a {
+    color: var(--current_color);
+}
+ul.menu-resume li,
+.page-projets-mshb  .container-projet-single ul.menu-resume li{
+  border-color: var(--current_color);
+  background-color: var(--current_color);
+}
+
+ul.menu-resume li a,
+.page-projets-mshb .container-projet-single ul.menu-resume li a{
+    font-family: campton_regular;
+    border-bottom: none;
+    color: white;
+}
+ul.menu-resume li a:hover,
+.container-projet-single ul.menu-resume li a:hover {
+    text-decoration: none;
+}
+ul.menu-resume li a,
+.page-projets-mshb .container-projet-single ul.menu-resume li a,
+.page-projets-mshb .container-projet-single .bloc-labo-list-pagi a {
+    color: white
+} */
 
 /* FOOTER */
 
@@ -1686,9 +1717,9 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .form-champs-recherche-filtre button.type-axe.axe-1 {border: 2px solid var(--colorAxe1);}
 .form-champs-recherche-filtre button.type-axe.axe-2 {border: 2px solid var(--colorAxe2);}
 .form-champs-recherche-filtre button.type-axe.axe-3 {border: 2px solid var(--colorAxe3);}
-.form-champs-recherche-filtre button.type-axe.axe-1:hover, .color_recherche .axe-1.btn-projets-tri-sel {background:var(--colorAxe1);color:#FFF;}
-.form-champs-recherche-filtre button.type-axe.axe-2:hover, .color_recherche .axe-2.btn-projets-tri-sel {background:var(--colorAxe2);color:#FFF;}
-.form-champs-recherche-filtre button.type-axe.axe-3:hover, .color_recherche .axe-3.btn-projets-tri-sel {background:var(--colorAxe3);color:#FFF;}
+.form-champs-recherche-filtre button.type-axe.axe-1:hover, .color_recherche .axe-1.btn-projets-tri-sel {background:var(--colorAxe1) !important;;color:#FFF;}
+.form-champs-recherche-filtre button.type-axe.axe-2:hover, .color_recherche .axe-2.btn-projets-tri-sel {background:var(--colorAxe2) !important;;color:#FFF;}
+.form-champs-recherche-filtre button.type-axe.axe-3:hover, .color_recherche .axe-3.btn-projets-tri-sel {background:var(--colorAxe3) !important;;color:#FFF;}
 
 /* page projet */
 .bloc_head_projet_details{background: url("../img/bandeaux_projets/1270/001.png") center center no-repeat transparent; background-size: cover;}
@@ -1716,11 +1747,12 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .bloc_head_projet_details .axe_1 p.mytitre span,
 .bloc_head_projet_details .axe_2 p.mytitre span,
 .bloc_head_projet_details .axe_3 p.mytitre span,
-.bloc_head_projet_details .axe_1 p.mytitre h2,
-.bloc_head_projet_details .axe_2 p.mytitre h2,
-.bloc_head_projet_details .axe_3 p.mytitre h2{
+.bloc_head_projet_details .axe_1 .projet_header h2,
+.bloc_head_projet_details .axe_2 .projet_header h2,
+.bloc_head_projet_details .axe_3 .projet_header h2{
 	background: transparent;
 }
+
 .bloc_head_projet_details .projet_item.axe_1:hover::before,
 .bloc_head_projet_details .projet_item.axe_2:hover::before,
 .bloc_head_projet_details .projet_item.axe_3:hover::before {
@@ -1737,35 +1769,6 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
     border: 2px solid var(--current_color);
 }
 
-ul.menu-resume li.noactive,
-.page-projets-mshb .container-projet-single ul.menu-resume li.noactive {
-    background-color: white;
-}
-ul.menu-resume li.noactive a,
-.page-projets-mshb .container-projet-single ul.menu-resume li.noactive a {
-    color: var(--current_color);
-}
-ul.menu-resume li,
-.page-projets-mshb  .container-projet-single ul.menu-resume li{
-  border-color: var(--current_color);
-  background-color: var(--current_color);
-}
-
-ul.menu-resume li a,
-.page-projets-mshb .container-projet-single ul.menu-resume li a{
-    font-family: campton_regular;
-    border-bottom: none;
-    color: white;
-}
-ul.menu-resume li a:hover,
-.container-projet-single ul.menu-resume li a:hover {
-    text-decoration: none;
-}
-ul.menu-resume li a,
-.page-projets-mshb .container-projet-single ul.menu-resume li a,
-.page-projets-mshb .container-projet-single .bloc-labo-list-pagi a {
-    color: white
-}
 
 /* FORMS */
 
