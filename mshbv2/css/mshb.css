@@ -263,28 +263,28 @@
 								.btn-outils-medias { margin-top:15px;   margin-bottom:35px;  }
 								.btn-outils-medias a { background-color: #FFD52D;   color:#000;   padding:5px 10px;   margin-bottom:20px;   		  font-family: campton_regular;  }
 								.pole-single .container_titre p { margin:0 !important;  }
+
+
 								/* PROJETS */
 								.page-projets-mshb .form_mshb button { border-color: #005dac;   color: #005dac;  }
 								.page-projets-mshb .form_mshb button:hover { background: #005dac;   color:#FFF;  }
 								.page-projets-mshb .btn-projets-tri-sel { background-color: #005dac !important;   color: #FFF !important;  }
-
 								.page-projets-mshb .select_orderBy { background: #fff !important;   font-size: 12px !important;   color: #666 !important;   border: none !important;   width: initial;   -webkit-rtl-ordering: logical;  }
-
 								.page-projets-mshb .form_mshb .form-champs-recherche input { border-color: #005dac;  }
 								.page-projets-mshb .form_mshb .form-champs-recherche input.subForm, .page-projets-mshb .form-general-recherche .form-champs-recherche input.resetForm{ background-color:#005dac;  }
-
 								.btn-projets-tri-sel { background-color:#c33932 !important;   color:#FFF !important;  }
+
 								.projet_item h2 { min-width:80px;   		  margin-top: -1px;  }
 								.projet_item .bloc-projets-liste-suite { color:#000;   text-decoration: none;  }
 								.projet_item_twitter iframe { min-height:250px !important;  }
 								.bloc-projet-encours { font-weight:bold;   font-size: 0.8em;  }
 								.bloc-projet-mcle span a { color: #AAA;   border: 1px solid #DDD;   padding: 2px 5px;   margin-bottom:5px;   display: inline-block;   font-family: campton_regular;  }
 								.bloc-projet-mcle span a:hover { color: #000;  }
-								.color_recherche_1 .global_contour { border-color: #028ecf;  }
+								/* .color_recherche_1 .global_contour { border-color: #028ecf;  }
 								.color_recherche_2 .global_contour { border-color: #00abad;  }
 								.color_recherche_3 .global_contour { border-color: #6a6ea9;  }
 								.color_recherche_4 .global_contour { border-color: #f2992f;  }
-								.color_recherche_5 .global_contour { border-color: #57a349;  }
+								.color_recherche_5 .global_contour { border-color: #57a349;  } */
 
 
 								.container-projet-single h2 { font-size: 16px;   /*line-height:12px;*/
@@ -294,12 +294,12 @@
 								.container-projet-single .btn-equipe a.ensavoirplus:hover { color:#FFF;   text-decoration: underline;  }
 								.container-projet-single .liste-details {   margin-top:15px;	  }
 								.container-projet-single .liste-details-part { margin-top:8px;  }
-								.container-projet-single ul.menu-resume { list-style: none;  }
-								.container-projet-single ul.menu-resume li { display: inline-block;   padding:5px 10px;   border: 1px solid #000;   margin-left:0;   margin-right:5px;  }
-								.container-projet-single ul.menu-resume li a { display:block;  }
-								.container-projet-single ul.menu-resume li a:hover { color:initial;   text-decoration: underline;  }
+								 ul.menu-resume { list-style: none;  }
+								 ul.menu-resume li { display: inline-block;   padding:5px 10px;   border: 1px solid #000;   margin-left:0;   margin-right:5px;  }
+								 ul.menu-resume li a { display:block;  }
+								 ul.menu-resume li a:hover { color:initial;   text-decoration: underline;  }
 
-								.color_recherche_1 .container-projet-single ul.menu-resume li { border-color: #028ecf;  }
+								/* .color_recherche_1 .container-projet-single ul.menu-resume li { border-color: #028ecf;  }
 								.color_recherche_2 .container-projet-single ul.menu-resume li { border-color: #00abad;  }
 								.color_recherche_3 .container-projet-single ul.menu-resume li { border-color: #6a6ea9;  }
 								.color_recherche_4 .container-projet-single ul.menu-resume li { border-color: #f2992f;  }
@@ -321,7 +321,7 @@
 								.color_recherche_2 .container-projet-single ul.menu-resume li.noactive a,
 								.color_recherche_3 .container-projet-single ul.menu-resume li.noactive a,
 								.color_recherche_4 .container-projet-single ul.menu-resume li.noactive a,
-								.color_recherche_5 .container-projet-single ul.menu-resume li.noactive a { color: #FFF;  }
+								.color_recherche_5 .container-projet-single ul.menu-resume li.noactive a { color: #FFF;  } */
 
 								.container-projet-single .bloc-labo-list-pagi a { border:none;  }
 								.bloc-labo-list-pagi a { font-family: campton_regular !important;  }
