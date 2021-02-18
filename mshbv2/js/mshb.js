@@ -177,12 +177,12 @@ function projetAjust(){
       codeH2 = StringToNumber(h2[0].innerHTML, 100);
       n = codeH2;
       projet_item[i].classList.add('bck'+n);
-      titre = projet_item[i].getElementsByTagName("h1");
-      fz= 20;
-      while(titre[0].offsetHeight > 165){
-        fz-=2;
-        titre[0].style.fontSize = fz+"px";
-      }
+      // titre = projet_item[i].getElementsByTagName("h1");
+      // fz= 20;
+      // while(titre[0].offsetHeight > 165){
+      //   fz-=2;
+      //   titre[0].style.fontSize = fz+"px";
+      // }
     }
     // ajuste dernière ligne
     colsVide = itemCol - nbrItem%itemCol;
