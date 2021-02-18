@@ -1704,9 +1704,12 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .bloc_head_projet_details .projet_item .projet_header{width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .bloc_head_projet_details .projet_item .projet_header h3{width: auto; padding: .4em .5em.2em;}
 
-.bloc_head_projet_details .projet_item.axe_1 .projet_header *,
-.bloc_head_projet_details .projet_item.axe_2 .projet_header *,
-.bloc_head_projet_details .projet_item.axe_3 .projet_header *{
+.bloc_head_projet_details .axe_1 p.mytitre span,
+.bloc_head_projet_details .axe_2 p.mytitre span,
+.bloc_head_projet_details .axe_3 p.mytitre span,
+.bloc_head_projet_details .axe_1 p.mytitre h2,
+.bloc_head_projet_details .axe_2 p.mytitre h2,
+.bloc_head_projet_details .axe_3 p.mytitre h2,{
 	background: transparent;
 }
 .bloc_head_projet_details .projet_item.axe_1:hover::before,
