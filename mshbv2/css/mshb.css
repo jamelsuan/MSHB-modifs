@@ -1494,7 +1494,8 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 ul.menu-resume {list-style: none;}
 ul.menu-resume li {display: inline-block; padding:5px 10px; border: 1px solid var(--current_color); margin-left:0; margin-right:5px; background-color: var(--current_color); }
 ul.menu-resume li a {display:block; font-family: campton_regular; border-bottom: none; color: white;}
-ul.menu-resume li a:hover { color:initial; text-decoration: underline;  }
+ul.menu-resume li a:hover {text-decoration: none; color:white }
+ul.menu-resume li.noactive{background-color: white;}
 ul.menu-resume li.noactive a{color: var(--current_color);}
 
 /* ul.menu-resume li.noactive,
