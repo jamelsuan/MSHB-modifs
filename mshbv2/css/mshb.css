@@ -1689,9 +1689,12 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
   .mosaique.listing_projets{--itemCol: 1};
 }
 
-.form-champs-recherche-filtre button.type-axe.axe-1 {border: 2px solid var(--colorAxe1);background:var(--colorAxe1);color:#FFF;}
-.form-champs-recherche-filtre button.type-axe.axe-2 {border: 2px solid var(--colorAxe2);background:var(--colorAxe2);color:#FFF;}
-.form-champs-recherche-filtre button.type-axe.axe-3 {border: 2px solid var(--colorAxe3);background:var(--colorAxe3);color:#FFF;}
+.form-champs-recherche-filtre button.type-axe.axe-1 {border: 2px solid var(--colorAxe1);}
+.form-champs-recherche-filtre button.type-axe.axe-2 {border: 2px solid var(--colorAxe2);}
+.form-champs-recherche-filtre button.type-axe.axe-3 {border: 2px solid var(--colorAxe3);}
+.form-champs-recherche-filtre button.type-axe.axe-1:hover, .color_recherche .axe-1.btn-projets-tri-sel {background:var(--colorAxe1);color:#FFF;}
+.form-champs-recherche-filtre button.type-axe.axe-2:hover, .color_recherche .axe-2.btn-projets-tri-sel {background:var(--colorAxe2);color:#FFF;}
+.form-champs-recherche-filtre button.type-axe.axe-3:hover, .color_recherche .axe-3.btn-projets-tri-sel {background:var(--colorAxe3);color:#FFF;}
 
 /* page projet */
 .bloc_head_projet_details{background: url("../img/bandeaux_projets/1270/001.png") center center no-repeat transparent; background-size: cover;}
@@ -1803,9 +1806,8 @@ form{ padding: 0 }
 .form_mshb .form-champs-recherche input.txtRechForm {  width: 70%;}
 .form_mshb .form-champs-recherche input.subForm, .form-general-recherche .form-champs-recherche input.resetForm {  background-color: #c33932;  color:#FFF;  text-transform:uppercase;}
 
-.form_mshb button {  border: 2px solid #c33932;  background: #fff;  color:#c33932;  padding: 7px 8px 4px 8px;  margin: 0 3px 8px 0;  letter-spacing: 0;}
-
-.form_mshb button:hover,  .form_mshb button.sel {  border: 2px solid #c33932;  background: #c33932;  color:#fff;}
+.form_mshb button{border: 2px solid #c33932;  background: #fff;  color:#c33932;  padding: 7px 8px 4px 8px;  margin: 0 3px 8px 0;  letter-spacing: 0;}
+.form_mshb button:hover, .form_mshb button.sel {border: 2px solid #c33932;  background: #c33932;  color:#fff;}
 
 .form_mshb .col-md-4 select{ width: 90%; }
 .form_mshb .col-md-3 select{ width: 90%; }
