@@ -286,12 +286,7 @@
 								.color_recherche_4 .global_contour { border-color: #f2992f;  }
 								.color_recherche_5 .global_contour { border-color: #57a349;  }
 
-								.bloc_head_projet_details .container_header_annuaire { padding-top:0;  }
-								.bloc_head_projet_details .projet_header { height: inherit;   padding-top:120px;  }
-								.bloc_head_projet_details h3 { font-size:22px;   min-height: 0;  }
-								.bloc_head_projet_details h2 { color:#000;   font-size:22px;   min-height: 0;  }
-								.bloc_head_projet_details p.mytitre { margin-top:45px;   color:#000;   font-size:18px;   font-weight:bold;   max-width: 60%;   margin: 45px auto 0 auto;  }
-								.bloc_head_projet_details p.mytitre span { background-color:#FFF;   padding:5px;  }
+
 								.container-projet-single h2 { font-size: 16px;   /*line-height:12px;*/
 									/*margin-bottom:0;*/
 								}
@@ -1704,12 +1699,19 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .bloc_head_projet_details .projet_item .projet_header{width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .bloc_head_projet_details .projet_item .projet_header h3{width: auto; padding: .4em .5em.2em;}
 
+.bloc_head_projet_details .container_header_annuaire { padding-top:0;  }
+.bloc_head_projet_details .projet_header { height: inherit;   padding-top:120px;  }
+.bloc_head_projet_details h3 { font-size:22px;   min-height: 0;  }
+.bloc_head_projet_details h2 { color:#000;   font-size:22px;   min-height: 0;  }
+.bloc_head_projet_details p.mytitre { margin-top:45px;   color:#000;   font-size:18px;   font-weight:bold;   max-width: 60%;   margin: 45px auto 0 auto;  }
+.bloc_head_projet_details p.mytitre span { background-color:#FFF;   padding:5px;  }
+
 .bloc_head_projet_details .axe_1 p.mytitre span,
 .bloc_head_projet_details .axe_2 p.mytitre span,
 .bloc_head_projet_details .axe_3 p.mytitre span,
 .bloc_head_projet_details .axe_1 p.mytitre h2,
 .bloc_head_projet_details .axe_2 p.mytitre h2,
-.bloc_head_projet_details .axe_3 p.mytitre h2,{
+.bloc_head_projet_details .axe_3 p.mytitre h2{
 	background: transparent;
 }
 .bloc_head_projet_details .projet_item.axe_1:hover::before,
