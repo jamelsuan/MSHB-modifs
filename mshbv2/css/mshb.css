@@ -1541,7 +1541,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .page-projets-mshb .select_orderBy{ background: #fff; float: right; font-size: 12px; color: #666; border: none; position: absolute; right: 0px; top: 20px;  font-family: campton_regular;  }
 .page-projets-mshb .select_orderBy option{ line-height: 2em; padding: 5px; -webkit-appearance: none; }
 
-/* LISTING PROJETS html modifié .mosaique */
+
 .mosaique.listing_projets{--itemCol : 4;}
 .mosaique .projet_item{margin: 10px 0;}
 
@@ -1681,7 +1681,9 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
   .mosaique.listing_projets{--itemCol: 1};
 }
 
-
+.form-champs-recherche-filtre button.type-axe.axe-1 {border: 2px solid var(--colorAxe1);background:var(--colorAxe1);color:#FFF;}
+.form-champs-recherche-filtre button.type-axe.axe-2 {border: 2px solid var(--colorAxe2);background:var(--colorAxe2);color:#FFF;}
+.form-champs-recherche-filtre button.type-axe.axe-3 {border: 2px solid var(--colorAxe3);background:var(--colorAxe3);color:#FFF;}
 
 /* page projet */
 .bloc_head_projet_details{background: url("../img/bandeaux_projets/1270/001.png") center center no-repeat transparent; background-size: cover;}
