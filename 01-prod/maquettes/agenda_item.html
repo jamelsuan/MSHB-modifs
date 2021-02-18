@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PAGE MOZAIQUE</title>
+<link rel="stylesheet" href="../../mshbv2/css/mshb.css">
+
+<style>
+/* :root {
+    --fontSize_unit : 1px;
+  }
+
+.txt_xs { font-size: calc( var(--fontSize_unit) * 11); }
+.txt_s { font-size: calc( var(--fontSize_unit) * 13); }
+.txt_m { font-size: calc( var(--fontSize_unit) * 16); }
+.txt_l { font-size: calc( var(--fontSize_unit) * 18);  } */
+
+.agenda_mosaique{ display: flex; flex-wrap: wrap; }
+.agenda_item{ width:250px; margin: 25px;  }
+.agenda_item .date{  padding-bottom: 3px; text-align: left; font-family: campton_semibold; color: var(--current_color);  }
+.agenda_item .date:after{ content:""; width:20px; height: 3px; background-color: var(--current_color); position: absolute; bottom: 0; left: 0;  }
+.agenda_item .lieu{ text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
+.agenda_item .agenda_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 24px;  }
+.agenda_item .txt{ margin-top: 1em; padding-right: ;}
+
+
+
+</style>
+
+</head>
+<body class="">
+
+<section class="global_contour">
+  <div class="container">
+    <div class="agenda_mosaique" id="agenda_mosaique">
+    
+    
+    
+    
+    <div class="agenda_item">
+      <div class="date">
+          <span class="jour txt_s">3</span>
+          <span class="mois txt_s"> septembre</span>
+          <span class="annee txt_s"> 2020</span>
+      </div>
+      <h3 class="agenda_titre txt_l">Atelier annuel <br> du consortium CAHIER #1</h3>
+      <div class="lieu txt_xs">Faculté LLSHS - Université Bretagne Sud - Lorient</div>
+      <p class="txt txt_s">
+        L'atelier annuel organisé par le consortium CAHIER de la TGIR Huma-Num portera sur "La TEI pour la recherche :
+        questionner et visualiser un corpus en XML-TEI". 
+      </p>
+      <a href="/agenda_mshb/atelier-annuel-br-du-consortium-cahier-1/6942/" class="ensavoirplus">Lire la suite</a>
+    </div>
+    
+
+
+
+    </div>
+  </div>
+</section>
+
+
+<script>
+
+
+function clone(){
+  for (var i = 0; i < 12; i++) {
+   var O_Src = document.getElementsByClassName('agenda_item')[0];
+   if (O_Src) {
+      var O_Clone = O_Src.cloneNode(true);
+      document.getElementById('agenda_mosaique').appendChild(
+        O_Clone);
+    }
+
+  }
+}
+
+
+
+clone();
+
+
+
+</script>
+
+</body>
+</html>
