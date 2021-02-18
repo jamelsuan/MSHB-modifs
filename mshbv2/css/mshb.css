@@ -755,12 +755,12 @@
 
 								a.lienancre {	 padding: 5px 10px;   		 background-color:  #fff;   		 border: 2px solid #005dac;   		 color: #005dac;   		 text-align: center;   		 display: inline-block;   		 margin: 10px;   		 font-family: "campton_regular";   		color: #005dac;  }
 								a.lienancre:hover {	 background-color: #005dac;   		 border: 2px solid #005dac;   		 color: #fff;   		 }
-								.node-type-groupe-travail ul.menu-resume {	 list-style: none;  }
+								/* .node-type-groupe-travail ul.menu-resume {	 list-style: none;  }
 
 								.node-type-groupe-travail ul.menu-resume li {	  display: inline-block;   		  padding: 5px 10px;   		  border: 1px solid #000;   		  margin-left: 0;   		  margin-right: 5px;   		  cursor: pointer;  }
 								.node-type-groupe-travail ul.menu-resume li a {	 display: block;   		 color: var(--current_color);   		 border-bottom: 2px solid var(--current_color);   		 background-color: #fff;  }
 
-								.node-type-groupe-travail ul.menu-resume li.noactiveÂ a { color: #fff;   background-color: var(--current_color);   		 }
+								.node-type-groupe-travail ul.menu-resume li.noactiveÂ a { color: #fff;   background-color: var(--current_color);   		 } */
 
 
 								/* fin stylesv2.css */
