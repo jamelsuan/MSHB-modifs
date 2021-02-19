@@ -1330,7 +1330,7 @@ a.liensiteglob {color: var(--current_color);}
 /* TITRE */
 
 .container_titre{ text-align: center; margin: 3em auto }
-.container_titre h1, .container_titre h2, .container_titre h3{ font-family: campton_semibold; font-size: 50px; line-height: 90px; text-align: center; letter-spacing: -0.02em;  margin-left:15%; margin-right:15%; width: 70%; margin-bottom:0; letter-spacing: 0.02em }
+.container_titre h1, .container_titre h2, .container_titre h3{ font-family: campton_semibold; font-size: 50px; line-height: 1; text-align: center; letter-spacing: -0.02em;  margin-left:15%; margin-right:15%; width: 70%; margin-bottom:0; letter-spacing: 0.02em }
 .container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-family: campton_semibold; font-size: 50px; line-height: 1.4em; text-align: center; letter-spacing: -0.02em; margin-left:15%; margin-right:15%; width: 70%; letter-spacing: 0.02em }
 .container_titre p{ text-align: center; line-height: 36px; margin:0 8%; }
 .container_titre span{ font-family: campton_regular;  font-size: 30px;  border-bottom: 3px solid var(--current_color); letter-spacing: 0.01em; line-height: 1.4em; text-align: center; color: #111 }
