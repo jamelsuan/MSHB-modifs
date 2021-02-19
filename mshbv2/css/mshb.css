@@ -912,7 +912,7 @@
     --color4 : #4A8A78;
     --text_color :  var(--color0);
 	--current_color : var(--color1);
-
+    --fontSize_unit : 1px;
   }
 
 .test{ font-weight: bold; }
@@ -937,6 +937,12 @@
     --svg_bg_color :var(--color4);
     --svg_pt_color: #21715a;
 }
+
+
+.txt_xs { font-size: calc( var(--fontSize_unit) * 11); }
+.txt_s { font-size: calc( var(--fontSize_unit) * 13); }
+.txt_m { font-size: calc( var(--fontSize_unit) * 16); }
+.txt_l { font-size: calc( var(--fontSize_unit) * 18);  }
 
 
 
