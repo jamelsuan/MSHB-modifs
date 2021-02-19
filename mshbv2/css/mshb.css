@@ -1330,8 +1330,8 @@ a.liensiteglob {color: var(--current_color);}
 /* TITRE */
 
 .container_titre{ text-align: center; margin: 3em auto }
-.container_titre h1, .container_titre h2, .container_titre h3{ font-family: campton_semibold; font-size: 50px; line-height: 1; text-align: center; letter-spacing: -0.02em;  margin-left:15%; margin-right:15%; width: 70%; margin-bottom:0; letter-spacing: 0.02em }
-.container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-family: campton_semibold; font-size: 50px; line-height: 1.4em; text-align: center; letter-spacing: -0.02em; margin-left:15%; margin-right:15%; width: 70%; letter-spacing: 0.02em }
+.container_titre h1, .container_titre h2, .container_titre h3{ font-family: campton_semibold; font-size: 50px; line-height: 1.4em; text-align: center; letter-spacing: -0.02em;  margin-left:15%; margin-right:15%; width: 70%; margin-bottom:0; letter-spacing: 0.02em }
+/* .container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-family: campton_semibold; font-size: 50px; line-height: 1.4em; text-align: center; letter-spacing: -0.02em; margin-left:15%; margin-right:15%; width: 70%; letter-spacing: 0.02em } */
 .container_titre p{ text-align: center; line-height: 36px; margin:0 8%; }
 .container_titre span{ font-family: campton_regular;  font-size: 30px;  border-bottom: 3px solid var(--current_color); letter-spacing: 0.01em; line-height: 1.4em; text-align: center; color: #111 }
 /* .page-poles-recherche-mshb h2[id^="pole"] { line-height: 1.2em;  border-bottom: 3px solid var(--current_color); margin-bottom: 0.5em; } */
@@ -1732,8 +1732,7 @@ form{ padding: 0 }
 
 form{ font-family: campton_regular; letter-spacing: 0.05em; }
 
-input {  border: 2px solid #c33932;  padding: 8px 10px 3px 10px;  font-size: 14px;  line-height: 1.4em;  color: #999;  height: auto;  letter-spacing: 0.05em; font-family: campton_regular;
-}
+input {  border: 2px solid #c33932;  padding: 8px 10px 3px 10px;  font-size: 14px;  line-height: 1.4em;  color: #999;  height: auto;  letter-spacing: 0.05em; font-family: campton_regular;}
 .form-champs-recherche input.txtRechForm {  width: 70%;}
 .form-champs-recherche input.subForm, .form-general-recherche .form-champs-recherche input.resetForm {  background-color: #c33932;  color:#FFF;  text-transform:uppercase;}
 
@@ -1761,17 +1760,13 @@ iframe,
 .webform-client-form  {  display: block; width: 60%; margin: 1em auto; }
 .form-file{ border: none; }
 
-
 select.form-control, select.form-control:focus{ width: auto; display: inline-block; padding: 12px 10px 3px 10px; border-radius: 0  }
 
 .webform-container-inline label {  width: 100%; margin: 2em auto 0 auto;   }
 label { font-family: lora_regular;  font-size: 1em;  display: block; }
 .form-textarea-wrapper textarea  {  outline: none;  display: block;  width: 100%; margin: 1em auto;  border: 2px solid #ccc;  padding: 8px 10px 3px 10px;  font-size: 14px;  line-height: 1.4em;  color: #999;  height: auto;  letter-spacing: 0.02em;  border-radius: 0px;  box-shadow: none;}
 
-
-
 .panel { display: table; padding: 0; margin-top: 40px; border: 2px solid #c33932; }
-
 .panel-heading, .panel-default>.panel-heading {  margin-bottom: 0;  background-color: #c33932;  border: none;  color: #fff;  border-radius: 0px;  padding: 10px;  box-shadow: none;  font-size: 3em;}
 
 .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] { margin-left: 0; }
@@ -1783,53 +1778,23 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 
 
-
 /* ANIMATIONS */
-
-
-
 @keyframes fadeIn {
-
     0% {
-
         opacity: 0;
-
     }
-
     100%{
-
         opacity: 1;
-
     }
 }
 
-
-
-
-
-
-
-
-
-	.container .bloc-2cols {
-
-
-
+.container .bloc-2cols {
     display: table-cell;
-
     border:1px solid #fff ;
-
-
-
-	}
-
+}
 
 
 /* responsive */
-
-
-
-
 
 @media only screen and (max-width: 768px) {
 	/* switch du menu : on le gÃ¨re Ã  ce stade lÃ  */
@@ -1874,87 +1839,42 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 	.navbar-nav .dropdown .dropdown-menu { display: none;  border-radius: 0; overflow: hidden; padding: 0; box-shadow: none; }
 	.navbar-nav .open .dropdown-menu {display: block; height: auto; border: none; border-bottom: 3px solid #ccc;  }
 	.dropdown-menu li{ padding-bottom: 2vw; }
-
-
-
 }
 
 @media only screen and (max-width: 1050px){
-
 	.navbar-right { top: 0!important; padding: 13px 20px 0 0!important; }
-
 }
 
 @media only screen and (max-width: 660px) {
 
-
-
 	.container .bloc-2cols {
-
-	column-count: auto;
-
+		column-count: auto;
     column-gap: 0px;
-
 	}
 
-
-
-
-
-
-
 	/* bandeau */
-
-
-
 	.container_header { height: auto; max-width: 100%; padding-top: 40px; padding-bottom: 40px;  }
-
 	.fil_ariane{ display: none; }
 
-
-
-
-
-
 	/* content */
-
 	p { font-size: 14px; }
-
 	.cercle{ width: 100px; height: 100px; }
-
-	.container_titre h1, .container_titre h2, .container_titre h3 { font-size: 50px; line-height: 1.1em;  }
-
 	.container_header h1 {  font-size: 38px; line-height: 1.1em;  }
-
+	.container_titre h1, .container_titre h2, .container_titre h3 { font-size: 30px; line-height: 1.1em;  }
+	/* .container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-size: 30px; line-height:1.4em; } */
 	.container_titre span { font-size: 20px; }
-
-	.container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-size: 30px; line-height:1.4em; }
-
 	.poles-menu li { font-size: 0.8em; }
-
 	.container ul.poles-menu { padding: 20px 0px; margin-top: 20px; }
 
 	/* bullshit */
-
-
-
 	#returnOnTop { display: none; opacity: 0; width: 0 !important; height: 0; overflow: hidden; }
 
-
-
 	/* footer */
-
 	.footer .zone_logo_mshb { float: none; margin: auto;   display: none; }
-
 	.footer .zone_logo { width: 100%; margin: 10px;}
-
 	.footer .zone_logo li {  max-width: 35px; margin: 6px 5px; display: inline-block; float: none; }
-
 	.footer .zone_logo ul { height: auto; padding: 0; text-align: center; }
-
 	.footer .zone_menu ul { height: auto; padding: 0; text-align: center; }
-
 	.footer .zone_signature p { text-align: center;padding: 0 35px; }
-
 	.footer .zone_menu { margin-top: 0; }
 }
