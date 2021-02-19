@@ -1291,7 +1291,7 @@ a.liensiteglob {color: var(--current_color);}
 .actu_item .lieu{ text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
 .actu_item .actu_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 24px;  }
 .actu_item .txt{ padding-top: 8px; }
-
+.actu_item .actu_image{ width: 100%; height: 80px; object-fit: cover; }
 
 
 /* AGENDA liste */
