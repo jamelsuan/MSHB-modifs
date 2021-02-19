@@ -1009,6 +1009,7 @@ li{  list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
 				.bloc-projet-detail-resume ul li {font-size:12px;}
 				.bloc-projet-detail-resume ol li {list-style:decimal;font-size:12px;}
 
+
 /* GLOBAL LAYOUT */
 
 section, .section{ width: 100%;margin-bottom: 20px;    }
@@ -1329,7 +1330,7 @@ a.liensiteglob {color: var(--current_color);}
 /* TITRE */
 
 .container_titre{ text-align: center; margin: 3em auto }
-.container_titre h1, .container_titre h2, .container_titre h3{ font-family: campton_semibold; font-size: 80px; line-height: 90px; text-align: center; letter-spacing: -0.02em;  margin-left:15%; margin-right:15%; width: 70%; margin-bottom: 80px; letter-spacing: 0.02em }
+.container_titre h1, .container_titre h2, .container_titre h3{ font-family: campton_semibold; font-size: 50px; line-height: 90px; text-align: center; letter-spacing: -0.02em;  margin-left:15%; margin-right:15%; width: 70%; letter-spacing: 0.02em }
 .container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-family: campton_semibold; font-size: 50px; line-height: 1.4em; text-align: center; letter-spacing: -0.02em; margin-left:15%; margin-right:15%; width: 70%; letter-spacing: 0.02em }
 .container_titre p{ text-align: center; line-height: 36px; margin:0 8%; }
 .container_titre span{ font-family: campton_regular;  font-size: 30px;  border-bottom: 3px solid var(--current_color); letter-spacing: 0.01em; line-height: 1.4em; text-align: center; color: #111 }
