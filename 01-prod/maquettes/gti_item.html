@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="../../mshbv2/css/mshb.css">
+
+<style>
+
+
+</style>
+
+</head>
+<body>
+
+<section class="global_contour">
+  <div class="container">
+
+    <div class="gti_wrapper" id="just_for_clone">
+
+         <article class="gti_item">
+           <a href="#">
+             <div class="content">
+               <header>
+                 <h3>GRP1</h3>
+               </header>
+               <h1>Titre</h1>
+               <footer>
+                 <span class="dates">01-04-2021 / 31-03-2022</span>
+               </footer>
+             </div>
+           </a>
+         </article>
+         
+    </div>
+
+
+  </div>
+</section>
+
+
+<script>
+
+  function clone() {
+    for (var i = 0; i < 13; i++) {
+      var O_Src = document.getElementsByClassName('gti_item')[0];
+      if (O_Src) {
+        var O_Clone = O_Src.cloneNode(true);
+        document.getElementById('just_for_clone').appendChild(
+          O_Clone);
+      }
+
+    }
+  }
+  clone();
+
+</script>
+
+</body>
+</html>
