@@ -371,21 +371,21 @@
 								/* ACCUEIL */
 
 								/* .container-bloc-home a.ensavoirplus { background: none;   color:#c33932;   padding:0;   margin: 0;   text-transform: uppercase;   font-family: campton_regular;   font-weight:bold;   border:none;   text-decoration: none;   font-size:0.8em;  } */
-								.container-bloc-home h3 a, .bloc-home-actus-titre a, .bloc-home-agenda-titre a, .bloc-home-recherche-titre , .medias-liste-titre a, .bloc-home-recherche-titre a, .projet_header span a { color:#333;  }
+								/* .container-bloc-home h3 a, .bloc-home-actus-titre a, .bloc-home-agenda-titre a, .bloc-home-recherche-titre , .medias-liste-titre a, .bloc-home-recherche-titre a, .projet_header span a { color:#333;  } */
 								/* .node-type-contenu-accueil .container-bloc-home a.ensavoirplus {	      margin-left: 0 !important;  } */
-								.bloc-home-actus {
+								/* .bloc-home-actus {
 
 								}
 								.bloc-home-actus-titre a { font-family: campton_regular;   font-weight:bold;   		  font-size:14px;  }
 
 								.bloc-home-agenda {
 
-								}
-								.bloc-home-agenda-date { height:139px;   background-color:#db8884;   padding-top:30px;   text-align: center;   color:#FFF;   font-family: campton_regular;   		 }
+								} */
+								/* .bloc-home-agenda-date { height:139px;   background-color:#db8884;   padding-top:30px;   text-align: center;   color:#FFF;   font-family: campton_regular;   		 }
 								.bloc-home-agenda-date .bloc-agenda-liste-jour { font-size:3em;   line-height:0.8;  }
 								.bloc-home-agenda-date .bloc-agenda-liste-mois { display:block;  }
 								.bloc-home-agenda-date .bloc-home-agenda-date-lieu { font-size:0.8em;  }
-								.bloc-home-agenda-titre a { font-family: campton_regular;   font-weight:bold;   		  font-size:14px;  }
+								.bloc-home-agenda-titre a { font-family: campton_regular;   font-weight:bold;   		  font-size:14px;  } */
 
 								.bloc-home-service {}
 								.bloc-home-service-img { 	height: 139px;  }
@@ -1176,8 +1176,8 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 span.bold{font-weight: 500;}
 body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .row{ margin-bottom: 40px; }
-.container-bloc-home h3{ text-align: center;  margin-bottom: 10px; padding-bottom: 2px; margin-bottom: 0; width: 100%; }
-.container-bloc-home h3 a{   }
+/* .container-bloc-home h3{ text-align: center;  margin-bottom: 10px; padding-bottom: 2px; margin-bottom: 0; width: 100%; } */
+/* .container-bloc-home h3 a{   } */
 .container_header_home{ overflow: hidden; max-height: 475px; }
 .bloc-home-actus .projet_item div,
 .bloc-home-agenda-date{ margin-bottom: 10px; width: 100%; height: auto;  }
@@ -1292,8 +1292,8 @@ a.liensiteglob {color: var(--current_color);}
 .actu_item .lieu{ text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
 .actu_item .actu_titre{ text-align: left; line-height: 1.2em;  font-family: campton_semibold; font-size: 24px;  }
 .actu_item .txt{ padding-top: 8px; }
-.actu_item .actu_image{ width: 100%; height: 80px; object-fit: cover; }
-
+.actu_item .actu_image{ width: 100%; height: 80px;  margin: 8px 0; }
+.actu_item .actu_image img{  width: 100%; height: 100%; object-fit: cover;  }
 
 /* AGENDA liste */
 
