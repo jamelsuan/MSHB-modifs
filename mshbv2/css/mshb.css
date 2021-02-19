@@ -369,9 +369,10 @@
 
 
 								/* ACCUEIL */
-								.container-bloc-home a.ensavoirplus { background: none;   color:#c33932;   padding:0;   margin: 0;   text-transform: uppercase;   font-family: campton_regular;   font-weight:bold;   border:none;   text-decoration: none;   font-size:0.8em;  }
+
+								/* .container-bloc-home a.ensavoirplus { background: none;   color:#c33932;   padding:0;   margin: 0;   text-transform: uppercase;   font-family: campton_regular;   font-weight:bold;   border:none;   text-decoration: none;   font-size:0.8em;  } */
 								.container-bloc-home h3 a, .bloc-home-actus-titre a, .bloc-home-agenda-titre a, .bloc-home-recherche-titre , .medias-liste-titre a, .bloc-home-recherche-titre a, .projet_header span a { color:#333;  }
-								.node-type-contenu-accueil .container-bloc-home a.ensavoirplus {	      margin-left: 0 !important;  }
+								/* .node-type-contenu-accueil .container-bloc-home a.ensavoirplus {	      margin-left: 0 !important;  } */
 								.bloc-home-actus {
 
 								}
@@ -1217,7 +1218,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 
 
 
-.container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--current_color); border-bottom: none; text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  }
+/* .container-bloc-home a.ensavoirplus {  transition: all .1s ease-out; font-size: 12px; font-family: campton_regular;  color: var(--current_color); border-bottom: none; text-transform: none ; margin-left: 1em ; background: none!important;; border:none!important;;  border-bottom: 2px solid var(--current_color)!important;;  } */
 .container-bloc-home .projet_item p{ font-size: 0.8em; }
 .container-bloc-home .projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 .container-bloc-home .projet_item a{  border-bottom: none; }
