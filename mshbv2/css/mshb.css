@@ -1626,6 +1626,17 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
     border: 2px solid var(--current_color);
 }
 
+/* GROUPES DE TRAVAIL */
+.gti_wrapper{ display: flex; flex-wrap: wrap; }
+.gti_item{ width:100%; text-align: center; }
+.gti_wrapper .gti_item{  width: calc(25% - 40px);   margin: 20px 0; padding: 0 20px;   }
+
+/* GTI SINGLE */
+.membres_wrapper{display: flex; flex-wrap: wrap; justify-content: center;}
+.membres_wrapper .membre_item{width:260px; margin: 30px 15px;}
+.membre_item{font-family: campton_regular; text-align: center;}
+.membre_item p.nom{font-family: campton_bold; text-decoration: none; margin-bottom: 0; text-align: center;}
+.membre_item p.nom a{border: none;}
 
 /* FORMS */
 
