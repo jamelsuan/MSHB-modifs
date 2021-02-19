@@ -1322,7 +1322,7 @@ a.liensiteglob {color: var(--current_color);}
 .container_header { overflow: hidden; }
 .bloc-medias-liste-suite{  background: none;  color: #c33932;  padding: 0;  margin: 0;  text-transform: uppercase;  font-family: campton_regular;  font-weight: bold;  border: none;  text-decoration: none !important;  font-size: 0.7em;}
 .bloc-medias-single-date span { border-bottom: 2px solid #c33932 !important;  }
-.bloc-labo-list-pagi a:hover{color: white; margin-top: 20px; color: #FFF !important;  background-color: #c33932;  }
+.bloc-labo-list-pagi a:hover{color: white; margin-top: 20px; color: #FFF !important;  background-color: var(--current_color);  }
 .bloc-labo-list-pagi a{ font-family: campton; font-size: 14px;   border: 3px solid var(--current_color);  color: var(--current_color); background-color: #fff;  padding: 3px 8px 2px 8px;  margin-top: 20px;  display: inline-block;}
 .row-centered h3{ text-align: center }
 
