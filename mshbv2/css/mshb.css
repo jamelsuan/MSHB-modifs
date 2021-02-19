@@ -516,10 +516,10 @@
 								/* .slick-prev:before,
 								.slick-next:before{ font-family: 'slick';   font-size: 20px;   line-height: 1; opacity: .75;   color: white; -webkit-font-smoothing: antialiased;   -moz-osx-font-smoothing: grayscale;  } */
 
-								.slick-prev::before {content: '←';}
-								.slick-next::before {content: '→';}
-								.slick-prev::before, .slick-next::before {  font-family: campton_regular;  font-size: 20px;  line-height: 1;  opacity: 1;  color: var(--current_color);  border-radius: 50%;  width: 32px;  height: 32px;  display: block;  padding: 4px;  border: 2px solid var(--current_color);  font-size: 24px;}
-								.slick-prev:hover::before, .slick-prev:focus::before, .slick-next:hover::before, .slick-next:focus::before {color: white;outline: none;background: var(--current_color);}
+								button.slick-prev::before {content: '←';}
+								button.slick-next::before {content: '→';}
+								button.slick-prev::before, button.slick-next::before {  font-family: campton_regular;  font-size: 20px;  line-height: 1;  opacity: 1;  color: var(--current_color);  border-radius: 50%;  width: 32px;  height: 32px;  display: block;  padding: 4px;  border: 2px solid var(--current_color);  font-size: 24px;}
+								button.slick-prev:hover::before, button.slick-prev:focus::before, button.slick-next:hover::before, button.slick-next:focus::before {color: white;outline: none;background: var(--current_color);}
 
 								.slick-prev{ left: -25px;  }
 								[dir='rtl'] .slick-prev{ right: -25px;   left: auto;  }
