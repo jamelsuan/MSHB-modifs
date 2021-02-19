@@ -1272,9 +1272,9 @@ a.liensiteglob {color: var(--current_color);}
 .mosaique .item {width: var(--itemlargeur); margin: 30px 0 80px; display: flex; flex-direction: column; align-items: center;}
 
 /* ACTUALITÉS liste */
-.page-actualites-mshb .col-md-12 {width: 100%; display: flex; flex-flow: wrap; justify-content: space-between;  }
+/* .page-actualites-mshb .col-md-12 {width: 100%; display: flex; flex-flow: wrap; justify-content: space-between;  }
 /*.page-actualites-mshb .col-md-12 .bloc-actus-liste:nth-last-child(-n+2){} */ /* pour aligner à gauche les 2 derniers items */
-.page-actualites-mshb .bloc-actus-liste{ width: 30%; display: flex; flex-direction: column;   }
+/*.page-actualites-mshb .bloc-actus-liste{ width: 30%; display: flex; flex-direction: column;   }
 .page-actualites-mshb .bloc-actus-liste .actus-liste-txt{  display: none; display: flex; flex-direction: column; }
 .page-actualites-mshb .bloc-actus-liste .col-md-6 { width: 100%; }
 .page-actualites-mshb .bloc-actus-liste .actus-liste-txt{ font-size:12px;  }
@@ -1288,7 +1288,7 @@ a.liensiteglob {color: var(--current_color);}
 .page-actualites-mshb .bloc-actus-liste .bloc-social { margin-top: 15px; }
 .page-actualites-mshb .bloc-actus-liste .img{ display: none; }
 .bloc-actus-liste #image_bandeau{ display: none; }
-.page-actualites-mshb .actus-liste-date span{ border-bottom:none; font-size: 12px; }
+.page-actualites-mshb .actus-liste-date span{ border-bottom:none; font-size: 12px; } */
 
 /* 2021 */
 .actus_wrapper{ display: flex; flex-wrap: wrap; }
@@ -1305,7 +1305,7 @@ a.liensiteglob {color: var(--current_color);}
 
 /* AGENDA liste */
 
-.bloc-agenda-liste .agenda-liste-titre { font-size: 20px  !important; text-align: center; color: #000; font-family: campton_bold; line-height: 22px; margin: 20px 0 10px; padding: 0 40px; }
+/* .bloc-agenda-liste .agenda-liste-titre { font-size: 20px  !important; text-align: center; color: #000; font-family: campton_bold; line-height: 22px; margin: 20px 0 10px; padding: 0 40px; }
 .agenda-liste-date {color: #FFF;text-align: center;padding: 35px 15px;font-family: campton_regular;}
 .agenda-liste-date .bloc-agenda-liste-jour {font-size: 3em  !important;line-height: 0.8;font-family: campton_semibold;}
 .agenda-liste-date .bloc-agenda-liste-mois {font-size: 16px  !important;}
@@ -1324,11 +1324,12 @@ a.liensiteglob {color: var(--current_color);}
 .page-agenda-mshb .bloc-agenda-liste { margin: 30px 0 80px !important;  }
 .page-agenda-mshb .bloc-agenda-liste .agenda-liste-titre { font-size: 20px!important; text-align: center; color: #000; font-family: campton_bold; line-height: 22px; margin: 1em 0; padding: 0px; }
 .page-agenda-mshb .bloc-agenda-liste .bloc-social { margin-top: 15px; }
-.page-agenda-mshb .bloc-agenda-liste .img{ display: none; }
+.page-agenda-mshb .bloc-agenda-liste .img{ display: none; } */
 
 /* 2021 */
 .agenda_wrapper{ display: flex; flex-wrap: wrap; }
 .agenda_item{ width:250px; margin: 40px 25px ;   }
+.agenda_wrapper .agenda_item{ width: 21%; margin: 20px 2%; }
 .agenda_item .date{  padding-bottom: 8px;  font-family: campton_semibold; color: var(--current_color);  }
 .agenda_item .date:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
 .agenda_item .lieu{   padding-top: 8px;text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
@@ -1873,6 +1874,11 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 @media only screen and (max-width: 1050px){
 	.navbar-right { top: 0!important; padding: 13px 20px 0 0!important; }
+
+
+	.actus_wrapper .actu_item{  width: 29%;   margin: 20px 2%;  }
+	.agenda_wrapper .agenda_item{  width: 29%;   margin: 20px 2%;  }
+
 }
 
 @media only screen and (max-width: 660px) {
