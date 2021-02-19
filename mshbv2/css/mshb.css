@@ -1895,7 +1895,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 	/* content */
 	p { font-size: 14px; }
 	.cercle{ width: 100px; height: 100px; }
-	.container_header h1 {  font-size: 38px; line-height: 1.1em;  }
+	.container_header h1 {  font-size: 38px; line-height: 1.1em; max-width: 80%;  }
 	.container_titre h1, .container_titre h2, .container_titre h3 { font-size: 30px; line-height: 1.1em;  }
 	/* .container_titre h2[id^="content"], .container_titre h1[id^="content"] { font-size: 30px; line-height:1.4em; } */
 	.container_titre span { font-size: 20px; }
