@@ -1300,8 +1300,8 @@ a.liensiteglob {color: var(--current_color);}
 .actu_item .lieu{ text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
 .actu_item .actu_titre{ text-align: left; line-height: 1.2em;  font-family: campton_semibold; font-size: 24px;  }
 .actu_item .txt{ padding-top: 8px; }
-.actu_item .actu_image{ width: 100%; height: 80px;  margin: 8px 0; overflow: hidden; }
-.actu_item .actu_image img{  width: 100%; height: 100%; object-fit: cover;  }
+.actu_item .actu_image{ width: 100%;  margin: 12px 0; overflow: hidden; }
+.actu_item .actu_image img{  width: 100%; height: 100%; object-fit: cover;  max-height: 260px; }
 
 /* AGENDA liste */
 
