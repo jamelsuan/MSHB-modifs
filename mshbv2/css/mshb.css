@@ -885,15 +885,8 @@ li{  list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
 .bloc-detail-resume p {padding-bottom:10px;font-size:18px;}
 .bloc-detail-resume ul li {font-size:12px;}
 .bloc-detail-resume ol li {list-style:decimal;font-size:12px;}
-				/* a supprimer si .bloc-projet-detail-resume a été remplacé par .bloc-detail-resume dans projets */
-				.bloc-projet-detail-resume {margin-top:20px;font-size:18px;}
-				.bloc-projet-detail-resume p {padding-bottom:10px;font-size:18px;}
-				.bloc-projet-detail-resume ul li {font-size:12px;}
-				.bloc-projet-detail-resume ol li {list-style:decimal;font-size:12px;}
-
 
 /* GLOBAL LAYOUT */
-
 section, .section{ width: 100%;margin-bottom: 20px;    }
 .container{ max-width: 90%; padding: 40px 0 0px 0; margin:auto; }
 .container_navbar, .navbar{ width: 100%; max-width: 1400px; margin: 0px auto;  }
@@ -962,7 +955,6 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 .container_header .bandeau .bandeau_svg circle:nth-child(3n+3) {  opacity: 0.2; transition: all .3s .6s; }
 
 /* NAVBAR */
-
 #logo circle{     fill: var(--current_color); stroke: var(--current_color) }
 .navbar{  opacity: 0; animation: fadeIn .3s ease-in 0.2s 1 normal forwards; position: fixed; background: #fff; border: none;  font-family: campton_regular;  border-bottom: 6px solid var(--current_color); transition: all .3s ease-in-out;}
 .navbar  .navbar-brand{ margin-left: 20px;  width: auto;   }
@@ -1009,15 +1001,10 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
     .navbar-left  a{ margin-right: 15px }
 }
 
-
-
-
 /* hide old header */
-
 .header_bg{ display:none;  }
 
 /*  LAYOUT */
-
 .page-plateformes-mshb .col-md-12{ padding: 0 5% }
 .slick-slide {text-align: center; margin-bottom: 20px; max-height: 450px; overflow: hidden; }
 .slick-slide img{ margin: auto; width: 100% }
