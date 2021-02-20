@@ -124,8 +124,6 @@
 								.page-actualites-mshb  .actus-liste-type {	  text-align:center;  }
 								.page-actualites-mshb  .actus-liste-partage {	  text-align:center;  }
 
-								/* .page-actualites-mshb  .actus-liste-pagination { margin-top: 40px;text-align:center;   font-weight:bold;   font-size:24px;  } */
-								/* .page-actualites-mshb  .actus-liste-pagination a { color:#c33932;   padding: 0 15px;  } */
 								.bloc-actus-ordre,.bloc-actus-ordre:focus { border:none;outline: none;  }
 								.page-actualites-mshb .bloc-labo-list-adresse p, .page-actualites-mshb .bloc-labo-list-resp p, .page-actualites-mshb .bloc-labo-list-effectifs p{ text-align:center !important;  }
 								.page-actualites-mshb .bloc-labo-list-adresse li, .page-actualites-mshb .bloc-labo-list-resp li, .page-actualites-mshb .bloc-labo-list-effectifs li{ list-style: none !important;  }
@@ -191,7 +189,6 @@
 								.bloc-medias-single-date { margin-bottom:35px;  }
 								.bloc-medias-single-date span { width:200px;   border-bottom:1px solid #BF2228;   padding-bottom:10px;  }
 								.bloc-list-liens ul li { background-color:red;   list-style: none;   background: url("../img/pictos/picto-lien.png") 0 3px no-repeat;   padding: 0 0 0 25px;   text-align: left;  }
-								/* .page-medias-mshb .actus-liste-pagination { margin-top: 40px;   text-align: center;   font-weight: bold;   font-size: 24px;  } */
 								.medias-liste-image { border: 1px solid #DDDDDD;   width: 100%;   min-height: 100px;   position: relative;   background-color: rgba(0, 0, 0, 0.1) !important;  }
 								.medias-liste-image .tag { position: absolute;   left: 40%;   top: 35%;   z-index: 1000;  }
 
@@ -1098,13 +1095,11 @@ body form.mj-form .mj-embedded.mj-vertical {  padding: 0px !important; }
 .color_home .navbar-default .navbar-right li a:hover{ color: #000 }
 
 /* color_plateforme */
-
 .color_plateforme .navbar-default .navbar-right li a:hover{ color: #000 }
 .color_plateforme .container div.acteur-image-container {display:flex;justify-content: center;align-items: center;}
 .color_plateforme .container div.acteur-title {border: 1px solid #7f7f7f;display: block;font-weight: bold;position: absolute;width: 60%;text-align: center;background-color:#fff;font-family: campton_bold;padding: 4px 5px 2px;}
 
 /* color_recherche */
-
 .color_recherche .navbar-default .navbar-right li a:hover{ color: #000 }
 .color_recherche .form_mshb button { border: 2px solid var(--current_color); color: var(--current_color); }
 .color_recherche button { border: 2px solid var(--current_color); color: var(--current_color); }
@@ -1113,13 +1108,10 @@ body form.mj-form .mj-embedded.mj-vertical {  padding: 0px !important; }
 .color_recherche .form_mshb .form-champs-recherche input.subForm, .form-general-recherche .form-champs-recherche input.resetForm{  background: var(--current_color) !important;  border: 2px solid var(--current_color) !important; }
 .color_recherche .btn-projets-tri-sel { background: var(--current_color) !important;; }
 
-
 /* color_mshb */
-
 .color_mshb a.color_link{  border: 2px solid var(--current_color); background: var(--current_color); }
 .color_mshb a.color_link:hover{ color: var(--current_color) }
 .color_mshb .navbar-default .navbar-right li a:hover{ color: #000 }
-
 
 a.liensiteglob {color: var(--current_color);}
 .footer_bg{ background: var(--current_color); opacity: 1}
@@ -1127,7 +1119,6 @@ a.liensiteglob {color: var(--current_color);}
 /* RECHERCHE */
 .bloc-projets-ordre{ display: none !important ; }
 .color_mshb .poles-menu li{}
-
 
 /* PAGES MOSAIQUE */
 .mosaique {--itemEspace: 20px; --itemCol: 3; --itemlargeur: calc(100% / var(--itemCol) - var(--itemEspace) * (var(--itemCol) - 1) / var(--itemCol)); display: flex; flex-flow: row wrap; width: 100%; justify-content: space-between; }
@@ -1200,7 +1191,7 @@ a.liensiteglob {color: var(--current_color);}
 
 
 /* MEDIAS */
-.actus-liste-pagination {margin-top: 40px;text-align: center;font-weight: bold;font-size: 24px;}
+.actus-liste-pagination {margin-top: 40px;text-align: center; font-weight: bold;font-size: 24px;}
 .actus-liste-pagination a{font-family: campton; margin-top: 20px; font-size: 14px;   color: #FFF;   border: 3px solid var(--current_color) ; background-color:var(--current_color);  padding: 3px 5px 2px 5px;  margin-top: 20px; display: inline-block;width: 30px; height: 30px; border-radius: 50%;}
 /* .medias-liste-image{ margin-top:40px; height: 100px; overflow: hidden; background: url("images/bandeaux/002.png") rgba(0,0,0,0.3); background-size: 200% auto; background-position: center; margin-bottom: 10px;  }
 .medias-liste-image img{ opacity: 0.8; transition: all .3s ; }
