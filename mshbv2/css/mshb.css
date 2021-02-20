@@ -124,8 +124,8 @@
 								.page-actualites-mshb  .actus-liste-type {	  text-align:center;  }
 								.page-actualites-mshb  .actus-liste-partage {	  text-align:center;  }
 
-								.page-actualites-mshb  .actus-liste-pagination { margin-top: 40px;text-align:center;   font-weight:bold;   font-size:24px;  }
-								.page-actualites-mshb  .actus-liste-pagination a { color:#c33932;   padding: 0 15px;  }
+								/* .page-actualites-mshb  .actus-liste-pagination { margin-top: 40px;text-align:center;   font-weight:bold;   font-size:24px;  } */
+								/* .page-actualites-mshb  .actus-liste-pagination a { color:#c33932;   padding: 0 15px;  } */
 								.bloc-actus-ordre,.bloc-actus-ordre:focus { border:none;outline: none;  }
 								.page-actualites-mshb .bloc-labo-list-adresse p, .page-actualites-mshb .bloc-labo-list-resp p, .page-actualites-mshb .bloc-labo-list-effectifs p{ text-align:center !important;  }
 								.page-actualites-mshb .bloc-labo-list-adresse li, .page-actualites-mshb .bloc-labo-list-resp li, .page-actualites-mshb .bloc-labo-list-effectifs li{ list-style: none !important;  }
@@ -191,7 +191,7 @@
 								.bloc-medias-single-date { margin-bottom:35px;  }
 								.bloc-medias-single-date span { width:200px;   border-bottom:1px solid #BF2228;   padding-bottom:10px;  }
 								.bloc-list-liens ul li { background-color:red;   list-style: none;   background: url("../img/pictos/picto-lien.png") 0 3px no-repeat;   padding: 0 0 0 25px;   text-align: left;  }
-								.page-medias-mshb .actus-liste-pagination { margin-top: 40px;   text-align: center;   font-weight: bold;   font-size: 24px;  }
+								/* .page-medias-mshb .actus-liste-pagination { margin-top: 40px;   text-align: center;   font-weight: bold;   font-size: 24px;  } */
 								.medias-liste-image { border: 1px solid #DDDDDD;   width: 100%;   min-height: 100px;   position: relative;   background-color: rgba(0, 0, 0, 0.1) !important;  }
 								.medias-liste-image .tag { position: absolute;   left: 40%;   top: 35%;   z-index: 1000;  }
 
@@ -1210,9 +1210,11 @@ a.liensiteglob {color: var(--current_color);}
 .agenda_item .lieu{   padding-top: 8px;text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
 .agenda_item .agenda_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 24px;  }
 .agenda_item .txt{ padding-top: 8px; }
-/* MEDIAS */
 
-.actus-liste-pagination a{   font-family: campton; margin-top: 20px; font-size: 14px;   color: #FFF;   border: 3px solid #c33932 ; background-color: #c33932;  padding: 3px 5px 2px 5px;  margin-top: 20px; display: inline-block;  }
+
+/* MEDIAS */
+.actus-liste-pagination {margin-top: 40px;text-align: center;font-weight: bold;font-size: 24px;}
+.actus-liste-pagination a{font-family: campton; margin-top: 20px; font-size: 14px;   color: #FFF;   border: 3px solid var(--current_color) ; background-color:var(--current_color);  padding: 3px 5px 2px 5px;  margin-top: 20px; display: inline-block;width: 30px; height: 30px; border-radius: 50%;}
 /* .medias-liste-image{ margin-top:40px; height: 100px; overflow: hidden; background: url("images/bandeaux/002.png") rgba(0,0,0,0.3); background-size: 200% auto; background-position: center; margin-bottom: 10px;  }
 .medias-liste-image img{ opacity: 0.8; transition: all .3s ; }
 .medias-liste-image:hover img{ opacity: 1 }
