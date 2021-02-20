@@ -48,8 +48,7 @@
 							/* fichier stylesv2.css ("https://dev.mshb.fr/sites/all/themes/mshbv2/css/stylesv2.css?qnp6gh"))*/
 
 								/* STYLES BPS */
-
-								.global_contour ul li { font-family: lora_regular !important;  }
+								/* .global_contour ul li { font-family: lora_regular !important;  } */
 
 								#admin-menu { z-index:10000;  }
 
@@ -834,7 +833,7 @@
 /* ROOT */
 body { font-family: lora_regular; font-size: 16px;  letter-spacing: 0.02em }
 div{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box;  box-sizing: border-box;}
-h1, h2, h3, h4, h5, h6 {  font-family: campton_bold; letter-spacing: 0.015em; color: #000; margin-top: 0.5em;  margin-bottom: 0.5em; }
+h1, h2, h3, h4, h5, h6 {  font-family: campton_bold; letter-spacing: 0.015em; color: #000; margin-top: 0.75em;  margin-bottom: 0.5em; }
 ::selection { outline: none; background:rgba(0,0,0,0.1) }
 img:focus, div:focus{ outline: none;  }
 
@@ -1348,10 +1347,7 @@ ul.menu-resume li a:hover {text-decoration: none; color:white; cursor: pointer;}
 ul.menu-resume li.noactive{background-color: white;}
 ul.menu-resume li.noactive a{color: var(--current_color);}
 
-
-
 /* FOOTER */
-
 .footer{ font-family: campton_regular; padding: 20px; min-height: 100px;  max-width: 1400px; }
 .footer .container{ max-width: 100%;  width:100% }
 .footer p{ font-size: 12px; font-family: campton_regular;}
@@ -1372,29 +1368,15 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .footer .zone_menu li{ font-size: 12px; display: inline-block;  }
 
 
-/* LISTING PROJETS */
-
+/* PROJETS */
 .listing_projets{ position: relative; }
-/*.projet_item{ margin: 20px auto; display: flex; flex-direction: column; justify-content: space-between; border-bottom: 5px solid var(--current_color); min-height: 320px; padding: 30px;  background-size: contain;  background-image: url("https://raw.githubusercontent.com/jamelsuan/MSHB-modifs/main/mshbv2/img/bandeaux_projets/0/001.png");  }
-.projet_item:hover{  }
-.projet_item:hover p a{ color:var(--color3);  }
-.projet_item p{font-size: 0.8em; }
-.projet_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
-.projet_item a{  border-bottom: none; }
-.projet_item .bloc-projets-liste-suite {  border-bottom: none; margin:1em 0; letter-spacing: 0.01em; font-family: lora_bold; color: #000; font-size: 17px;  display: block; line-height: 1.35em;   }
-.projet_item h3{ background-color :var(--color3); color:white;  display: inline-block; margin: 0; padding: .4em 1em 0.2em 1em; line-height: 1.3em;  max-width: 90%; min-height: 2em; font-size: 12px; font-family: campton_medium;   }
-.projet_item h2{   display: inline-block;  margin: 0; padding: 0px 5px; line-height: 1.3em;  padding: 5px; max-width: 96%; min-height: 2em; font-size: 10px; text-transform: uppercase; font-family: campton_bold; color: var(--color0) }
-.projet_item p{ color :var(--color0);  font-size: 18px;; }
-.projet_item p a{  font-family: campton_bold;  }*/
 .page-projets-mshb .select_orderBy{ background: #fff; float: right; font-size: 12px; color: #666; border: none; position: absolute; right: 0px; top: 20px;  font-family: campton_regular;  }
 .page-projets-mshb .select_orderBy option{ line-height: 2em; padding: 5px; -webkit-appearance: none; }
 
-
 .mosaique.listing_projets{--itemCol : 4;}
 .mosaique .projet_item{margin: 10px 0;}
-/* root temporairement placé ici */
-:root{
 
+:root{
 	--colorAxe1:#3d8267;
 	--colorAxe1clair:#a3d2a1;
 	--colorAxe2:#29838a;
@@ -1547,7 +1529,7 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .form-champs-recherche-filtre button.type-axe.axe-2:hover, .color_recherche .axe-2.btn-projets-tri-sel {background:var(--colorAxe2) !important;;color:#FFF;}
 .form-champs-recherche-filtre button.type-axe.axe-3:hover, .color_recherche .axe-3.btn-projets-tri-sel {background:var(--colorAxe3) !important;;color:#FFF;}
 
-/* page projet */
+/* PROJET */
 .bloc_head_projet_details{background: url("../img/bandeaux_projets/1270/001.png") center center no-repeat transparent; background-size: cover;}
 .bloc_head_projet_details.bck1{background-image: url("../img/bandeaux_projets/1270/001.png");} .bloc_head_projet_details.bck2{background-image: url("../img/bandeaux_projets/1270/002.png");} .bloc_head_projet_details.bck3{background-image: url("../img/bandeaux_projets/1270/003.png");} .bloc_head_projet_details.bck4{background-image: url("../img/bandeaux_projets/1270/004.png");} .bloc_head_projet_details.bck5{background-image: url("../img/bandeaux_projets/1270/005.png");} .bloc_head_projet_details.bck6{background-image: url("../img/bandeaux_projets/1270/006.png");} .bloc_head_projet_details.bck7{background-image: url("../img/bandeaux_projets/1270/007.png");} .bloc_head_projet_details.bck8{background-image: url("../img/bandeaux_projets/1270/008.png");} .bloc_head_projet_details.bck9{background-image: url("../img/bandeaux_projets/1270/009.png");} .bloc_head_projet_details.bck10{background-image: url("../img/bandeaux_projets/1270/010.png");} .bloc_head_projet_details.bck11{background-image: url("../img/bandeaux_projets/1270/011.png");} .bloc_head_projet_details.bck12{background-image: url("../img/bandeaux_projets/1270/012.png");} .bloc_head_projet_details.bck13{background-image: url("../img/bandeaux_projets/1270/013.png");} .bloc_head_projet_details.bck14{background-image: url("../img/bandeaux_projets/1270/014.png");} .bloc_head_projet_details.bck15{background-image: url("../img/bandeaux_projets/1270/015.png");} .bloc_head_projet_details.bck16{background-image: url("../img/bandeaux_projets/1270/016.png");} .bloc_head_projet_details.bck17{background-image: url("../img/bandeaux_projets/1270/017.png");} .bloc_head_projet_details.bck18{background-image: url("../img/bandeaux_projets/1270/018.png");} .bloc_head_projet_details.bck19{background-image: url("../img/bandeaux_projets/1270/019.png");} .bloc_head_projet_details.bck20{background-image: url("../img/bandeaux_projets/1270/020.png");} .bloc_head_projet_details.bck21{background-image: url("../img/bandeaux_projets/1270/021.png");} .bloc_head_projet_details.bck22{background-image: url("../img/bandeaux_projets/1270/022.png");} .bloc_head_projet_details.bck23{background-image: url("../img/bandeaux_projets/1270/023.png");} .bloc_head_projet_details.bck24{background-image: url("../img/bandeaux_projets/1270/024.png");} .bloc_head_projet_details.bck25{background-image: url("../img/bandeaux_projets/1270/025.png");} .bloc_head_projet_details.bck26{background-image: url("../img/bandeaux_projets/1270/026.png");} .bloc_head_projet_details.bck27{background-image: url("../img/bandeaux_projets/1270/027.png");} .bloc_head_projet_details.bck28{background-image: url("../img/bandeaux_projets/1270/028.png");} .bloc_head_projet_details.bck29{background-image: url("../img/bandeaux_projets/1270/029.png");} .bloc_head_projet_details.bck30{background-image: url("../img/bandeaux_projets/1270/030.png");} .bloc_head_projet_details.bck31{background-image: url("../img/bandeaux_projets/1270/031.png");} .bloc_head_projet_details.bck32{background-image: url("../img/bandeaux_projets/1270/032.png");} .bloc_head_projet_details.bck33{background-image: url("../img/bandeaux_projets/1270/033.png");} .bloc_head_projet_details.bck34{background-image: url("../img/bandeaux_projets/1270/034.png");} .bloc_head_projet_details.bck35{background-image: url("../img/bandeaux_projets/1270/035.png");} .bloc_head_projet_details.bck36{background-image: url("../img/bandeaux_projets/1270/036.png");} .bloc_head_projet_details.bck37{background-image: url("../img/bandeaux_projets/1270/037.png");} .bloc_head_projet_details.bck38{background-image: url("../img/bandeaux_projets/1270/038.png");} .bloc_head_projet_details.bck39{background-image: url("../img/bandeaux_projets/1270/039.png");} .bloc_head_projet_details.bck40{background-image: url("../img/bandeaux_projets/1270/040.png");} .bloc_head_projet_details.bck41{background-image: url("../img/bandeaux_projets/1270/041.png");} .bloc_head_projet_details.bck42{background-image: url("../img/bandeaux_projets/1270/042.png");} .bloc_head_projet_details.bck43{background-image: url("../img/bandeaux_projets/1270/043.png");} .bloc_head_projet_details.bck44{background-image: url("../img/bandeaux_projets/1270/044.png");} .bloc_head_projet_details.bck45{background-image: url("../img/bandeaux_projets/1270/045.png");} .bloc_head_projet_details.bck46{background-image: url("../img/bandeaux_projets/1270/046.png");} .bloc_head_projet_details.bck47{background-image: url("../img/bandeaux_projets/1270/047.png");} .bloc_head_projet_details.bck48{background-image: url("../img/bandeaux_projets/1270/048.png");} .bloc_head_projet_details.bck49{background-image: url("../img/bandeaux_projets/1270/049.png");} .bloc_head_projet_details.bck50{background-image: url("../img/bandeaux_projets/1270/050.png");} .bloc_head_projet_details.bck51{background-image: url("../img/bandeaux_projets/1270/051.png");} .bloc_head_projet_details.bck52{background-image: url("../img/bandeaux_projets/1270/052.png");} .bloc_head_projet_details.bck53{background-image: url("../img/bandeaux_projets/1270/053.png");} .bloc_head_projet_details.bck54{background-image: url("../img/bandeaux_projets/1270/054.png");} .bloc_head_projet_details.bck55{background-image: url("../img/bandeaux_projets/1270/055.png");} .bloc_head_projet_details.bck56{background-image: url("../img/bandeaux_projets/1270/056.png");} .bloc_head_projet_details.bck57{background-image: url("../img/bandeaux_projets/1270/057.png");} .bloc_head_projet_details.bck58{background-image: url("../img/bandeaux_projets/1270/058.png");} .bloc_head_projet_details.bck59{background-image: url("../img/bandeaux_projets/1270/059.png");} .bloc_head_projet_details.bck60{background-image: url("../img/bandeaux_projets/1270/060.png");} .bloc_head_projet_details.bck61{background-image: url("../img/bandeaux_projets/1270/061.png");} .bloc_head_projet_details.bck62{background-image: url("../img/bandeaux_projets/1270/062.png");} .bloc_head_projet_details.bck63{background-image: url("../img/bandeaux_projets/1270/063.png");} .bloc_head_projet_details.bck64{background-image: url("../img/bandeaux_projets/1270/064.png");} .bloc_head_projet_details.bck65{background-image: url("../img/bandeaux_projets/1270/065.png");} .bloc_head_projet_details.bck66{background-image: url("../img/bandeaux_projets/1270/066.png");} .bloc_head_projet_details.bck67{background-image: url("../img/bandeaux_projets/1270/067.png");} .bloc_head_projet_details.bck68{background-image: url("../img/bandeaux_projets/1270/068.png");} .bloc_head_projet_details.bck69{background-image: url("../img/bandeaux_projets/1270/069.png");} .bloc_head_projet_details.bck70{background-image: url("../img/bandeaux_projets/1270/070.png");} .bloc_head_projet_details.bck71{background-image: url("../img/bandeaux_projets/1270/071.png");} .bloc_head_projet_details.bck72{background-image: url("../img/bandeaux_projets/1270/072.png");} .bloc_head_projet_details.bck73{background-image: url("../img/bandeaux_projets/1270/073.png");} .bloc_head_projet_details.bck74{background-image: url("../img/bandeaux_projets/1270/074.png");} .bloc_head_projet_details.bck75{background-image: url("../img/bandeaux_projets/1270/075.png");} .bloc_head_projet_details.bck76{background-image: url("../img/bandeaux_projets/1270/076.png");} .bloc_head_projet_details.bck77{background-image: url("../img/bandeaux_projets/1270/077.png");} .bloc_head_projet_details.bck78{background-image: url("../img/bandeaux_projets/1270/078.png");} .bloc_head_projet_details.bck79{background-image: url("../img/bandeaux_projets/1270/079.png");} .bloc_head_projet_details.bck80{background-image: url("../img/bandeaux_projets/1270/080.png");} .bloc_head_projet_details.bck81{background-image: url("../img/bandeaux_projets/1270/081.png");} .bloc_head_projet_details.bck82{background-image: url("../img/bandeaux_projets/1270/082.png");} .bloc_head_projet_details.bck83{background-image: url("../img/bandeaux_projets/1270/083.png");} .bloc_head_projet_details.bck84{background-image: url("../img/bandeaux_projets/1270/084.png");} .bloc_head_projet_details.bck85{background-image: url("../img/bandeaux_projets/1270/085.png");} .bloc_head_projet_details.bck86{background-image: url("../img/bandeaux_projets/1270/086.png");} .bloc_head_projet_details.bck87{background-image: url("../img/bandeaux_projets/1270/087.png");} .bloc_head_projet_details.bck88{background-image: url("../img/bandeaux_projets/1270/088.png");} .bloc_head_projet_details.bck89{background-image: url("../img/bandeaux_projets/1270/089.png");} .bloc_head_projet_details.bck90{background-image: url("../img/bandeaux_projets/1270/090.png");} .bloc_head_projet_details.bck91{background-image: url("../img/bandeaux_projets/1270/091.png");} .bloc_head_projet_details.bck92{background-image: url("../img/bandeaux_projets/1270/092.png");} .bloc_head_projet_details.bck93{background-image: url("../img/bandeaux_projets/1270/093.png");} .bloc_head_projet_details.bck94{background-image: url("../img/bandeaux_projets/1270/094.png");} .bloc_head_projet_details.bck95{background-image: url("../img/bandeaux_projets/1270/095.png");} .bloc_head_projet_details.bck96{background-image: url("../img/bandeaux_projets/1270/096.png");} .bloc_head_projet_details.bck97{background-image: url("../img/bandeaux_projets/1270/097.png");} .bloc_head_projet_details.bck98{background-image: url("../img/bandeaux_projets/1270/098.png");} .bloc_head_projet_details.bck99{background-image: url("../img/bandeaux_projets/1270/099.png");} .bloc_head_projet_details.bck100{background-image: url("../img/bandeaux_projets/1270/100.png");}
 .container-projet-single .container p a,
@@ -1578,7 +1560,6 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .bloc_head_projet_details .axe_3 .projet_header h2{
 	background: transparent;
 }
-
 .bloc_head_projet_details .projet_item.axe_1:hover::before,
 .bloc_head_projet_details .projet_item.axe_2:hover::before,
 .bloc_head_projet_details .projet_item.axe_3:hover::before {
@@ -1603,6 +1584,13 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .gti_item h1::after {margin-top: 8px;display: block;content: '';width: 100%;height: 2px;background-color: var(--current_color);}
 .gti_item header{margin-bottom: 15px;}
 .gti_item h3 {display: inline-block;margin: 0;padding: .4em .4em 0.2em;line-height: 1em;max-width: 100%;min-height: 0;font-size: 15px;font-family: campton_medium;background: transparent;border: 2px solid var(--current_color);color: #FFF;background: var(--current_color);border: 2px solid var(--current_color);}
+
+
+
+/* PROJET ET GTI */
+.colonne_infos{font-family:campton_regular}
+.colonne_infos b {font-family: campton_bold;}
+.colonne_infos h3, .colonne_infos h2 {font-size: 26px; line-height: 1.2; }
 
 /* GTI SINGLE */
 .membres_wrapper{display: flex; flex-wrap: wrap; justify-content: center;}
