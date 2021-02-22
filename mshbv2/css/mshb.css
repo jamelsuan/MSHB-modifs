@@ -266,7 +266,7 @@
 								.contact-menu li a { color:#BF2228;  }
 
 								/* DIVERS - COLONNES */
-								.bloc-2cols {	  -moz-column-count:2;   -moz-colum-width:50%;   -moz-column-gap:20px;   -webkit-column-count:2;   -webkit-colum-width:30%;   -webkit-column-gap:20px;   column-count: 2;   colum-width:50%;   column-gap:20px;  }
+								.bloc-2cols {	  -moz-column-count:2;   -moz-colum-width:50%;   -moz-column-gap:30px;   -webkit-column-count:2;   -webkit-colum-width:30%;   -webkit-column-gap:20px;   column-count: 2;   colum-width:50%;   column-gap:20px;  }
 
 								/* AAP */
 								.bloc-pole-aap { height:80px;   font-size:14px;   text-align:center;   font-weight:bold;  }
