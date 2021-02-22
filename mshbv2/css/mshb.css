@@ -851,10 +851,9 @@ li{  list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
 .bloc-projet-detail-resume p {padding-bottom:10px;font-size:18px;}
 .bloc-projet-detail-resume ul li {font-size:12px;}
 .bloc-projet-detail-resume ol li {list-style:decimal;font-size:12px;}
-h2.centre{text-align: center; max-width: 800px; margin: 2em auto 0.5em; font-size: 50px}
-h3.centre{text-align: center; max-width: 800px; margin: 2em auto 0.5em; font-size: 30px}
-h3.soustitre{ display: inline; max-width: 800px; margin: 2em auto 0.5em; font-family: campton_regular; font-size: 30px; border-bottom: 3px solid var(--current_color); letter-spacing: 0.01em; line-height: 1.4em; text-align: center;}
-
+h2.centre{text-align: center; max-width: 800px; margin: 2.5em auto 0.5em; font-size: 50px}
+h3.centre, h3.soustitre{text-align: center; max-width: 800px; margin: 2.5em auto 0.5em; font-size: 30px}
+h3.soustitre span{display: inline; font-family: campton_regular; font-size: 30px; border-bottom: 3px solid var(--current_color); letter-spacing: 0.01em; line-height: 1.4em; text-align: center;}
 
 *.centre + *.centre{margin-top: 0;}
 *.centre + p{margin-top: 50px;}

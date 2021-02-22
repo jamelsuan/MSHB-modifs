@@ -201,6 +201,14 @@ function bandeauProjet(){
 	}
 }
 
+function soustitreH3(){
+  h3 = document.querySelectorAll('h3.soustitre');
+  for (i = 0; i < h3.length; i++) {
+    content = h3[i].innerHTML;
+    h3[i].innerHTML = "<span>"+content+"</span>";
+  } 
+}
+
 
 animeLogo();
 if(document.getElementById('bandeau_svg')){  animeBandeau(); }
@@ -209,7 +217,7 @@ navBar();
 animLiensAncre();
 projetAjust();
 bandeauProjet();
-
+soustitreH3();
 window.onresize = function(){
   projetAjust();
 }
