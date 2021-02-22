@@ -851,7 +851,7 @@ li{  list-style: none; padding-bottom: 0.3em; margin-left: 1em;}
 .bloc-projet-detail-resume p {padding-bottom:10px;font-size:18px;}
 .bloc-projet-detail-resume ul li {font-size:12px;}
 .bloc-projet-detail-resume ol li {list-style:decimal;font-size:12px;}
-
+h1.centre, h2.centre, h3.centre, h4.centre{text-align: center;}
 
 /* GLOBAL LAYOUT */
 section, .section{ width: 100%;margin-bottom: 20px;    }
