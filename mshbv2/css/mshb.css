@@ -1007,8 +1007,8 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container_header_home{ overflow: hidden; max-height: 475px; }
 .bloc-home-recherche-titre{ margin-top: 10px; }
 .container-bloc-home .col-md-4 > h3{text-align: center;}
-.container-bloc-home .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
-
+.container-bloc-home .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 160% auto; transition: all .3s; height:120px;  background-position: center; margin-bottom: 10px; }
+.container-bloc-home:hover .bloc-home-recherche-img{ background-size: 180% auto; }
 .bloc-home-service-img{ background: url('images/visuel_batiment.jpg') top left no-repeat; background-size: 100% auto; margin-bottom: 10px; }
 .container-bloc-home input{ margin: 0; display: inline; width: 160px; border: 2px solid #c33932 !important; padding: 7px 10px 4px 10px }
 .container-bloc-home input[type=submit] { display: inline;  width: auto; border: 2px solid #c33932 !important ; background: #c33932; color: #fff; padding: 7px 5px 4px 5px; margin: 0 -8px;  }
@@ -1032,9 +1032,9 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .bloc-home-service .service_item{  border-top: 3px solid var(--current_color);  padding: 30px 0; }
 .container-bloc-home .bloc-home-service .service_item p{ font-size: 13px; }
 .container-bloc-home .bloc-home-service-img{ text-align: center; }
-.container-bloc-home .media_item{  border-top: 3px solid var(--current_color);  padding: 30px 0; }
+.container-bloc-home .media_item{  border-top: 3px solid var(--current_color);  padding-top: 40px; }
 .container-bloc-home .recherche_item{  --current_color : var(--color3);  }
-.container-bloc-home .recherche_item{  border-top: 3px solid var(--current_color);  padding: 30px 0; }
+.container-bloc-home .recherche_item{  border-top: 3px solid var(--current_color);  }
 .container-bloc-home .recherche_item .projet_header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 
 
