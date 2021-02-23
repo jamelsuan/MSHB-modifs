@@ -1395,7 +1395,7 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item.bck99  header:after{background-image: url("../img/bandeaux_projets/0/099.png");}
 .projet_item.bck100  header:after{background-image: url("../img/bandeaux_projets/0/100.png");}
 
-.projet_item h3 {  display: inline-block;    margin: 0;    padding: 0px 5px;    line-height: 1.3em;    padding: 5px;    max-width: 96%;    min-height: 2em;    font-size: 12px;    font-family: campton_medium;    background:var(--current_color); color: #fff; }
+.projet_item h3 {  display: inline-block;  margin: 0; padding: 2px 5px 0px 5px;  line-height: 1.3em;   max-width: 80%;   font-size: 12px;  font-family: campton_medium;    background:var(--current_color); color: #fff; }
 
 .projet_item h2 { display: inline-block; margin: 0; padding: 3px 5px 0 5px;; line-height: 1.3em; max-width: 100%; min-height: 0; font-size:14px; text-transform: uppercase; color: var(--current_color); background: white; font-family: campton_bold;   border: 1px solid  var(--current_color); }
 
