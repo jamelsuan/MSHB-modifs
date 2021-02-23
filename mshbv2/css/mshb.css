@@ -151,7 +151,7 @@
 								.blocTelecharger a, .blocTelecharger a:hover { background: url('../img/pictos/picto-lienext-pt.png') 0 0 no-repeat;   padding-left: 25px;   font-family: campton_regular;   color: #BF2228 !important;  }
 
 								/* AGENDA */
-								.bloc-agenda-liste { margin-bottom: 45px;  }
+								/* .bloc-agenda-liste { margin-bottom: 45px;  }
 								.agenda-liste-titre { font-size: 18px;font-weight: bold;text-align: center;  }
 								.agenda-liste-pole { text-align: center;margin-bottom: 15px;   font-family: campton_regular;  }
 								.agenda-liste-pole span { border-bottom: 1px solid #c33932;padding-bottom: 5px;  }
@@ -164,7 +164,7 @@
 								.agenda-liste-mensuel { margin-bottom:30px;margin-top:30px;  }
 								.bloc-agenda-single-pole { text-align: center;margin-bottom: 15px;   font-family: campton_regular;  }
 								.bloc-agenda-single-type { font-family: campton_regular;  }
-								.bloc-agenda-single-pole span {	  border-bottom: 1px solid #c33932;padding-bottom: 5px;  }
+								.bloc-agenda-single-pole span {	  border-bottom: 1px solid #c33932;padding-bottom: 5px;  } */
 
 								/* POLES */
 								ul.poles-menu { text-align:center;   margin-bottom:45px;   /*display:inline-block;*/}
@@ -229,9 +229,9 @@
 
 								.container-projet-single .contenu_lie_actus a.bloc-actus-liste-suite,
 								.container-projet-single .contenu_lie_medias a.bloc-medias-liste-suite{ /*background-color: transparent;   font-size: 0.8em;   color:#000;   text-decoration: underline;   font-family: campton_regular !important;*/}
-								.container-projet-single .contenu_lie_agenda .agenda-liste-titre-projet{ margin-top:15px;  }
+								/* .container-projet-single .contenu_lie_agenda .agenda-liste-titre-projet{ margin-top:15px;  }
 								.container-projet-single .contenu_lie_agenda .agenda-liste-titre-projet a{  font-size: 0.8em;    font-weight:bold;   		 }
-								.container-projet-single .contenu_lie_agenda .agenda-liste-txt{ font-size: 0.8em;  }
+								.container-projet-single .contenu_lie_agenda .agenda-liste-txt{ font-size: 0.8em;  } */
 
 								.container-projet-single .contenu_lie_medias .medias-liste-titre-projet{ margin-top:15px;  }
 								.container-projet-single .contenu_lie_medias .medias-liste-titre-projet a{  font-size: 0.8em;    font-weight:bold;   		 }
@@ -1014,8 +1014,8 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 .encart_home p{margin:0;}
 .encart_home a.voirtout{text-align: center;font-size: 12px;color: grey;text-decoration: underline;display: block;font-family: campton;font-weight: 100;}
 .encart_home .bloc{width:100%;height:167px;background:no-repeat center center grey;background-size:cover;margin: 25px 0 15px;}
-.bloc.agenda .date{color:#FFF;text-align: center;display:block;font-family: campton;font-weight: 700;font-size:20px;line-height:24px}
-.bloc.agenda .date.jours{font-size: 38px;line-height: 32px;padding-top: 60px;font-weight: 500;}
+/* .bloc.agenda .date{color:#FFF;text-align: center;display:block;font-family: campton;font-weight: 700;font-size:20px;line-height:24px}
+.bloc.agenda .date.jours{font-size: 38px;line-height: 32px;padding-top: 60px;font-weight: 500;} */
 .bloc.projet {background-color:#FFF;background-size: 175%}
 .bloc.projet div.titre_projet{padding-top: 50px;text-align: center;}
 .bloc.projet .pole{    background-color: #000;color: #FFF;text-align: center;font-family: campton;font-weight: 500;font-size: 16px;line-height: 34px;padding: 3px 7px 1px;}
@@ -1028,13 +1028,13 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 /* .container-bloc-home h3 a{   } */
 .container_header_home{ overflow: hidden; max-height: 475px; }
 .bloc-home-actus .projet_item div,
-.bloc-home-agenda-date{ margin-bottom: 10px; width: 100%; height: auto;  }
-.bloc-home-agenda-date { padding: 10px; }
+/* .bloc-home-agenda-date{ margin-bottom: 10px; width: 100%; height: auto;  }
+.bloc-home-agenda-date { padding: 10px; } */
 .bloc-home-recherche-titre{ margin-top: 10px; }
 .container-bloc-home .projet_item .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
 
 .bloc-home-service-img{ background: url('images/visuel_batiment.jpg') top left no-repeat; background-size: 100% auto; margin-bottom: 10px; }
-.bloc-home-agenda-date .bloc-agenda-liste-jour{ font-family: campton_semibold; }
+/* .bloc-home-agenda-date .bloc-agenda-liste-jour{ font-family: campton_semibold; } */
 .container-bloc-home input{ margin: 0; display: inline; width: 160px; border: 2px solid #c33932 !important; padding: 7px 10px 4px 10px }
 .container-bloc-home input[type=submit] { display: inline;  width: auto; border: 2px solid #c33932 !important ; background: #c33932; color: #fff; padding: 7px 5px 4px 5px; margin: 0 -8px;  }
 .container-bloc-home .actus_item .bloc-home-actus-titre a{  margin-bottom: 1em;  font-size: 20px!important;    text-align: center;   color: #000;  font-family: campton_bold;   }
@@ -1132,6 +1132,7 @@ a.liensiteglob {color: var(--current_color);}
 .actus_wrapper .actu_item{  width: 25%;   margin: 20px 0; padding: 0 20px;   }
 .actu_item .ensavoirplus{ float: left!important; }
 .actu_item .date{   padding-bottom: 12px; text-align: left; font-family: campton_semibold; opacity:0.3 }
+.actu_item .tag{ text-transform: uppercase;  color: var(--current_color); font-family: campton_semibold; }
 .actu_item .actu_titre:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
 .actu_item .lieu{ text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
 .actu_item .actu_titre{ text-align: left; line-height: 1.2em;  font-family: campton_semibold; font-size: 24px;  }
@@ -1166,6 +1167,7 @@ a.liensiteglob {color: var(--current_color);}
 .agenda_wrapper{ display: flex; flex-wrap: wrap; }
 .agenda_item{ width:100%;  }
 .agenda_item .agenda_item{  width: 25%;   margin: 20px 0; padding: 0 20px;   }
+.agenda_item .agenda_item .tag{ text-transform: uppercase;  color: var(--current_color); font-family: campton_semibold; }
 .agenda_item .date{  padding-bottom: 8px;  font-family: campton_semibold; color: var(--current_color);  }
 .agenda_item .date:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
 .agenda_item .lieu{   padding-top: 8px;text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
