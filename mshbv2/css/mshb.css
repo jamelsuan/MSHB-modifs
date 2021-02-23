@@ -1268,6 +1268,12 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item:after{content:"";     background-repeat: no-repeat; width: 100%; height: 100%; display: block; position: absolute; top:0; left: 0; background-size: 100% 100%; background-position: top; transition: all .5s; background-size: contain;  background-image: url("../img/bandeaux_projets/0/001.png"); opacity: .7}
 .projet_item>a{width: 100%; height: 100%;text-decoration: none;}
 .projet_item header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
+
+
+.projet_item.axe_1{  --current_color : var(--colorAxe1);}
+.projet_item.axe_2{  --current_color : var(--colorAxe2);}
+.projet_item.axe_3{  --current_color : var(--colorAxe3);}
+
 .projet_item.axe_1:before,
 .projet_item.axe_2:before,
 .projet_item.axe_3:before{content:""; width: 100%; height: 100%; display: block; position: absolute; top:0; left: 0; background-size: 100% 100%;background-position: top; transition: all .5s}
@@ -1280,8 +1286,18 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item.axe_1 h3{background-color: var(--colorAxe1); border-color: var(--colorAxe1);}
 .projet_item.axe_2 h3{background-color: var(--colorAxe2); border-color: var(--colorAxe2);}
 .projet_item.axe_3 h3{background-color: var(--colorAxe3); border-color: var(--colorAxe3);}
+
+
+
+
 .projet_item h3{ color: var(--current_color); display: inline-block; margin: 0; padding: .4em 0 0.2em; line-height: 1.2em; max-width: 90%; min-height: 0; font-size: 12px; width: auto; font-family: campton_medium; color: #FFF; background: var(--current_color); }
-.projet_item h2 { display: inline-block; margin: 0; padding: 0px 5px; line-height: 1.3em; max-width: 100%; min-height: 0; font-size:18px; text-transform: uppercase; background: white; font-family: campton_bold; color: var(--current_color); margin-top: 14px; border: 1px solid  var(--current_color); }
+
+
+.projet_item h2 { display: inline-block; margin: 0; padding: 3px 5px 0 5px;; line-height: 1.3em; max-width: 100%; min-height: 0; font-size:14px; text-transform: uppercase; background: white; font-family: campton_bold;  margin-top: 14px; border: 1px solid  var(--current_color); }
+
+
+
+
 .projet_item h1{text-align:left;  color: var(--color3); border-bottom: none; margin: 1em 0; letter-spacing: 0.01em; font-family: lora_bold; color: #000; font-size: 18px; display: block; line-height: 1.2em; margin: 0;}
 .projet_item .content_projet{padding:20px; position: relative; z-index: 2; display: flex; flex-flow: column; justify-content: space-between; height: 100%;}
 .projet_item .pict-projet_encours{width: 20px; height: 20px; position: relative; background: url('../img/pictos/picto_projetencours.svg') white; display: inline-block; border-radius: 50%;}
