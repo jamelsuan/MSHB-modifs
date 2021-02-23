@@ -1271,8 +1271,8 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item.axe_2 h3{background-color: var(--colorAxe2); border-color: var(--colorAxe2);}
 .projet_item.axe_3 h3{background-color: var(--colorAxe3); border-color: var(--colorAxe3);}
 
-.projet_item header{width: 100%; background-image: url("../img/bandeaux_projets/0/001.png");min-height: 120px; text-align: center; align-items: center;background-position: center; background-size: 150%;background-repeat: no-repeat;padding: 0px;display: flex;flex-direction: column;justify-content: center;flex-flow: column;margin: 0; }
-
+.projet_item header{width: 100%; background-image: url("../img/bandeaux_projets/0/001.png");min-height: 120px; transition: all 1s; text-align: center; align-items: center;background-position: center; background-size: 150%;background-repeat: no-repeat;padding: 0px;display: flex;flex-direction: column;justify-content: center;flex-flow: column;margin: 0; }
+.projet_item:hover header{  background-size: 120%; }
 .projet_item.axe_1 header{background-color: var(--colorAxe1clair);}
 .projet_item.axe_2 header{background-color: var(--colorAxe2clair); }
 .projet_item.axe_3 header{background-color: var(--colorAxe3clair); }
