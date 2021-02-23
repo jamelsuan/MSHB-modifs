@@ -27,12 +27,10 @@
 
 								ul.legende_map_3D li {margin-top: 0; list-style: none;}
 
-
 								/* Formulaire de connexion */
 								.formConnexion .btn {color:#000;}
 
 								/*.region-content {margin-top:150px;}*/
-
 								/* DESIGN GENERAL FORMULAIRE RECHERCHE - ROUGE */
 								.form-general-recherche { margin-bottom:40px !important;  }
 								.form-general-recherche .form-champs-recherche input { border: 1px solid #c33932;   padding:5px;  }
@@ -56,10 +54,7 @@
 								/* ACTUALITES */
 								.page-actualites-mshb { /*font-family: 'Lato',sans-serif;*/
 									font-family: campton_regular;   font-size:15px;  }
-
-								.blocTelAlign {	  display:block;width:85%;margin: 0 auto;text-align:left !important;/*border: 1px solid gray;*/
-								}
-
+								.blocTelAlign {	  display:block;width:85%;margin: 0 auto;text-align:left !important;/*border: 1px solid gray;*/}
 								/*.page-actualites-mshb #formactus { margin-bottom:40px !important;  }
 								.page-actualites-mshb #formactus .form-champs-recherche input { border: 1px solid #c33932;   padding:5px;  }
 								.page-actualites-mshb #formactus .form-champs-recherche input.txtRechForm { width:250px;  }
@@ -1480,18 +1475,19 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .membre_item p.nom{font-family: campton_bold; text-decoration: none; margin-bottom: 0; text-align: center;}
 .membre_item p.nom a{border: none;}
 
+
+/* PAGE MSHB */
+.financeur p a{border:none;}
+
 /* FORMS */
 
 input {   border: 3px solid #c33932 !important }
 input:focus{ outline: none }
 
 /* DESIGN GENERAL FORMULAIRE RECHERCHE */
-
 .outils_recherche .outils_de_recherche{float: left}
-
 .outils_de_recherche{  z-index: 1; padding: 10px 0px 2px 0px; float: right; margin-top: -40px;  font-family: campton_regular; color: #333; cursor: pointer; font-size: 14px; }
 .outils_de_recherche span{ color: #c33932 }
-
 .outils_de_recherche:hover{ color: #c33932; border-bottom: 1px solid #c33932;  }
 
 .collapse.in { background: #000 ; z-index: 10; background: #fff; }
