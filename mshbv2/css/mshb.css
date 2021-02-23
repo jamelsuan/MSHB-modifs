@@ -1007,6 +1007,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .row{ margin-bottom: 40px; }
 .container_header_home{ overflow: hidden; max-height: 475px; }
 .bloc-home-recherche-titre{ margin-top: 10px; }
+.container-bloc-home .col-md-4 > h3{text-align: center;}
 .container-bloc-home .projet_item .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
 
 .bloc-home-service-img{ background: url('images/visuel_batiment.jpg') top left no-repeat; background-size: 100% auto; margin-bottom: 10px; }
