@@ -1256,25 +1256,12 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 	--colorAxe3clair:#e6afaf;
 }
 .projet_item{display: flex; flex-direction: column; justify-content: space-between; min-height: 360px; border:2px solid var(--current_color); padding: 30px; margin: 10px 0;  position: relative; padding: 0; background: none;}
-/* .projet_item:after{content:"";     background-repeat: no-repeat; width: 100%; height: 100%; display: block; position: absolute; top:0; left: 0; background-size: 100% 100%; background-position: top; transition: all .5s; background-size: contain; opacity: .7} */
 .projet_item>a{width: 100%; height: 100%;text-decoration: none;}
-/* .projet_item header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; } */
-
 
 .projet_item.axe_1{  --current_color : var(--colorAxe1); }
 .projet_item.axe_2{  --current_color : var(--colorAxe2); }
 .projet_item.axe_3{  --current_color : var(--colorAxe3); }
 
-/* .projet_item.axe_1:before,
-.projet_item.axe_2:before,
-.projet_item.axe_3:before{content:""; width: 100%; height: 100%; display: block; position: absolute; top:0; left: 0; background-size: 100% 100%;background-position: top; transition: all .5s}
-.projet_item.axe_1:hover:before,
-.projet_item.axe_2:hover:before,
-.projet_item.axe_3:hover:before{background-size: 100% 300%;} */
-
-/* .projet_item.axe_1:before{background: var(--colorAxe1clair);}
-.projet_item.axe_2:before{background: var(--colorAxe2clair)}
-.projet_item.axe_3:before{background: var(--colorAxe3clair)} */
 .projet_item.axe_1 h3{background-color: var(--colorAxe1); border-color: var(--colorAxe1);}
 .projet_item.axe_2 h3{background-color: var(--colorAxe2); border-color: var(--colorAxe2);}
 .projet_item.axe_3 h3{background-color: var(--colorAxe3); border-color: var(--colorAxe3);}
@@ -1282,12 +1269,6 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item header{  width: 100%;  min-height: 120px;   text-align: center;   align-items: center;  background-position: center; background-size: contain;  background-repeat: no-repeat;  padding: 0px;    display: flex;    flex-direction: column;    justify-content: center;    flex-flow: column;    margin: 0;   }
 
 
-/* .projet_item header:before{  content:''; display: block; position: absolute; width: 100%; height: 100%;  }
-.projet_item.axe_1 header:before{  background: var(--colorAxe1clair);}
-.projet_item.axe_2 header:before{  background: var(--colorAxe2clair)}
-.projet_item.axe_3 header:before{  background: var(--colorAxe3clair)} */
-
-/* .projet_item header:after{ content:''; display: block; position: absolute; width: 100%; height: 100%;  background-position: center; background-size: contain; } */
 .projet_item.bck1  header{background-image: url("../img/bandeaux_projets/0/001.png");}
 .projet_item.bck2  header{background-image: url("../img/bandeaux_projets/0/002.png");}
 .projet_item.bck3  header{background-image: url("../img/bandeaux_projets/0/003.png");}
@@ -1389,9 +1370,9 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item.bck99  header{background-image: url("../img/bandeaux_projets/0/099.png");}
 .projet_item.bck100  header{background-image: url("../img/bandeaux_projets/0/100.png");}
 
-.projet_item h3 {  display: inline-block;  margin: 0; padding: 2px 5px 0px 5px;  line-height: 1.3em;   max-width: 80%;   font-size: 12px;  font-family: campton_medium;    background:var(--current_color); color: #fff; }
+.projet_item h3 {   z-index: 2; display: inline-block;  margin: 0; padding: 2px 5px 0px 5px;  line-height: 1.3em;   max-width: 80%;   font-size: 12px;  font-family: campton_medium;    background:var(--current_color); color: #fff; }
 
-.projet_item h2 { display: inline-block; margin: 0; padding: 3px 5px 0 5px;; line-height: 1.3em; max-width: 100%; min-height: 0; font-size:14px; text-transform: uppercase; color: var(--current_color); background: white; font-family: campton_bold;   border: 1px solid  var(--current_color); }
+.projet_item h2 {   z-index: 2; display: inline-block; margin: 0; padding: 3px 5px 0 5px;; line-height: 1.3em; max-width: 100%; min-height: 0; font-size:14px; text-transform: uppercase; color: var(--current_color); background: white; font-family: campton_bold;   border: 1px solid  var(--current_color); }
 
 
 
