@@ -1007,7 +1007,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container_header_home{ overflow: hidden; max-height: 475px; }
 .bloc-home-recherche-titre{ margin-top: 10px; }
 .container-bloc-home .col-md-4 > h3{text-align: center;}
-.container-bloc-home .projet_item .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
+.container-bloc-home .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
 
 .bloc-home-service-img{ background: url('images/visuel_batiment.jpg') top left no-repeat; background-size: 100% auto; margin-bottom: 10px; }
 .container-bloc-home input{ margin: 0; display: inline; width: 160px; border: 2px solid #c33932 !important; padding: 7px 10px 4px 10px }
@@ -1021,7 +1021,7 @@ body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 
 .container-bloc-home .bloc-home-news{ --current_color : var(--color1); }
 .container-bloc-home .bloc-home-news .newsletter_item{  border-top: 3px solid var(--current_color);  padding: 30px 0; }
-.container-bloc-home .projet_item{ --current_color : var(--color3);  border-top: 3px solid var(--color3); min-height: 320px;  }
+.container-bloc-home .projet_item{ --current_color : var(--color3);  border-top: 3px solid var(--color3);  }
 
 .container-bloc-home .media_item{ --current_color : var(--color1); }
 .container-bloc-home .projet_item_twitter{ --current_color : var(--color1); border-top: 3px solid var(--current_color);  padding: 30px 0; }
