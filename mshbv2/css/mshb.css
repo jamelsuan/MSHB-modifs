@@ -1014,8 +1014,6 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 .encart_home p{margin:0;}
 .encart_home a.voirtout{text-align: center;font-size: 12px;color: grey;text-decoration: underline;display: block;font-family: campton;font-weight: 100;}
 .encart_home .bloc{width:100%;height:167px;background:no-repeat center center grey;background-size:cover;margin: 25px 0 15px;}
-/* .bloc.agenda .date{color:#FFF;text-align: center;display:block;font-family: campton;font-weight: 700;font-size:20px;line-height:24px}
-.bloc.agenda .date.jours{font-size: 38px;line-height: 32px;padding-top: 60px;font-weight: 500;} */
 .bloc.projet {background-color:#FFF;background-size: 175%}
 .bloc.projet div.titre_projet{padding-top: 50px;text-align: center;}
 .bloc.projet .pole{    background-color: #000;color: #FFF;text-align: center;font-family: campton;font-weight: 500;font-size: 16px;line-height: 34px;padding: 3px 7px 1px;}
@@ -1024,44 +1022,35 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 span.bold{font-weight: 500;}
 body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .row{ margin-bottom: 40px; }
-/* .container-bloc-home h3{ text-align: center;  margin-bottom: 10px; padding-bottom: 2px; margin-bottom: 0; width: 100%; } */
-/* .container-bloc-home h3 a{   } */
 .container_header_home{ overflow: hidden; max-height: 475px; }
-.bloc-home-actus .projet_item div,
-/* .bloc-home-agenda-date{ margin-bottom: 10px; width: 100%; height: auto;  }
-.bloc-home-agenda-date { padding: 10px; } */
 .bloc-home-recherche-titre{ margin-top: 10px; }
 .container-bloc-home .projet_item .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 200% auto; background-position: center; margin-bottom: 10px; }
 
 .bloc-home-service-img{ background: url('images/visuel_batiment.jpg') top left no-repeat; background-size: 100% auto; margin-bottom: 10px; }
-/* .bloc-home-agenda-date .bloc-agenda-liste-jour{ font-family: campton_semibold; } */
 .container-bloc-home input{ margin: 0; display: inline; width: 160px; border: 2px solid #c33932 !important; padding: 7px 10px 4px 10px }
 .container-bloc-home input[type=submit] { display: inline;  width: auto; border: 2px solid #c33932 !important ; background: #c33932; color: #fff; padding: 7px 5px 4px 5px; margin: 0 -8px;  }
-.container-bloc-home .actus_item .bloc-home-actus-titre a{  margin-bottom: 1em;  font-size: 20px!important;    text-align: center;   color: #000;  font-family: campton_bold;   }
-.container-bloc-home .media_item .bloc-home-recherche-titre  a{    margin-bottom: 1em;    font-size: 20px!important;    text-align: center;   color: #000;  font-family: campton_bold;  line-height: 22px;    padding: 20px; }
 
-.container-bloc-home  p { font-size: 14px; }
-.container-bloc-home .bloc-home-actus { --current_color : var(--color1);  }
-.container-bloc-home .bloc-home-actus .actus_item{ border-top: 3px solid var(--current_color); padding: 30px 0; }
 
 .container-bloc-home .bloc-home-agenda { --current_color : var(--color1);  }
 .container-bloc-home .bloc-home-agenda .agenda_item{  border-top: 3px solid var(--current_color);  padding: 30px 0; }
-
-.container-bloc-home .bloc-home-service{ --current_color : var(--color4); }
-.container-bloc-home .bloc-home-service .service_item {  border-top: 3px solid var(--current_color);  padding: 30px 0; }
-.container-bloc-home .bloc-home-service-img{ text-align: center; }
 
 .container-bloc-home .annuaire_item { --current_color : var(--color1);  border-top: 3px solid var(--current_color);  padding: 30px 0; }
 
 .container-bloc-home .bloc-home-news{ --current_color : var(--color1); }
 .container-bloc-home .bloc-home-news .newsletter_item{  border-top: 3px solid var(--current_color);  padding: 30px 0; }
-.container-bloc-home .projet_item{ --current_color : var(--color1);  border-top: 3px solid var(--color3); min-height: 320px; padding: 30px 0; }
+.container-bloc-home .projet_item{ --current_color : var(--color3);  border-top: 3px solid var(--color3); min-height: 320px; padding: 30px 0; }
+
+/* .container-bloc-home .projet_item:after{ background: none; } */
+
 .container-bloc-home .media_item{ --current_color : var(--color1); }
-.container-bloc-home .media_item .projet_item{ --current_color : var(--color1);  border-top: 3px solid var(--color1);  padding: 30px 0; }
 .container-bloc-home .projet_item_twitter{ --current_color : var(--color1); border-top: 3px solid var(--current_color);  padding: 30px 0; }
-
-
 .container-bloc-home .newsletter_item{ --current_color : var(--color1); border-top: 3px solid var(--current_color);  padding: 30px 0; }
+.container-bloc-home .bloc-home-actus .actu_item{ --current_color : var(--color1);  }
+.container-bloc-home .bloc-home-actus .actu_item{  border-top: 3px solid var(--current_color);  padding: 30px 0; }
+.container-bloc-home .bloc-home-service{  --current_color : var(--color4); }
+.container-bloc-home .bloc-home-service .service_item{  border-top: 3px solid var(--current_color);  padding: 30px 0; }
+.container-bloc-home .bloc-home-service-img{ text-align: center; }
+.container-bloc-home .media_item{  border-top: 3px solid var(--current_color);  padding: 30px 0; }
 
 
 
@@ -1107,8 +1096,7 @@ a.liensiteglob {color: var(--current_color);}
 .mosaique {--itemEspace: 20px; --itemCol: 3; --itemlargeur: calc(100% / var(--itemCol) - var(--itemEspace) * (var(--itemCol) - 1) / var(--itemCol)); display: flex; flex-flow: row wrap; width: 100%; justify-content: space-between; }
 .mosaique .item {width: var(--itemlargeur); margin: 30px 0 80px; display: flex; flex-direction: column; align-items: center;}
 
-/* ACTUALITÉS liste */
-
+/* ACTUALITÉS  */
 .actus_wrapper{ display: flex; flex-wrap: wrap; }
 .actu_item{ width:100%; margin-bottom: 40px; }
 .actus_wrapper .actu_item{  width: 25%;   margin: 20px 0; padding: 0 20px;   }
@@ -1122,7 +1110,7 @@ a.liensiteglob {color: var(--current_color);}
 .actu_item .actu_image{ width: 100%;  margin: 12px 0; overflow: hidden; }
 .actu_item .actu_image img{  width: 100%; height: 100%; object-fit: cover;  max-height: 260px; }
 
-/* AGENDA liste */
+/* AGENDA  */
 
 .agenda_wrapper{ display: flex; flex-wrap: wrap; }
 .agenda_item{ width:100%; margin-bottom: 40px;  }
