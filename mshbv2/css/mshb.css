@@ -1072,7 +1072,7 @@ a.liensiteglob {color: var(--current_color);}
 
 /* ACTUALITÉS  */
 .actus_wrapper{ display: flex; flex-wrap: wrap; }
-.actu_item{ width:100%; margin-bottom: 40px; }
+.actu_item{ width:100%; margin-bottom: 40px; font-size: calc( var(--fontSize_unit) * 13); }
 .actus_wrapper .actu_item{  width: 25%;   margin: 20px 0; padding: 0 20px;   }
 .actu_item .ensavoirplus{ float: left!important; }
 .actu_item .date{   padding-bottom: 12px; text-align: left; opacity:0.3 }
@@ -1087,7 +1087,7 @@ a.liensiteglob {color: var(--current_color);}
 /* AGENDA  */
 
 .agenda_wrapper{ display: flex; flex-wrap: wrap; }
-.agenda_item{ width:100%; margin-bottom: 40px;  }
+.agenda_item{ width:100%; margin-bottom: 40px;  font-size: calc( var(--fontSize_unit) * 13); }
 .agenda_item .tag{ text-transform: uppercase;  color: var(--current_color); font-family: campton_bold; font-size: 9px; letter-spacing: 0.05em; } 
 .agenda_item .date{  font-size: 22px; padding-bottom: 8px;  font-family: campton_semibold; color: var(--current_color);  }
 .agenda_item .date:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
