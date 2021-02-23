@@ -1270,9 +1270,9 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item header{  width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; }
 
 
-.projet_item.axe_1{  --current_color : var(--colorAxe1);}
-.projet_item.axe_2{  --current_color : var(--colorAxe2);}
-.projet_item.axe_3{  --current_color : var(--colorAxe3);}
+.projet_item.axe_1{  --current_color : var(--colorAxe1); }
+.projet_item.axe_2{  --current_color : var(--colorAxe2); }
+.projet_item.axe_3{  --current_color : var(--colorAxe3); }
 
 .projet_item.axe_1:before,
 .projet_item.axe_2:before,
@@ -1290,7 +1290,22 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 
 
 
-.projet_item h3{ color: var(--current_color); display: inline-block; margin: 0; padding: .4em 0 0.2em; line-height: 1.2em; max-width: 90%; min-height: 0; font-size: 12px; width: auto; font-family: campton_medium; color: #FFF; background: var(--current_color); }
+/* .projet_item h3{ color: var(--current_color); display: inline-block; margin: 0; padding: .4em 0 0.2em; line-height: 1.2em; max-width: 90%; min-height: 0; font-size: 12px; width: auto; font-family: campton_medium; color: #FFF; background: var(--current_color); } */
+
+
+.projet_item h3 {
+    display: inline-block;
+    margin: 0;
+    padding: 0px 5px;
+    line-height: 1.3em;
+    padding: 5px;
+    max-width: 96%;
+    min-height: 2em;
+    font-size: 12px;
+    font-family: campton_medium;
+    background:var(--current_color);
+    color: #fff;
+}
 
 
 .projet_item h2 { display: inline-block; margin: 0; padding: 3px 5px 0 5px;; line-height: 1.3em; max-width: 100%; min-height: 0; font-size:14px; text-transform: uppercase; background: white; font-family: campton_bold;  margin-top: 14px; border: 1px solid  var(--current_color); }
