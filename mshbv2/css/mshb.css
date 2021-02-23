@@ -1575,6 +1575,19 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 
 /* responsive */
+@media only screen and (max-width: 1050px){
+	.navbar-right { top: 0!important; padding: 13px 20px 0 0!important; }
+	.actus_wrapper .actu_item{ width:33%  }
+	.agenda_wrapper .agenda_item{ width:33%  }
+	.medias_wrapper .media_item{ width:33%  }
+}
+
+@media only screen and (max-width: 780px){
+	.actus_wrapper .actu_item{ width:50%  }
+	.agenda_wrapper .agenda_item{ width:50%  }
+	.medias_wrapper .media_item{ width:50%  }
+}
+
 
 @media only screen and (max-width: 768px) {
 	/* switch du menu : on le gÃ¨re Ã  ce stade lÃ  */
@@ -1609,7 +1622,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 	.global_contour {   margin: 80px auto 0px auto; width: 100%; overflow-x:hidden  }
 
-	.color_home .global_contour{ border-bottom: var(--current_color); }
+	.color_home .global_contour{ border-color: var(--current_color); }
 	.color_plateforme .global_contour{ border-color: var(--current_color); }
 	.color_recherche .global_contour{ border-color: var(--current_color); }
 	.color_mshb .global_contour{ border-color: var(--current_color); }
@@ -1621,24 +1634,6 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 	.dropdown-menu li{ padding-bottom: 2vw; }
 }
 
-@media only screen and (max-width: 1050px){
-	.navbar-right { top: 0!important; padding: 13px 20px 0 0!important; }
-
-
-	.actus_wrapper .actu_item{ width:33%  }
-	.agenda_wrapper .agenda_item{ width:33%  }
-	.medias_wrapper .media_item{ width:33%  }
-
-
-}
-
-@media only screen and (max-width: 780px){
-
-
-	.actus_wrapper .actu_item{ width:50%  }
-	.agenda_wrapper .agenda_item{ width:50%  }
-	.medias_wrapper .media_item{ width:50%  }
-}
 
 @media only screen and (max-width: 660px) {
 
@@ -1675,6 +1670,6 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 	.footer .zone_logo li {  max-width: 35px; margin: 6px 5px; display: inline-block; float: none; }
 	.footer .zone_logo ul { height: auto; padding: 0; text-align: center; }
 	.footer .zone_menu ul { height: auto; padding: 0; text-align: center; }
-	.footer .zone_signature p { text-align: center;padding: 0 35px; }
+	.footer .zone_signature p { text-align: center;padding: 0 35px; display: block;}
 	.footer .zone_menu { margin-top: 0; }
 }
