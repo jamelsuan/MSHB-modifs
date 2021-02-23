@@ -1378,7 +1378,7 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item h3 {   z-index: 2; display: inline-block;  margin: 0;  padding: 5px 5px 3px 5px;  line-height: 1.3em;   max-width: 80%;   font-size: 12px;  font-family: campton_medium;    background:var(--current_color); color: #fff; }
 .projet_item h2 {   z-index: 2; display: inline-block; margin: 0; padding: 3px 5px 0 5px;; line-height: 1.3em; max-width: 80%; min-height: 0; font-size:14px; text-transform: uppercase; color: var(--current_color); background: white; font-family: campton_bold;   border: 1px solid  var(--current_color); }
 .projet_item h1{ padding: 20px; text-align:left; border-bottom: none; margin: 1em 0; letter-spacing: 0.01em; font-family: lora_bold; color: #000; font-size: 16px; display: block; line-height: 1.4em; margin: 0;}
-.projet_item footer{ padding:20px }
+.projet_item footer{padding: 20px;height: 20px;box-sizing: content-box;}
 
 .projet_item .content_projet{ position: relative; z-index: 2; display: flex; flex-flow: column; justify-content: space-between; height: 100%;}
 .projet_item footer span{margin-right:7px;}
