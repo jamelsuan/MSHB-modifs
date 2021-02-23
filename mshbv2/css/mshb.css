@@ -1385,9 +1385,9 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item .pict-projet_encours{width: 20px; height: 20px; position: relative; background: url('../img/pictos/picto_projetencours.svg') white; display: inline-block; border-radius: 50%;}
 .projet_item .pict-projet_exploratoire{width: 20px; height: 20px; position: relative; background: url('../img/pictos/picto_projet_exploratoire.svg') white; display: inline-block; border-radius: 50%;}
 .projet_item .pict-projet_consortium{width: 20px; height: 20px; position: relative; background: url('../img/pictos/picto_projet_consortium.svg') white; display: inline-block; border-radius: 50%;}
-.projet_item .pict-projet_encours:hover::after {content: 'en cours'; display: inline-block; position: absolute; margin-left: 0; font-size: 12px; letter-spacing: 0; line-height: 21px; top: 19px; left: 0px; width: 100px; color:#000;}
-.projet_item .pict-projet_exploratoire:hover::after {content: 'exploratoire'; display: inline-block; position: absolute; margin-left: 0; font-size: 12px; letter-spacing: 0; line-height: 21px; top: 19px; left: 0px; width: 100px; color:#000;}
-.projet_item .pict-projet_consortium:hover::after {content: 'consortium'; display: inline-block; position: absolute; margin-left: 0; font-size: 12px; letter-spacing: 0; line-height: 21px; top: 19px; left: 0px; width: 100px; color:#000;}
+.projet_item .pict-projet_encours:hover::after {content: 'en cours'; display: inline-block; position: absolute; margin-left: 0; font-size: 12px; letter-spacing: 0; line-height: 21px; top: -20px; left: 0px; width: 100px; color:#000;}
+.projet_item .pict-projet_exploratoire:hover::after {content: 'exploratoire'; display: inline-block; position: absolute; margin-left: 0; font-size: 12px; letter-spacing: 0; line-height: 21px; top: -20px; left: 0px; width: 100px; color:#000;}
+.projet_item .pict-projet_consortium:hover::after {content: 'consortium'; display: inline-block; position: absolute; margin-left: 0; font-size: 12px; letter-spacing: 0; line-height: 21px; top: -20px; left: 0px; width: 100px; color:#000;}
 
 @media only screen and (max-width: 1100px) {
   .mosaique.listing_projets{--itemCol: 3};
