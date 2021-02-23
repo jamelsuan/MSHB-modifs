@@ -1435,12 +1435,12 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .bloc_head_projet_details .axe_1 .projet_header h2,
 .bloc_head_projet_details .axe_2 .projet_header h2,
 .bloc_head_projet_details .axe_3 .projet_header h2{
-	background: transparent;
+	/* background: transparent; */
 }
 .bloc_head_projet_details .projet_item.axe_1:hover::before,
 .bloc_head_projet_details .projet_item.axe_2:hover::before,
 .bloc_head_projet_details .projet_item.axe_3:hover::before {
-    background-size: 100%;
+    /* background-size: 100%; */
 }
 .container_header_annuaire{ max-width: 1400px!important; }
 
