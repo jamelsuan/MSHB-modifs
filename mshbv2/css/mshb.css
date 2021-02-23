@@ -1004,7 +1004,7 @@ a.lien_externe::after {content: "↗"; display: inline-block; vertical-align: ba
 span.bold{font-weight: 500;}
 body form.mj-form .mj-embedded.mj-vertical{ padding:0 }
 .container-bloc-home .row{ margin-bottom: 40px; }
-.container_header_home{ overflow: hidden; max-height: 475px; }
+.container_header_home{ overflow: hidden; height: 555px; }
 .bloc-home-recherche-titre{ margin-top: 10px; }
 .container-bloc-home .col-md-4 > h3{text-align: center;}
 .container-bloc-home .bloc-home-recherche-img{ background: url("images/bandeaux/002.png"); background-size: 160% auto; transition: all .3s; height:120px;  background-position: center; margin-bottom: 10px; }
