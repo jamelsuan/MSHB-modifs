@@ -1418,8 +1418,7 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .bloc_head_projet_details .projet_item .projet_header {width: 100%;height: 100%;text-align: center; z-index: 2; padding: 0px;margin: 0;background-position: center;background-size: cover;display: flex;flex-flow: column;justify-content: center;align-items: center;}
 .bloc_head_projet_details .projet_item .projet_header p.mytitre{font-size: 30px; font-family: lora_bold;}
 .bloc_head_projet_details .projet_item .projet_header h3{font-size: 16px; padding: .6em .7em .3em;}
-.bloc_head_projet_details .projet_item .projet_header h2{background: white;margin-top: 10px;font-size: 16px;padding: 5px;}
-/* .bloc_head_projet_details .projet_item .projet_header{width: 100%; text-align: center; padding: 0px; margin: 0; ; background-position: center; background-size: contain; } */
+.bloc_head_projet_details .projet_item .projet_header h2{background: white;margin-top: 10px;font-size: 16px;padding: 8px 5px 5px;}
 .bloc_head_projet_details .projet_item .projet_header h3{width: auto; padding: .4em .5em.2em;}
 
 .bloc_head_projet_details .container_header_annuaire { padding-top:0;  }
