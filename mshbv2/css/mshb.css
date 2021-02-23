@@ -1610,7 +1610,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 
 	.navbar-left {position: relative;}
 	.navbar-left .nav>li {width: 80%; display: table; height: auto; border-bottom: 2px solid #000; margin:0}
-	.navbar-left>li>a {padding: 20px;text-align: center;font-size: 18px; color:#000; margin:0}
+	.navbar-left>li>a {padding: 20px;text-align: center;font-size: 18px; color:#000;}
 	.lien_a .lien_menu_actif, a.lien_menu {  border-bottom: 2px solid #000;}
   .lien_accueil .lien_menu_actif{ color: #000; border-bottom: 2px solid #000 }
   .lien_a .lien_menu_actif{ color: #000; border-bottom: 2px solid #000 }
@@ -1632,6 +1632,7 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
 	.navbar-nav .open .dropdown-menu {display: block; height: auto; border: none;  border-bottom: 2px solid #000;margin-right: 15px; }
 	.navbar-nav .open .dropdown-menu > li > a {padding: 5px 5px 5px 0;text-align: center;}
 	.dropdown-menu li{ padding-bottom: 2vw; }
+	.navbar-right .hidden-lg {display: inline-block !important;}
 }
 
 
