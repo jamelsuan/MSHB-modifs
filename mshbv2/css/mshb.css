@@ -1609,15 +1609,16 @@ label { font-family: lora_regular;  font-size: 1em;  display: block; }
   .navbar-right li{text-align: center;display: inline-block;float: none}
 
 	.navbar-left {position: relative;}
-	.navbar-left .nav>li {width: 80%; display: table; height: auto; border-bottom: 2px solid #000}
-	.navbar-left>li>a {padding: 20px;text-align: center;font-size: 18px; color:#000}
+	.navbar-left .nav>li {width: 80%; display: table; height: auto; border-bottom: 2px solid #000; margin:0}
+	.navbar-left>li>a {padding: 20px;text-align: center;font-size: 18px; color:#000; margin:0}
 	.lien_a .lien_menu_actif, a.lien_menu {  border-bottom: 2px solid #000;}
   .lien_accueil .lien_menu_actif{ color: #000; border-bottom: 2px solid #000 }
   .lien_a .lien_menu_actif{ color: #000; border-bottom: 2px solid #000 }
   .lien_b .lien_menu_actif{ color: #000; border-bottom: 2px solid #000 }
   .lien_c .lien_menu_actif{ color: #000; border-bottom: 2px solid #000 }
   a.lien_menu:hover {border-bottom: 2px solid #000;}
-
+	.navbar-nav .open .dropdown-menu {  border-bottom: 2px solid #000;margin-right: 15px;}
+	.navbar-nav .open .dropdown-menu > li > a {padding: 5px 5px 5px 0;text-align: center;}
 	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {  box-shadow: 0 18px 18px rgba(0,0,0,.175); opacity: 1;  background: #fff; border: none}
 
 	.global_contour {   margin: 80px auto 0px auto; width: 100%; overflow-x:hidden  }
