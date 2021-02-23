@@ -1088,7 +1088,7 @@ a.liensiteglob {color: var(--current_color);}
 .actu_item .tag{ text-transform: uppercase;  color: var(--current_color); font-family: campton_bold; font-size: 9px; letter-spacing: 0.05em; } 
 .actu_item .actu_titre:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
 .actu_item .lieu{ text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
-.actu_item .actu_titre{ text-align: left; line-height: 1.2em;  font-family: campton_semibold; font-size: 24px;  }
+.actu_item .actu_titre{ text-align: left; line-height: 1.2em;  font-family: campton_semibold; font-size: 21px;  }
 .actu_item .txt{ font-size: calc( var(--fontSize_unit) * 13);  padding-top: 8px; }
 .actu_item .actu_image{ width: 100%;  margin: 12px 0; overflow: hidden; }
 .actu_item .actu_image img{  width: 100%; height: 100%; object-fit: cover;  max-height: 120px; }
@@ -1101,7 +1101,7 @@ a.liensiteglob {color: var(--current_color);}
 .agenda_item .date{  padding-bottom: 8px;  font-family: campton_semibold; color: var(--current_color);  }
 .agenda_item .date:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
 .agenda_item .lieu{   padding-top: 8px;text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
-.agenda_item .agenda_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 24px;  }
+.agenda_item .agenda_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 21px;  }
 .agenda_item .txt{ font-size: calc( var(--fontSize_unit) * 13);  padding-top: 8px; }
 
 
@@ -1121,7 +1121,7 @@ a.liensiteglob {color: var(--current_color);}
 .media_item .tag:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
 .media_item .img_container{ width:100%; height:120px; overflow: hidden;   border: 2px solid var(--current_color);  border-top: none;  background: var(--color3); }
 .media_item .img_container img{ width:100%; height:100%; object-fit: cover; mix-blend-mode: screen;   filter: grayscale(100%); }
-.media_item .media_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 20px; margin-top: 20px;  }
+.media_item .media_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 21px; margin-top: 20px;  }
 .media_item .txt{ font-size: calc( var(--fontSize_unit) * 13);  padding-top: 8px; }
 
 /*  navBar annuaire */
