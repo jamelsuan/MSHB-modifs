@@ -1381,6 +1381,7 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item footer{ padding:20px }
 
 .projet_item .content_projet{ position: relative; z-index: 2; display: flex; flex-flow: column; justify-content: space-between; height: 100%;}
+.projet_item footer span{margin-right:7px;}
 .projet_item .pict-projet_encours{width: 20px; height: 20px; position: relative; background: url('../img/pictos/picto_projetencours.svg') white; display: inline-block; border-radius: 50%;}
 .projet_item .pict-projet_exploratoire{width: 20px; height: 20px; position: relative; background: url('../img/pictos/picto_projet_exploratoire.svg') white; display: inline-block; border-radius: 50%;}
 .projet_item .pict-projet_consortium{width: 20px; height: 20px; position: relative; background: url('../img/pictos/picto_projet_consortium.svg') white; display: inline-block; border-radius: 50%;}
