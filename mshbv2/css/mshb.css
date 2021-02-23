@@ -177,7 +177,7 @@
 								.color_mshb .poles-menu li { border:1px solid #4A8A78;  }
 								.color_mshb .poles-menu li a { color:#4A8A78;  }
 								.pole-single { margin-bottom:120px;  }
-								.pole-single h2 { text-align:center;   font-size:42px;   min-width:400px;  }
+								/* .pole-single h2 { text-align:center;   font-size:42px;   min-width:400px;  } */
 								.page-poles-recherche-mshb .container_titre { width: 100%;   margin-top: 80px;  }
 								.page-poles-recherche-mshb h2[id^="pole"] {display: initial;}
 								.pole-single h3 { text-align:center;  }
@@ -417,7 +417,7 @@
 								}
 
 								/** DIAPORAMA **/
-								.slider-projet, .slider-projet .slick-list { max-height: 250px;  }
+								.slider-projet, .slider-projet .slick-list { }
 								.slider-projet .slick-slide{outline:none;}
 								.slider-projet ul.slick-dots { margin:0;   list-style:none;   background:none;   width:100%;   text-align:center;   position: initial;  }
 								.slider-projet ul.slick-dots li { margin:0 5px 0 0;   list-style:none;   background-color:#FFF;   padding:0 5px 0 0;   display:inline-block;  }
