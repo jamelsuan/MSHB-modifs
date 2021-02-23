@@ -1287,14 +1287,115 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item.axe_2 h3{background-color: var(--colorAxe2); border-color: var(--colorAxe2);}
 .projet_item.axe_3 h3{background-color: var(--colorAxe3); border-color: var(--colorAxe3);}
 
-.projet_item.axe_1 .header{  background: var(--colorAxe1clair);}
-.projet_item.axe_2 .header{  background: var(--colorAxe2clair)}
-.projet_item.axe_3 .header{  background: var(--colorAxe3clair)}
+.projet_item header:before{ position: absolute; width: 100%; height: 100%;  }
+.projet_item.axe_1 header:before{  background: var(--colorAxe1clair);}
+.projet_item.axe_2 header:before{  background: var(--colorAxe2clair)}
+.projet_item.axe_3 header:before{  background: var(--colorAxe3clair)}
 
-.projet_item header{  width: 100%;  height: 113px;   text-align: center;   align-items: center;   padding: 0px;    display: flex;    flex-direction: column;    justify-content: center;    flex-flow: column;    margin: 0;    background-position: center; background-size: contain; }
+.projet_item header{  width: 100%;  height: 113px;   text-align: center;   align-items: center;   padding: 0px;    display: flex;    flex-direction: column;    justify-content: center;    flex-flow: column;    margin: 0;   }
+.projet_item header:after{ position: absolute; width: 100%; height: 100%;  background-position: center; background-size: contain; }
+.projet_item.bck1  header:after{background-image: url("../img/bandeaux_projets/0/001.png");}
+.projet_item.bck2  header:after{background-image: url("../img/bandeaux_projets/0/002.png");}
+.projet_item.bck3  header:after{background-image: url("../img/bandeaux_projets/0/003.png");}
+.projet_item.bck4  header:after{background-image: url("../img/bandeaux_projets/0/004.png");}
+.projet_item.bck5  header:after{background-image: url("../img/bandeaux_projets/0/005.png");}
+.projet_item.bck6  header:after{background-image: url("../img/bandeaux_projets/0/006.png");}
+.projet_item.bck7  header:after{background-image: url("../img/bandeaux_projets/0/007.png");}
+.projet_item.bck8  header:after{background-image: url("../img/bandeaux_projets/0/008.png");}
+.projet_item.bck9  header:after{background-image: url("../img/bandeaux_projets/0/009.png");}
+.projet_item.bck10  header:after{background-image: url("../img/bandeaux_projets/0/010.png");}
+.projet_item.bck11  header:after{background-image: url("../img/bandeaux_projets/0/011.png");}
+.projet_item.bck12  header:after{background-image: url("../img/bandeaux_projets/0/012.png");}
+.projet_item.bck13  header:after{background-image: url("../img/bandeaux_projets/0/013.png");}
+.projet_item.bck14  header:after{background-image: url("../img/bandeaux_projets/0/014.png");}
+.projet_item.bck15  header:after{background-image: url("../img/bandeaux_projets/0/015.png");}
+.projet_item.bck16  header:after{background-image: url("../img/bandeaux_projets/0/016.png");}
+.projet_item.bck17  header:after{background-image: url("../img/bandeaux_projets/0/017.png");}
+.projet_item.bck18  header:after{background-image: url("../img/bandeaux_projets/0/018.png");}
+.projet_item.bck19  header:after{background-image: url("../img/bandeaux_projets/0/019.png");}
+.projet_item.bck20  header:after{background-image: url("../img/bandeaux_projets/0/020.png");}
+.projet_item.bck21  header:after{background-image: url("../img/bandeaux_projets/0/021.png");}
+.projet_item.bck22  header:after{background-image: url("../img/bandeaux_projets/0/022.png");}
+.projet_item.bck23  header:after{background-image: url("../img/bandeaux_projets/0/023.png");}
+.projet_item.bck24  header:after{background-image: url("../img/bandeaux_projets/0/024.png");}
+.projet_item.bck25  header:after{background-image: url("../img/bandeaux_projets/0/025.png");}
+.projet_item.bck26  header:after{background-image: url("../img/bandeaux_projets/0/026.png");}
+.projet_item.bck27  header:after{background-image: url("../img/bandeaux_projets/0/027.png");}
+.projet_item.bck28  header:after{background-image: url("../img/bandeaux_projets/0/028.png");}
+.projet_item.bck29  header:after{background-image: url("../img/bandeaux_projets/0/029.png");}
+.projet_item.bck30  header:after{background-image: url("../img/bandeaux_projets/0/030.png");}
+.projet_item.bck31  header:after{background-image: url("../img/bandeaux_projets/0/031.png");}
+.projet_item.bck32  header:after{background-image: url("../img/bandeaux_projets/0/032.png");}
+.projet_item.bck33  header:after{background-image: url("../img/bandeaux_projets/0/033.png");}
+.projet_item.bck34  header:after{background-image: url("../img/bandeaux_projets/0/034.png");}
+.projet_item.bck35  header:after{background-image: url("../img/bandeaux_projets/0/035.png");}
+.projet_item.bck36  header:after{background-image: url("../img/bandeaux_projets/0/036.png");}
+.projet_item.bck37  header:after{background-image: url("../img/bandeaux_projets/0/037.png");}
+.projet_item.bck38  header:after{background-image: url("../img/bandeaux_projets/0/038.png");}
+.projet_item.bck39  header:after{background-image: url("../img/bandeaux_projets/0/039.png");}
+.projet_item.bck40  header:after{background-image: url("../img/bandeaux_projets/0/040.png");}
+.projet_item.bck41  header:after{background-image: url("../img/bandeaux_projets/0/041.png");}
+.projet_item.bck42  header:after{background-image: url("../img/bandeaux_projets/0/042.png");}
+.projet_item.bck43  header:after{background-image: url("../img/bandeaux_projets/0/043.png");}
+.projet_item.bck44  header:after{background-image: url("../img/bandeaux_projets/0/044.png");}
+.projet_item.bck45  header:after{background-image: url("../img/bandeaux_projets/0/045.png");}
+.projet_item.bck46  header:after{background-image: url("../img/bandeaux_projets/0/046.png");}
+.projet_item.bck47  header:after{background-image: url("../img/bandeaux_projets/0/047.png");}
+.projet_item.bck48  header:after{background-image: url("../img/bandeaux_projets/0/048.png");}
+.projet_item.bck49  header:after{background-image: url("../img/bandeaux_projets/0/049.png");}
+.projet_item.bck50  header:after{background-image: url("../img/bandeaux_projets/0/050.png");}
+.projet_item.bck51  header:after{background-image: url("../img/bandeaux_projets/0/051.png");}
+.projet_item.bck52  header:after{background-image: url("../img/bandeaux_projets/0/052.png");}
+.projet_item.bck53  header:after{background-image: url("../img/bandeaux_projets/0/053.png");}
+.projet_item.bck54  header:after{background-image: url("../img/bandeaux_projets/0/054.png");}
+.projet_item.bck55  header:after{background-image: url("../img/bandeaux_projets/0/055.png");}
+.projet_item.bck56  header:after{background-image: url("../img/bandeaux_projets/0/056.png");}
+.projet_item.bck57  header:after{background-image: url("../img/bandeaux_projets/0/057.png");}
+.projet_item.bck58  header:after{background-image: url("../img/bandeaux_projets/0/058.png");}
+.projet_item.bck59  header:after{background-image: url("../img/bandeaux_projets/0/059.png");}
+.projet_item.bck60  header:after{background-image: url("../img/bandeaux_projets/0/060.png");}
+.projet_item.bck61  header:after{background-image: url("../img/bandeaux_projets/0/061.png");}
+.projet_item.bck62  header:after{background-image: url("../img/bandeaux_projets/0/062.png");}
+.projet_item.bck63  header:after{background-image: url("../img/bandeaux_projets/0/063.png");}
+.projet_item.bck64  header:after{background-image: url("../img/bandeaux_projets/0/064.png");}
+.projet_item.bck65  header:after{background-image: url("../img/bandeaux_projets/0/065.png");}
+.projet_item.bck66  header:after{background-image: url("../img/bandeaux_projets/0/066.png");}
+.projet_item.bck67  header:after{background-image: url("../img/bandeaux_projets/0/067.png");}
+.projet_item.bck68  header:after{background-image: url("../img/bandeaux_projets/0/068.png");}
+.projet_item.bck69  header:after{background-image: url("../img/bandeaux_projets/0/069.png");}
+.projet_item.bck70  header:after{background-image: url("../img/bandeaux_projets/0/070.png");}
+.projet_item.bck71  header:after{background-image: url("../img/bandeaux_projets/0/071.png");}
+.projet_item.bck72  header:after{background-image: url("../img/bandeaux_projets/0/072.png");}
+.projet_item.bck73  header:after{background-image: url("../img/bandeaux_projets/0/073.png");}
+.projet_item.bck74  header:after{background-image: url("../img/bandeaux_projets/0/074.png");}
+.projet_item.bck75  header:after{background-image: url("../img/bandeaux_projets/0/075.png");}
+.projet_item.bck76  header:after{background-image: url("../img/bandeaux_projets/0/076.png");}
+.projet_item.bck77  header:after{background-image: url("../img/bandeaux_projets/0/077.png");}
+.projet_item.bck78  header:after{background-image: url("../img/bandeaux_projets/0/078.png");}
+.projet_item.bck79  header:after{background-image: url("../img/bandeaux_projets/0/079.png");}
+.projet_item.bck80  header:after{background-image: url("../img/bandeaux_projets/0/080.png");}
+.projet_item.bck81  header:after{background-image: url("../img/bandeaux_projets/0/081.png");}
+.projet_item.bck82  header:after{background-image: url("../img/bandeaux_projets/0/082.png");}
+.projet_item.bck83  header:after{background-image: url("../img/bandeaux_projets/0/083.png");}
+.projet_item.bck84  header:after{background-image: url("../img/bandeaux_projets/0/084.png");}
+.projet_item.bck85  header:after{background-image: url("../img/bandeaux_projets/0/085.png");}
+.projet_item.bck86  header:after{background-image: url("../img/bandeaux_projets/0/086.png");}
+.projet_item.bck87  header:after{background-image: url("../img/bandeaux_projets/0/087.png");}
+.projet_item.bck88  header:after{background-image: url("../img/bandeaux_projets/0/088.png");}
+.projet_item.bck89  header:after{background-image: url("../img/bandeaux_projets/0/089.png");}
+.projet_item.bck90  header:after{background-image: url("../img/bandeaux_projets/0/090.png");}
+.projet_item.bck91  header:after{background-image: url("../img/bandeaux_projets/0/091.png");}
+.projet_item.bck92  header:after{background-image: url("../img/bandeaux_projets/0/092.png");}
+.projet_item.bck93  header:after{background-image: url("../img/bandeaux_projets/0/093.png");}
+.projet_item.bck94  header:after{background-image: url("../img/bandeaux_projets/0/094.png");}
+.projet_item.bck95  header:after{background-image: url("../img/bandeaux_projets/0/095.png");}
+.projet_item.bck96  header:after{background-image: url("../img/bandeaux_projets/0/096.png");}
+.projet_item.bck97  header:after{background-image: url("../img/bandeaux_projets/0/097.png");}
+.projet_item.bck98  header:after{background-image: url("../img/bandeaux_projets/0/098.png");}
+.projet_item.bck99  header:after{background-image: url("../img/bandeaux_projets/0/099.png");}
+.projet_item.bck100  header:after{background-image: url("../img/bandeaux_projets/0/100.png");}
 
-
-.projet_item h3 {    display: inline-block;    margin: 0;    padding: 0px 5px;    line-height: 1.3em;    padding: 5px;    max-width: 96%;    min-height: 2em;    font-size: 12px;    font-family: campton_medium;    background:var(--current_color); color: #fff; }
+.projet_item h3 {  display: inline-block;    margin: 0;    padding: 0px 5px;    line-height: 1.3em;    padding: 5px;    max-width: 96%;    min-height: 2em;    font-size: 12px;    font-family: campton_medium;    background:var(--current_color); color: #fff; }
 
 .projet_item h2 { display: inline-block; margin: 0; padding: 3px 5px 0 5px;; line-height: 1.3em; max-width: 100%; min-height: 0; font-size:14px; text-transform: uppercase; color: var(--current_color); background: white; font-family: campton_bold;   border: 1px solid  var(--current_color); }
 
@@ -1311,107 +1412,6 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item .pict-projet_encours:hover::after {content: 'en cours'; display: inline-block; position: absolute; margin-left: 0; font-size: 12px; letter-spacing: 0; line-height: 21px; top: 19px; left: 0px; width: 100px; color:#000;}
 .projet_item .pict-projet_exploratoire:hover::after {content: 'exploratoire'; display: inline-block; position: absolute; margin-left: 0; font-size: 12px; letter-spacing: 0; line-height: 21px; top: 19px; left: 0px; width: 100px; color:#000;}
 .projet_item .pict-projet_consortium:hover::after {content: 'consortium'; display: inline-block; position: absolute; margin-left: 0; font-size: 12px; letter-spacing: 0; line-height: 21px; top: 19px; left: 0px; width: 100px; color:#000;}
-
-.projet_item.bck1  header{background-image: url("../img/bandeaux_projets/0/001.png");}
-.projet_item.bck2  header{background-image: url("../img/bandeaux_projets/0/002.png");}
-.projet_item.bck3  header{background-image: url("../img/bandeaux_projets/0/003.png");}
-.projet_item.bck4  header{background-image: url("../img/bandeaux_projets/0/004.png");}
-.projet_item.bck5  header{background-image: url("../img/bandeaux_projets/0/005.png");}
-.projet_item.bck6  header{background-image: url("../img/bandeaux_projets/0/006.png");}
-.projet_item.bck7  header{background-image: url("../img/bandeaux_projets/0/007.png");}
-.projet_item.bck8  header{background-image: url("../img/bandeaux_projets/0/008.png");}
-.projet_item.bck9  header{background-image: url("../img/bandeaux_projets/0/009.png");}
-.projet_item.bck10  header{background-image: url("../img/bandeaux_projets/0/010.png");}
-.projet_item.bck11  header{background-image: url("../img/bandeaux_projets/0/011.png");}
-.projet_item.bck12  header{background-image: url("../img/bandeaux_projets/0/012.png");}
-.projet_item.bck13  header{background-image: url("../img/bandeaux_projets/0/013.png");}
-.projet_item.bck14  header{background-image: url("../img/bandeaux_projets/0/014.png");}
-.projet_item.bck15  header{background-image: url("../img/bandeaux_projets/0/015.png");}
-.projet_item.bck16  header{background-image: url("../img/bandeaux_projets/0/016.png");}
-.projet_item.bck17  header{background-image: url("../img/bandeaux_projets/0/017.png");}
-.projet_item.bck18  header{background-image: url("../img/bandeaux_projets/0/018.png");}
-.projet_item.bck19  header{background-image: url("../img/bandeaux_projets/0/019.png");}
-.projet_item.bck20  header{background-image: url("../img/bandeaux_projets/0/020.png");}
-.projet_item.bck21  header{background-image: url("../img/bandeaux_projets/0/021.png");}
-.projet_item.bck22  header{background-image: url("../img/bandeaux_projets/0/022.png");}
-.projet_item.bck23  header{background-image: url("../img/bandeaux_projets/0/023.png");}
-.projet_item.bck24  header{background-image: url("../img/bandeaux_projets/0/024.png");}
-.projet_item.bck25  header{background-image: url("../img/bandeaux_projets/0/025.png");}
-.projet_item.bck26  header{background-image: url("../img/bandeaux_projets/0/026.png");}
-.projet_item.bck27  header{background-image: url("../img/bandeaux_projets/0/027.png");}
-.projet_item.bck28  header{background-image: url("../img/bandeaux_projets/0/028.png");}
-.projet_item.bck29  header{background-image: url("../img/bandeaux_projets/0/029.png");}
-.projet_item.bck30  header{background-image: url("../img/bandeaux_projets/0/030.png");}
-.projet_item.bck31  header{background-image: url("../img/bandeaux_projets/0/031.png");}
-.projet_item.bck32  header{background-image: url("../img/bandeaux_projets/0/032.png");}
-.projet_item.bck33  header{background-image: url("../img/bandeaux_projets/0/033.png");}
-.projet_item.bck34  header{background-image: url("../img/bandeaux_projets/0/034.png");}
-.projet_item.bck35  header{background-image: url("../img/bandeaux_projets/0/035.png");}
-.projet_item.bck36  header{background-image: url("../img/bandeaux_projets/0/036.png");}
-.projet_item.bck37  header{background-image: url("../img/bandeaux_projets/0/037.png");}
-.projet_item.bck38  header{background-image: url("../img/bandeaux_projets/0/038.png");}
-.projet_item.bck39  header{background-image: url("../img/bandeaux_projets/0/039.png");}
-.projet_item.bck40  header{background-image: url("../img/bandeaux_projets/0/040.png");}
-.projet_item.bck41  header{background-image: url("../img/bandeaux_projets/0/041.png");}
-.projet_item.bck42  header{background-image: url("../img/bandeaux_projets/0/042.png");}
-.projet_item.bck43  header{background-image: url("../img/bandeaux_projets/0/043.png");}
-.projet_item.bck44  header{background-image: url("../img/bandeaux_projets/0/044.png");}
-.projet_item.bck45  header{background-image: url("../img/bandeaux_projets/0/045.png");}
-.projet_item.bck46  header{background-image: url("../img/bandeaux_projets/0/046.png");}
-.projet_item.bck47  header{background-image: url("../img/bandeaux_projets/0/047.png");}
-.projet_item.bck48  header{background-image: url("../img/bandeaux_projets/0/048.png");}
-.projet_item.bck49  header{background-image: url("../img/bandeaux_projets/0/049.png");}
-.projet_item.bck50  header{background-image: url("../img/bandeaux_projets/0/050.png");}
-.projet_item.bck51  header{background-image: url("../img/bandeaux_projets/0/051.png");}
-.projet_item.bck52  header{background-image: url("../img/bandeaux_projets/0/052.png");}
-.projet_item.bck53  header{background-image: url("../img/bandeaux_projets/0/053.png");}
-.projet_item.bck54  header{background-image: url("../img/bandeaux_projets/0/054.png");}
-.projet_item.bck55  header{background-image: url("../img/bandeaux_projets/0/055.png");}
-.projet_item.bck56  header{background-image: url("../img/bandeaux_projets/0/056.png");}
-.projet_item.bck57  header{background-image: url("../img/bandeaux_projets/0/057.png");}
-.projet_item.bck58  header{background-image: url("../img/bandeaux_projets/0/058.png");}
-.projet_item.bck59  header{background-image: url("../img/bandeaux_projets/0/059.png");}
-.projet_item.bck60  header{background-image: url("../img/bandeaux_projets/0/060.png");}
-.projet_item.bck61  header{background-image: url("../img/bandeaux_projets/0/061.png");}
-.projet_item.bck62  header{background-image: url("../img/bandeaux_projets/0/062.png");}
-.projet_item.bck63  header{background-image: url("../img/bandeaux_projets/0/063.png");}
-.projet_item.bck64  header{background-image: url("../img/bandeaux_projets/0/064.png");}
-.projet_item.bck65  header{background-image: url("../img/bandeaux_projets/0/065.png");}
-.projet_item.bck66  header{background-image: url("../img/bandeaux_projets/0/066.png");}
-.projet_item.bck67  header{background-image: url("../img/bandeaux_projets/0/067.png");}
-.projet_item.bck68  header{background-image: url("../img/bandeaux_projets/0/068.png");}
-.projet_item.bck69  header{background-image: url("../img/bandeaux_projets/0/069.png");}
-.projet_item.bck70  header{background-image: url("../img/bandeaux_projets/0/070.png");}
-.projet_item.bck71  header{background-image: url("../img/bandeaux_projets/0/071.png");}
-.projet_item.bck72  header{background-image: url("../img/bandeaux_projets/0/072.png");}
-.projet_item.bck73  header{background-image: url("../img/bandeaux_projets/0/073.png");}
-.projet_item.bck74  header{background-image: url("../img/bandeaux_projets/0/074.png");}
-.projet_item.bck75  header{background-image: url("../img/bandeaux_projets/0/075.png");}
-.projet_item.bck76  header{background-image: url("../img/bandeaux_projets/0/076.png");}
-.projet_item.bck77  header{background-image: url("../img/bandeaux_projets/0/077.png");}
-.projet_item.bck78  header{background-image: url("../img/bandeaux_projets/0/078.png");}
-.projet_item.bck79  header{background-image: url("../img/bandeaux_projets/0/079.png");}
-.projet_item.bck80  header{background-image: url("../img/bandeaux_projets/0/080.png");}
-.projet_item.bck81  header{background-image: url("../img/bandeaux_projets/0/081.png");}
-.projet_item.bck82  header{background-image: url("../img/bandeaux_projets/0/082.png");}
-.projet_item.bck83  header{background-image: url("../img/bandeaux_projets/0/083.png");}
-.projet_item.bck84  header{background-image: url("../img/bandeaux_projets/0/084.png");}
-.projet_item.bck85  header{background-image: url("../img/bandeaux_projets/0/085.png");}
-.projet_item.bck86  header{background-image: url("../img/bandeaux_projets/0/086.png");}
-.projet_item.bck87  header{background-image: url("../img/bandeaux_projets/0/087.png");}
-.projet_item.bck88  header{background-image: url("../img/bandeaux_projets/0/088.png");}
-.projet_item.bck89  header{background-image: url("../img/bandeaux_projets/0/089.png");}
-.projet_item.bck90  header{background-image: url("../img/bandeaux_projets/0/090.png");}
-.projet_item.bck91  header{background-image: url("../img/bandeaux_projets/0/091.png");}
-.projet_item.bck92  header{background-image: url("../img/bandeaux_projets/0/092.png");}
-.projet_item.bck93  header{background-image: url("../img/bandeaux_projets/0/093.png");}
-.projet_item.bck94  header{background-image: url("../img/bandeaux_projets/0/094.png");}
-.projet_item.bck95  header{background-image: url("../img/bandeaux_projets/0/095.png");}
-.projet_item.bck96  header{background-image: url("../img/bandeaux_projets/0/096.png");}
-.projet_item.bck97  header{background-image: url("../img/bandeaux_projets/0/097.png");}
-.projet_item.bck98  header{background-image: url("../img/bandeaux_projets/0/098.png");}
-.projet_item.bck99  header{background-image: url("../img/bandeaux_projets/0/099.png");}
-.projet_item.bck100  header{background-image: url("../img/bandeaux_projets/0/100.png");}
 
 @media only screen and (max-width: 1100px) {
   .mosaique.listing_projets{--itemCol: 3};
@@ -1432,7 +1432,7 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 
 /* PROJET */
 .bloc_head_projet_details .projet_item::after{background: url("../img/bandeaux_projets/1270/001.png") center center no-repeat transparent; background-size: cover;}
-.bloc_head_projet_details.bck1 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/001.png");} .bloc_head_projet_details.bck2 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/002.png");} .bloc_head_projet_details.bck3 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/003.png");} .bloc_head_projet_details.bck4 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/004.png");} .bloc_head_projet_details.bck5 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/005.png");} .bloc_head_projet_details.bck6 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/006.png");} .bloc_head_projet_details.bck7 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/007.png");} .bloc_head_projet_details.bck8 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/008.png");} .bloc_head_projet_details.bck9 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/009.png");} .bloc_head_projet_details.bck10 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/010.png");} .bloc_head_projet_details.bck11 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/011.png");} .bloc_head_projet_details.bck12 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/012.png");} .bloc_head_projet_details.bck13 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/013.png");} .bloc_head_projet_details.bck14 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/014.png");} .bloc_head_projet_details.bck15 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/015.png");} .bloc_head_projet_details.bck16 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/016.png");} .bloc_head_projet_details.bck17 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/017.png");} .bloc_head_projet_details.bck18 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/018.png");} .bloc_head_projet_details.bck19 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/019.png");} .bloc_head_projet_details.bck20 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/020.png");} .bloc_head_projet_details.bck21 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/021.png");} .bloc_head_projet_details.bck22 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/022.png");} .bloc_head_projet_details.bck23 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/023.png");} .bloc_head_projet_details.bck24 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/024.png");} .bloc_head_projet_details.bck25 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/025.png");} .bloc_head_projet_details.bck26 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/026.png");} .bloc_head_projet_details.bck27 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/027.png");} .bloc_head_projet_details.bck28 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/028.png");} .bloc_head_projet_details.bck29 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/029.png");} .bloc_head_projet_details.bck30 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/030.png");} .bloc_head_projet_details.bck31 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/031.png");} .bloc_head_projet_details.bck32 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/032.png");} .bloc_head_projet_details.bck33 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/033.png");} .bloc_head_projet_details.bck34 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/034.png");} .bloc_head_projet_details.bck35 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/035.png");} .bloc_head_projet_details.bck36 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/036.png");} .bloc_head_projet_details.bck37 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/037.png");} .bloc_head_projet_details.bck38 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/038.png");} .bloc_head_projet_details.bck39 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/039.png");} .bloc_head_projet_details.bck40 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/040.png");} .bloc_head_projet_details.bck41 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/041.png");} .bloc_head_projet_details.bck42 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/042.png");} .bloc_head_projet_details.bck43 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/043.png");} .bloc_head_projet_details.bck44 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/044.png");} .bloc_head_projet_details.bck45 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/045.png");} .bloc_head_projet_details.bck46 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/046.png");} .bloc_head_projet_details.bck47 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/047.png");} .bloc_head_projet_details.bck48 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/048.png");} .bloc_head_projet_details.bck49 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/049.png");} .bloc_head_projet_details.bck50 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/050.png");} .bloc_head_projet_details.bck51 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/051.png");} .bloc_head_projet_details.bck52 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/052.png");} .bloc_head_projet_details.bck53 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/053.png");} .bloc_head_projet_details.bck54 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/054.png");} .bloc_head_projet_details.bck55 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/055.png");} .bloc_head_projet_details.bck56 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/056.png");} .bloc_head_projet_details.bck57 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/057.png");} .bloc_head_projet_details.bck58 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/058.png");} .bloc_head_projet_details.bck59 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/059.png");} .bloc_head_projet_details.bck60 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/060.png");} .bloc_head_projet_details.bck61 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/061.png");} .bloc_head_projet_details.bck62 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/062.png");} .bloc_head_projet_details.bck63 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/063.png");} .bloc_head_projet_details.bck64 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/064.png");} .bloc_head_projet_details.bck65 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/065.png");} .bloc_head_projet_details.bck66 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/066.png");} .bloc_head_projet_details.bck67 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/067.png");} .bloc_head_projet_details.bck68 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/068.png");} .bloc_head_projet_details.bck69 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/069.png");} .bloc_head_projet_details.bck70 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/070.png");} .bloc_head_projet_details.bck71 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/071.png");} .bloc_head_projet_details.bck72 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/072.png");} .bloc_head_projet_details.bck73 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/073.png");} .bloc_head_projet_details.bck74 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/074.png");} .bloc_head_projet_details.bck75 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/075.png");} .bloc_head_projet_details.bck76 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/076.png");} .bloc_head_projet_details.bck77 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/077.png");} .bloc_head_projet_details.bck78 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/078.png");} .bloc_head_projet_details.bck79 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/079.png");} .bloc_head_projet_details.bck80 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/080.png");} .bloc_head_projet_details.bck81 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/081.png");} .bloc_head_projet_details.bck82 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/082.png");} .bloc_head_projet_details.bck83 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/083.png");} .bloc_head_projet_details.bck84 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/084.png");} .bloc_head_projet_details.bck85 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/085.png");} .bloc_head_projet_details.bck86 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/086.png");} .bloc_head_projet_details.bck87 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/087.png");} .bloc_head_projet_details.bck88 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/088.png");} .bloc_head_projet_details.bck89 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/089.png");} .bloc_head_projet_details.bck90 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/090.png");} .bloc_head_projet_details.bck91 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/091.png");} .bloc_head_projet_details.bck92 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/092.png");} .bloc_head_projet_details.bck93 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/093.png");} .bloc_head_projet_details.bck94 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/094.png");} .bloc_head_projet_details.bck95 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/095.png");} .bloc_head_projet_details.bck96 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/096.png");} .bloc_head_projet_details.bck97 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/097.png");} .bloc_head_projet_details.bck98 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/098.png");} .bloc_head_projet_details.bck99 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/099.png");} .bloc_head_projet_details.bck100 .projet_item  header{background-image: url("../img/bandeaux_projets/1270/100.png");}
+.bloc_head_projet_details.bck1 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/001.png");} .bloc_head_projet_details.bck2 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/002.png");} .bloc_head_projet_details.bck3 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/003.png");} .bloc_head_projet_details.bck4 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/004.png");} .bloc_head_projet_details.bck5 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/005.png");} .bloc_head_projet_details.bck6 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/006.png");} .bloc_head_projet_details.bck7 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/007.png");} .bloc_head_projet_details.bck8 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/008.png");} .bloc_head_projet_details.bck9 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/009.png");} .bloc_head_projet_details.bck10 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/010.png");} .bloc_head_projet_details.bck11 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/011.png");} .bloc_head_projet_details.bck12 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/012.png");} .bloc_head_projet_details.bck13 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/013.png");} .bloc_head_projet_details.bck14 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/014.png");} .bloc_head_projet_details.bck15 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/015.png");} .bloc_head_projet_details.bck16 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/016.png");} .bloc_head_projet_details.bck17 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/017.png");} .bloc_head_projet_details.bck18 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/018.png");} .bloc_head_projet_details.bck19 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/019.png");} .bloc_head_projet_details.bck20 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/020.png");} .bloc_head_projet_details.bck21 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/021.png");} .bloc_head_projet_details.bck22 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/022.png");} .bloc_head_projet_details.bck23 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/023.png");} .bloc_head_projet_details.bck24 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/024.png");} .bloc_head_projet_details.bck25 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/025.png");} .bloc_head_projet_details.bck26 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/026.png");} .bloc_head_projet_details.bck27 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/027.png");} .bloc_head_projet_details.bck28 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/028.png");} .bloc_head_projet_details.bck29 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/029.png");} .bloc_head_projet_details.bck30 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/030.png");} .bloc_head_projet_details.bck31 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/031.png");} .bloc_head_projet_details.bck32 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/032.png");} .bloc_head_projet_details.bck33 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/033.png");} .bloc_head_projet_details.bck34 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/034.png");} .bloc_head_projet_details.bck35 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/035.png");} .bloc_head_projet_details.bck36 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/036.png");} .bloc_head_projet_details.bck37 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/037.png");} .bloc_head_projet_details.bck38 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/038.png");} .bloc_head_projet_details.bck39 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/039.png");} .bloc_head_projet_details.bck40 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/040.png");} .bloc_head_projet_details.bck41 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/041.png");} .bloc_head_projet_details.bck42 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/042.png");} .bloc_head_projet_details.bck43 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/043.png");} .bloc_head_projet_details.bck44 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/044.png");} .bloc_head_projet_details.bck45 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/045.png");} .bloc_head_projet_details.bck46 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/046.png");} .bloc_head_projet_details.bck47 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/047.png");} .bloc_head_projet_details.bck48 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/048.png");} .bloc_head_projet_details.bck49 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/049.png");} .bloc_head_projet_details.bck50 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/050.png");} .bloc_head_projet_details.bck51 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/051.png");} .bloc_head_projet_details.bck52 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/052.png");} .bloc_head_projet_details.bck53 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/053.png");} .bloc_head_projet_details.bck54 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/054.png");} .bloc_head_projet_details.bck55 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/055.png");} .bloc_head_projet_details.bck56 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/056.png");} .bloc_head_projet_details.bck57 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/057.png");} .bloc_head_projet_details.bck58 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/058.png");} .bloc_head_projet_details.bck59 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/059.png");} .bloc_head_projet_details.bck60 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/060.png");} .bloc_head_projet_details.bck61 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/061.png");} .bloc_head_projet_details.bck62 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/062.png");} .bloc_head_projet_details.bck63 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/063.png");} .bloc_head_projet_details.bck64 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/064.png");} .bloc_head_projet_details.bck65 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/065.png");} .bloc_head_projet_details.bck66 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/066.png");} .bloc_head_projet_details.bck67 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/067.png");} .bloc_head_projet_details.bck68 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/068.png");} .bloc_head_projet_details.bck69 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/069.png");} .bloc_head_projet_details.bck70 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/070.png");} .bloc_head_projet_details.bck71 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/071.png");} .bloc_head_projet_details.bck72 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/072.png");} .bloc_head_projet_details.bck73 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/073.png");} .bloc_head_projet_details.bck74 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/074.png");} .bloc_head_projet_details.bck75 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/075.png");} .bloc_head_projet_details.bck76 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/076.png");} .bloc_head_projet_details.bck77 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/077.png");} .bloc_head_projet_details.bck78 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/078.png");} .bloc_head_projet_details.bck79 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/079.png");} .bloc_head_projet_details.bck80 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/080.png");} .bloc_head_projet_details.bck81 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/081.png");} .bloc_head_projet_details.bck82 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/082.png");} .bloc_head_projet_details.bck83 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/083.png");} .bloc_head_projet_details.bck84 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/084.png");} .bloc_head_projet_details.bck85 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/085.png");} .bloc_head_projet_details.bck86 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/086.png");} .bloc_head_projet_details.bck87 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/087.png");} .bloc_head_projet_details.bck88 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/088.png");} .bloc_head_projet_details.bck89 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/089.png");} .bloc_head_projet_details.bck90 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/090.png");} .bloc_head_projet_details.bck91 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/091.png");} .bloc_head_projet_details.bck92 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/092.png");} .bloc_head_projet_details.bck93 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/093.png");} .bloc_head_projet_details.bck94 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/094.png");} .bloc_head_projet_details.bck95 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/095.png");} .bloc_head_projet_details.bck96 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/096.png");} .bloc_head_projet_details.bck97 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/097.png");} .bloc_head_projet_details.bck98 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/098.png");} .bloc_head_projet_details.bck99 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/099.png");} .bloc_head_projet_details.bck100 .projet_item  header:after{background-image: url("../img/bandeaux_projets/1270/100.png");}
 
 
 .container-projet-single .container p a,
