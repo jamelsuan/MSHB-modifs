@@ -1098,10 +1098,10 @@ a.liensiteglob {color: var(--current_color);}
 .agenda_wrapper{ display: flex; flex-wrap: wrap; }
 .agenda_item{ width:100%; margin-bottom: 40px;  }
 .agenda_item .tag{ text-transform: uppercase;  color: var(--current_color); font-family: campton_bold; font-size: 9px; letter-spacing: 0.05em; } 
-.agenda_item .date{  padding-bottom: 8px;  font-family: campton_semibold; color: var(--current_color);  }
+.agenda_item .date{  font-size: 22px; padding-bottom: 8px;  font-family: campton_semibold; color: var(--current_color);  }
 .agenda_item .date:after{  margin-top: 8px; display: block; content:''; width:100%; height: 2px; background-color: var(--current_color);   }
 .agenda_item .lieu{   padding-top: 8px;text-transform: uppercase; line-height: 1.2em; font-family: campton_semibold; color: var(--current_color);  }
-.agenda_item .agenda_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 21px;  }
+.agenda_item .agenda_titre{ line-height: 1.2em;  font-family: campton_semibold; font-size: 18px;  }
 .agenda_item .txt{ font-size: calc( var(--fontSize_unit) * 13);  padding-top: 8px; }
 
 
