@@ -1216,7 +1216,7 @@ a.lien_menu:hover{ border-bottom: 3px solid #000 }
 .bouton_04:hover{ color: #3f6ebe; text-decoration: none  }
 
 ul.menu-resume {list-style: none;}
-ul.menu-resume li {display: inline-block; padding:5px 10px; border: 1px solid var(--current_color); margin-left:0; margin-right:5px; background-color: var(--current_color); }
+ul.menu-resume li {display: inline-block; padding:5px 10px 3px 10px; border: 2px solid var(--current_color); margin-left:0; margin-right:5px; background-color: var(--current_color); }
 ul.menu-resume li a {display:block; font-family: campton_regular; border-bottom: none; color: white;}
 ul.menu-resume li a:hover {text-decoration: none; color:white; cursor: pointer;}
 ul.menu-resume li.noactive{background-color: white;}
