@@ -1291,7 +1291,7 @@ ul.menu-resume li.noactive a{color: var(--current_color);}
 .projet_item.axe_2 .projet_header{  background: var(--colorAxe2clair)}
 .projet_item.axe_3 .projet_header{  background: var(--colorAxe3clair)}
 
-.projet_item .projet_header{  width: 100%;  text-align: center;  min-height: 115px;  padding: 40px;  background-position: center;  background-size: cover; }
+.projet_item header{  width: 100%;  text-align: center;  min-height: 115px;  padding: 40px;  background-position: center;  background-size: cover; }
 
 
 .projet_item h3 {    display: inline-block;    margin: 0;    padding: 0px 5px;    line-height: 1.3em;    padding: 5px;    max-width: 96%;    min-height: 2em;    font-size: 12px;    font-family: campton_medium;    background:var(--current_color); color: #fff; }
